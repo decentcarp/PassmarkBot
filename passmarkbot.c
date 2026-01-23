@@ -1,0 +1,174 @@
+ #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <assert.h>
+ 
+#include "./include/concord/discord.h"
+#include "./include/concord/log.h"
+
+
+typedef struct
+{
+    char cpuname[256];
+    char cores[256];
+    char single[256];
+    char multi[256];
+    char tdp[256];
+    char socket[256];
+    char type[256];
+} CPUSpecs;
+
+void
+print_usage(void)
+{
+    printf("\n\n[ Decentcarp's Passmark Discord Bot ]\n\n"
+           "Usage: !passmark <CPUNAME>.\n"
+           "E.g !passmark i7-8700K\n"
+           "\nPress Enter to start the bot.\n");
+}
+ 
+void
+on_ready(struct discord *client, const struct discord_ready *event)
+{
+    log_info("Decentcarp's Passmark Discord Bot connected to Discord as %s#%s!",
+             event->user->username, event->user->discriminator);
+}
+
+void
+passmark(struct discord *client, const struct discord_message *event)
+{
+
+    char query[100] = {0};
+
+    if (event->content && event->content[0] != '\0') {
+        strncpy(query, event->content, sizeof(query) - 1);
+
+        char *start = query;
+        while (*start == ' ' || *start == '\t')
+            start++;
+
+        if (start != query)
+            memmove(query, start, strlen(start) + 1);
+        size_t len = strlen(query);
+        while (len > 0 && (query[len - 1] == ' ' || query[len - 1] == '\t' ||
+                           query[len - 1] == '\n' || query[len - 1] == '\r')) {
+            query[--len] = '\0';
+        }
+    }
+
+    if (query[0] == '\0') {
+        struct discord_embed embed = {
+        .color = 0x3498DB,
+        .timestamp = discord_timestamp(client),
+        };
+ 
+        discord_embed_add_field(&embed, ":P", "I need something to search for.", false);
+ 
+        struct discord_create_message params = {
+        .embeds =
+            &(struct discord_embeds){
+                .size = 1,
+                .array = &embed,
+            },
+        };
+        discord_create_message(client, event->channel_id, &params, NULL);
+        
+        discord_embed_cleanup(&embed);
+        return;
+    }
+    
+    FILE *file;
+
+    file = fopen("passmark.txt", "r");
+
+    if (file == NULL) {
+        log_info("I couldn't find the specified database file :C");
+        return;
+    }
+
+    static CPUSpecs cpuspecs[6224];
+
+    int readvalues = 0;
+    int numberofcpus = 0;
+
+    while ((readvalues = fscanf(file,
+         "%255[^,],%255[^,],%255[^,],%255[^,],%255[^,],%255[^,],%255[^\r\n]%*[\r\n]",
+         cpuspecs[numberofcpus].cpuname,
+         cpuspecs[numberofcpus].cores,
+         cpuspecs[numberofcpus].multi,
+         cpuspecs[numberofcpus].single,
+         cpuspecs[numberofcpus].tdp,
+         cpuspecs[numberofcpus].socket,
+         cpuspecs[numberofcpus].type)) == 7) {
+        if (numberofcpus >= 6224) break;
+        numberofcpus++;
+    }
+  
+    if (readvalues != EOF) { 
+        log_info("The database file is not formatted correctly :C\n");
+        return; 
+    }
+  
+    fclose(file);
+    if (event->author->bot) return;
+ 
+    struct discord_embed embed = {
+        .color = 0x3498DB,
+        .timestamp = discord_timestamp(client),
+    };
+ 
+    int i;
+
+    for (i = 0; i < numberofcpus; i++) {
+        if (strstr(cpuspecs[i].cpuname, query) != NULL) {
+            discord_embed_set_title(&embed, "Results");
+            discord_embed_add_field(
+                &embed, "CPU Name: ", cpuspecs[i].cpuname, false);
+            discord_embed_add_field(
+                &embed, "Multi-Threaded Performance: ", cpuspecs[i].multi, false);
+            discord_embed_add_field(
+                &embed, "Single-Threaded Performance: ", cpuspecs[i].single, false);
+            discord_embed_add_field(
+                &embed, "TDP (W): ", cpuspecs[i].tdp, false);
+        break;
+        }
+    }
+     
+    struct discord_create_message params = {
+        .embeds =
+            &(struct discord_embeds){
+                .size = 1,
+                .array = &embed,
+            },
+    };
+    discord_create_message(client, event->channel_id, &params, NULL);
+ 
+    discord_embed_cleanup(&embed);
+}
+ 
+int
+main(int argc, char *argv[])
+{
+    const char *config_file;
+    if (argc > 1)
+        config_file = argv[1];
+    else
+        config_file = "./config.json";
+ 
+    ccord_global_init();
+    struct discord *client = discord_config_init(config_file);
+    assert(NULL != client && "Couldn't initialize client");
+ 
+    discord_set_on_ready(client, &on_ready);
+ 
+    discord_set_prefix(client, "!");
+    discord_set_on_command(client, "passmark", &passmark);
+ 
+    print_usage();
+    fgetc(stdin); 
+ 
+    discord_run(client);
+ 
+    discord_cleanup(client);
+    ccord_global_cleanup();
+}
