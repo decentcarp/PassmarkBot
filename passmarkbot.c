@@ -128,7 +128,7 @@ passmark(struct discord *client, const struct discord_message *event)
     int i;
 
     for (i = 0; i < numberofcpus; i++) {
-        if (strstr(cpuspecs[i].cpuname, query) != NULL) {
+        if (strcasestr(cpuspecs[i].cpuname, query) != NULL) {
         struct discord_embed_field fields[] = {
             {
                 .name = "CPU Name:",
