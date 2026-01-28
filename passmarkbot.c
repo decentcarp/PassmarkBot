@@ -3,8 +3,8 @@
 #include <string.h>
 #include <assert.h>
  
-#include "./include/concord/discord.h"
-#include "./include/concord/log.h"
+#include <concord/discord.h>
+#include <concord/log.h>
 
 
 typedef struct
