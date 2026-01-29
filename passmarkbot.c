@@ -179,13 +179,13 @@ passmark(struct discord *client, const struct discord_message *event)
                 strcat(name, "**");
 
                 char performance[256] = "";
-                strcat(performance, "Single: ");
+                strcat(performance, "**Single:** ");
                 strcat(performance, cpuspecs[i].single);
                 strcat(performance, " | ");
-                strcat(performance, "Multi: ");
+                strcat(performance, "**Multi:** ");
                 strcat(performance, cpuspecs[i].multi);
                 strcat(performance, " | ");
-                strcat(performance, "TDP: ");
+                strcat(performance, "**TDP:** ");
                 strcat(performance, cpuspecs[i].tdp);
                 strcat(performance, "W");
 
@@ -225,9 +225,7 @@ passmark(struct discord *client, const struct discord_message *event)
 }
   
 }
- 
 
- 
 int
 main(int argc, char *argv[])
 {
