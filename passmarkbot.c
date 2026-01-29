@@ -137,10 +137,10 @@ passmark(struct discord *client, const struct discord_message *event)
                 strcat(name, "**");
 
                 char performance[256] = "";
-                strcat(performance, "Single: ");
+                strcat(performance, "**Single:** ");
                 strcat(performance, cpuspecs[i].single);
                 strcat(performance, " | ");
-                strcat(performance, "Multi: ");
+                strcat(performance, "**Multi:** ");
                 strcat(performance, cpuspecs[i].multi);
 
                 struct discord_embed_field fields[] = {
