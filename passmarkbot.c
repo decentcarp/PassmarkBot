@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
@@ -129,54 +129,89 @@ passmark(struct discord *client, const struct discord_message *event)
 
     for (i = 0; i < numberofcpus; i++) {
         if (strcasestr(cpuspecs[i].cpuname, query) != NULL) {
-        struct discord_embed_field fields[] = {
-            {
-                .name = "CPU Name:",
-                .value = cpuspecs[i].cpuname,
-            },
-            {
-                .name = "Single-Threaded Performance:",
-                .value = cpuspecs[i].single,
-            },
-            {
-                .name = "Multi-Threaded Performance:",
-                .value = cpuspecs[i].multi,
-            },
-            {
-                .name = "TDP (W):",
-                .value = cpuspecs[i].tdp,
-            },
-        };
-
-        struct discord_embed embeds[] = {
-            {
-            .title = "Search Results",
-            .color = 0x3498DB,
-            .timestamp = discord_timestamp(client),
-            .fields =
-                &(struct discord_embed_fields){
-                    .size = sizeof(fields) / sizeof *fields,
-                    .array = fields,
+            if (cpuspecs[i].tdp[0] == '\0' || strcmp(cpuspecs[i].tdp, "0") == 0) {
+                struct discord_embed_field fields[] = {
+                {
+                    .name = "Single-Threaded Performance:",
+                    .value = cpuspecs[i].single,
                 },
-            },
+                {
+                    .name = "Multi-Threaded Performance:",
+                    .value = cpuspecs[i].multi,
+                },
+                };
+
+                struct discord_embed embeds[] = {
+                {
+                .title = cpuspecs[i].cpuname,
+                .color = 0x3498DB,
+                .timestamp = discord_timestamp(client),
+                .fields =
+                    &(struct discord_embed_fields){
+                        .size = sizeof(fields) / sizeof *fields,
+                        .array = fields,
+                    },
+                },
+                };
+
+                struct discord_create_message params = {
+                .embeds =
+                    &(struct discord_embeds){
+                        .size = sizeof(embeds) / sizeof *embeds,
+                        .array = embeds,
+                },
+                };
+
+                discord_create_message(client, event->channel_id, &params, NULL);
+
+            } else {
+                struct discord_embed_field fields[] = {
+                {
+                    .name = "Single-Threaded Performance:",
+                    .value = cpuspecs[i].single, cpuspecs[i].multi,
+                },
+                {
+                    .name = "Multi-Threaded Performance:", 
+                    .value = cpuspecs[i].multi,
+                },
+                {
+                    .name = "TDP (W):",
+                    .value = cpuspecs[i].tdp,
+                },
+                };
+                
+                struct discord_embed embeds[] = {
+                {
+                .title = cpuspecs[i].cpuname,
+                .color = 0x3498DB,
+                .timestamp = discord_timestamp(client),
+                .fields =
+                    &(struct discord_embed_fields){
+                        .size = sizeof(fields) / sizeof *fields,
+                        .array = fields,
+                    },
+                },
+                };
+
+                struct discord_create_message params = {
+                .embeds =
+                    &(struct discord_embeds){
+                        .size = sizeof(embeds) / sizeof *embeds,
+                        .array = embeds,
+                },
+                };
+
+                discord_create_message(client, event->channel_id, &params, NULL);
         };
 
-        struct discord_create_message params = {
-            .embeds =
-                &(struct discord_embeds){
-                .size = sizeof(embeds) / sizeof *embeds,
-                .array = embeds,
-            },
-        };
-
-        discord_create_message(client, event->channel_id, &params, NULL);
-
-        break;
-        }
+        
+       break;
     }
-
+}
   
 }
+ 
+
  
 int
 main(int argc, char *argv[])
