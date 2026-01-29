@@ -130,20 +130,28 @@ passmark(struct discord *client, const struct discord_message *event)
     for (i = 0; i < numberofcpus; i++) {
         if (strcasestr(cpuspecs[i].cpuname, query) != NULL) {
             if (cpuspecs[i].tdp[0] == '\0' || strcmp(cpuspecs[i].tdp, "0") == 0) {
+
+                char name[256] = "";
+                strcat(name, "**");
+                strcat(name, cpuspecs[i].cpuname);
+                strcat(name, "**");
+
+                char performance[256] = "";
+                strcat(performance, "Single: ");
+                strcat(performance, cpuspecs[i].single);
+                strcat(performance, " | ");
+                strcat(performance, "Multi: ");
+                strcat(performance, cpuspecs[i].multi);
+
                 struct discord_embed_field fields[] = {
                 {
-                    .name = "Single-Threaded Performance:",
-                    .value = cpuspecs[i].single,
-                },
-                {
-                    .name = "Multi-Threaded Performance:",
-                    .value = cpuspecs[i].multi,
+                    .name = name,
+                    .value = performance,
                 },
                 };
 
                 struct discord_embed embeds[] = {
                 {
-                .title = cpuspecs[i].cpuname,
                 .color = 0x3498DB,
                 .timestamp = discord_timestamp(client),
                 .fields =
@@ -165,24 +173,31 @@ passmark(struct discord *client, const struct discord_message *event)
                 discord_create_message(client, event->channel_id, &params, NULL);
 
             } else {
+                char name[256] = "";
+                strcat(name, "**");
+                strcat(name, cpuspecs[i].cpuname);
+                strcat(name, "**");
+
+                char performance[256] = "";
+                strcat(performance, "Single: ");
+                strcat(performance, cpuspecs[i].single);
+                strcat(performance, " | ");
+                strcat(performance, "Multi: ");
+                strcat(performance, cpuspecs[i].multi);
+                strcat(performance, " | ");
+                strcat(performance, "TDP: ");
+                strcat(performance, cpuspecs[i].tdp);
+                strcat(performance, "W");
+
                 struct discord_embed_field fields[] = {
                 {
-                    .name = "Single-Threaded Performance:",
-                    .value = cpuspecs[i].single, cpuspecs[i].multi,
-                },
-                {
-                    .name = "Multi-Threaded Performance:", 
-                    .value = cpuspecs[i].multi,
-                },
-                {
-                    .name = "TDP (W):",
-                    .value = cpuspecs[i].tdp,
+                    .name = name,
+                    .value = performance,
                 },
                 };
                 
                 struct discord_embed embeds[] = {
                 {
-                .title = cpuspecs[i].cpuname,
                 .color = 0x3498DB,
                 .timestamp = discord_timestamp(client),
                 .fields =
