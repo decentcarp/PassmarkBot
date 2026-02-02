@@ -22,8 +22,10 @@ void
 print_usage(void)
 {
     printf("\n\n[ Decentcarp's Passmark Discord Bot ]\n\n"
-           "Usage: !passmark <CPUNAME>.\n"
-           "E.g !passmark i7-8700K\n"
+           "Usage:\n"
+           "!passmark <CPUNAME> (e.g. !passmark i7-8700K) - Displays single thread perf, multi thread perf.\n"
+           "!spec <CPUNAME> (e.g !spec Ryzen 5 3600) - Displays cores, single thread perf, multi thread perf, TDP, socket and if its a desktop/mobile/server CPU.\n\n"
+
            "\nPress Enter to start the bot.\n");
 }
  
@@ -137,10 +139,10 @@ passmark(struct discord *client, const struct discord_message *event)
                 strcat(name, "**");
 
                 char performance[256] = "";
-                strcat(performance, "Single: ");
+                strcat(performance, "**Single:** ");
                 strcat(performance, cpuspecs[i].single);
                 strcat(performance, " | ");
-                strcat(performance, "Multi: ");
+                strcat(performance, "**Multi:** ");
                 strcat(performance, cpuspecs[i].multi);
 
                 struct discord_embed_field fields[] = {
@@ -226,6 +228,213 @@ passmark(struct discord *client, const struct discord_message *event)
   
 }
 
+void
+spec(struct discord *client, const struct discord_message *event)
+{
+
+    char query[100] = {0};
+
+    if (event->content && event->content[0] != '\0') {
+        strncpy(query, event->content, sizeof(query) - 1);
+
+        char *start = query;
+        while (*start == ' ' || *start == '\t')
+            start++;
+
+        if (start != query)
+            memmove(query, start, strlen(start) + 1);
+        size_t len = strlen(query);
+        while (len > 0 && (query[len - 1] == ' ' || query[len - 1] == '\t' ||
+                           query[len - 1] == '\n' || query[len - 1] == '\r')) {
+            query[--len] = '\0';
+        }
+    }
+
+    if (query[0] == '\0') {
+        struct discord_embed_field fields[] = {
+            {
+                .name = "I need something to search for.",
+                .value = "Usage: !specs <cpu (approximate or exact)>",
+            },
+        };
+
+        struct discord_embed embeds[] = {
+            {
+            .title = ":P",
+            .color = 0x3498DB,
+            .timestamp = discord_timestamp(client),
+            .fields =
+                &(struct discord_embed_fields){
+                    .size = sizeof(fields) / sizeof *fields,
+                    .array = fields,
+                },
+            },
+        };
+
+        struct discord_create_message params = {
+            .embeds =
+                &(struct discord_embeds){
+                .size = sizeof(embeds) / sizeof *embeds,
+                .array = embeds,
+            },
+        };
+
+        discord_create_message(client, event->channel_id, &params, NULL);
+
+        return;
+    }
+    
+    FILE *file;
+
+    file = fopen("passmark.txt", "r");
+
+    if (file == NULL) {
+        log_info("I couldn't find the specified database file :C");
+        return;
+    }
+
+    static CPUSpecs cpuspecs[6224];
+
+    int readvalues = 0;
+    int numberofcpus = 0;
+
+    while ((readvalues = fscanf(file,
+         "%255[^,],%255[^,],%255[^,],%255[^,],%255[^,],%255[^,],%255[^\r\n]%*[\r\n]",
+         cpuspecs[numberofcpus].cpuname,
+         cpuspecs[numberofcpus].cores,
+         cpuspecs[numberofcpus].multi,
+         cpuspecs[numberofcpus].single,
+         cpuspecs[numberofcpus].tdp,
+         cpuspecs[numberofcpus].socket,
+         cpuspecs[numberofcpus].type)) == 7) {
+        if (numberofcpus >= 6224) break;
+        numberofcpus++;
+    }
+  
+    if (readvalues != EOF) { 
+        log_info("The database file is not formatted correctly :C\n");
+        return; 
+    }
+  
+    fclose(file);
+    if (event->author->bot) return;
+ 
+    int i;
+
+    for (i = 0; i < numberofcpus; i++) {
+        if (strcasestr(cpuspecs[i].cpuname, query) != NULL) {
+            if (cpuspecs[i].tdp[0] == '\0' || strcmp(cpuspecs[i].tdp, "0") == 0) {
+                struct discord_embed_field fields[] = {
+                {
+                    .name = "**Name:**",
+                    .value = cpuspecs[i].cpuname,
+                },
+                {
+                    .name = "**Cores:**",
+                    .value = cpuspecs[i].cores, 
+                },
+                {
+                    .name = "**Type:**",
+                    .value = cpuspecs[i].type,
+                },
+                {
+                    .name = "**Socket:**",
+                    .value = cpuspecs[i].socket,
+                },
+                {
+                    .name = "**Single Thread Performance:**",
+                    .value = cpuspecs[i].single,
+                },
+                {
+                    .name = "**Multi Thread Performance:**",
+                    .value = cpuspecs[i].multi,
+                },
+                };
+
+                struct discord_embed embeds[] = {
+                {
+                .color = 0x3498DB,
+                .timestamp = discord_timestamp(client),
+                .fields =
+                    &(struct discord_embed_fields){
+                        .size = sizeof(fields) / sizeof *fields,
+                        .array = fields,
+                    },
+                },
+                };
+
+                struct discord_create_message params = {
+                .embeds =
+                    &(struct discord_embeds){
+                        .size = sizeof(embeds) / sizeof *embeds,
+                        .array = embeds,
+                },
+                };
+
+                discord_create_message(client, event->channel_id, &params, NULL);
+
+            } else {
+                struct discord_embed_field fields[] = {
+                {
+                    .name = "**Name:**",
+                    .value = cpuspecs[i].cpuname,
+                },
+                {
+                    .name = "**Cores:**",
+                    .value = cpuspecs[i].cores, 
+                },
+                {
+                    .name = "**TDP (W):**",
+                    .value = cpuspecs[i].tdp,
+                },
+                {
+                    .name = "**Type:**",
+                    .value = cpuspecs[i].type,
+                },
+                {
+                    .name = "**Socket:**",
+                    .value = cpuspecs[i].socket,
+                },
+                {
+                    .name = "**Single Thread Performance:**",
+                    .value = cpuspecs[i].single,
+                },
+                {
+                    .name = "**Multi Thread Performance:**",
+                    .value = cpuspecs[i].multi,
+                },
+                };
+
+                struct discord_embed embeds[] = {
+                {
+                .color = 0x3498DB,
+                .timestamp = discord_timestamp(client),
+                .fields =
+                    &(struct discord_embed_fields){
+                        .size = sizeof(fields) / sizeof *fields,
+                        .array = fields,
+                    },
+                },
+                };
+
+                struct discord_create_message params = {
+                .embeds =
+                    &(struct discord_embeds){
+                        .size = sizeof(embeds) / sizeof *embeds,
+                        .array = embeds,
+                },
+                };
+
+                discord_create_message(client, event->channel_id, &params, NULL);
+        };
+
+        
+       break;
+    }
+}
+  
+}
+
 int
 main(int argc, char *argv[])
 {
@@ -242,6 +451,7 @@ main(int argc, char *argv[])
 
     discord_set_prefix(client, "!");
     discord_set_on_command(client, "passmark", &passmark);
+    discord_set_on_command(client, "spec", &spec);
 
     print_usage();
     fgetc(stdin);
