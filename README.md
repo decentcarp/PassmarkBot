@@ -1,12 +1,11 @@
 # Decentcarp's Passmark Discord Bot
 An implementation of my [PassmarkSearcher](https://github.com/decentcarp/PassmarkSearcher) as a Discord bot.
 
-![Alt text](https://cdn.discordapp.com/attachments/1460003040424624422/1467922782636474603/image.png?ex=69822520&is=6980d3a0&hm=dad3f0cd4020b07b1e5006ca288d75a1ade3a3a62151d854918f47f829bd96f2&)
+![Alt text](https://cdn.discordapp.com/attachments/1460003040424624422/1469436473521471488/image.png?ex=6987a6dc&is=6986555c&hm=efe5298592b05f4a415e047401f6aa269e87626a12afdabc78caed0caedc6020&)
 
 ## Commands
 
-!passmark - Short, compact way to get the single core performance, multi core performance and the TDP of a CPU.
-
+!passmark - Short, compact way to get the single core performance, multi core performance and the TDP of a CPU. To compare two CPUs with passmark, seperate them with a pipe [|]. (e.g !passmark i7-7700K | i7-9700K)
 !spec - Less compact, but also provides the type of CPU (desktop/laptop/server), socket and cores.
 
 ## Usage

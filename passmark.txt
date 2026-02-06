@@ -1554,6 +1554,75 @@ Intel Core Ultra 9 285K,24,67423,5092,125,FCLGA1851,Desktop
 Intel Core Ultra 9 285T,24,36494,4596,35,FCLGA1851,Desktop
 Intel Core Ultra 9 288V,8,20205,4325,30,FCBGA2833,Laptop
 Intel Core Ultra X7 358H,16,32288,4105,0,Unknown,Laptop
+Apple A11 Bionic,6,4438,1334,0,Unknown,Mobile/Embedded
+Apple A12 Bionic,6,5037,2000,0,Unknown,Mobile/Embedded
+Apple A12X Bionic,8,11032,2644,0,Unknown,Mobile/Embedded
+Apple A12Z Bionic,8,9365,2202,0,Unknown,Mobile/Embedded
+Apple A13 Bionic,6,5772,2349,0,Unknown,Mobile/Embedded
+Apple A14 Bionic,6,8546,3382,0,Unknown,Mobile/Embedded
+Apple A15 Bionic,6,9890,3581,0,Unknown,Mobile/Embedded
+Apple A16,5,9975,4047,0,Unknown,Mobile/Embedded
+Apple A16 Bionic,6,10906,3990,0,Unknown,Mobile/Embedded
+Apple A17 Pro,6,12198,4525,0,Unknown,Mobile/Embedded
+Apple A18,6,12453,3956,0,Unknown,Mobile/Embedded
+Apple A18 Pro,6,12850,4091,8,Unknown,Mobile/Embedded
+Apple A19,6,14569,5107,0,Unknown,Mobile/Embedded
+Apple A19 Pro,6,14871,5190,0,Unknown,Mobile/Embedded
+Apple A8,2,1533,916,0,Unknown,Mobile/Embedded
+Apple A8X,3,2385,933,0,Unknown,Mobile/Embedded
+Apple A9,2,2074,1189,0,Unknown,Mobile/Embedded
+Apple A9X,2,2508,1505,0,Unknown,Mobile/Embedded
+Apple M1 8 Core 3200 MHz,8,14138,3676,15.1,Unknown,Desktop Laptop Mobile/Embedded
+Apple M1 Max 10 Core 3200 MHz,10,22152,3833,0,Unknown,Desktop Laptop
+Apple M1 Pro 10 Core 3200 MHz,10,21921,3797,0,Unknown,Desktop Laptop
+Apple M1 Pro 8 Core 3200 MHz,8,17208,3758,0,Unknown,Desktop Laptop
+Apple M1 Ultra 20 Core,20,41366,3862,60,Unknown,Desktop
+Apple M2 8 Core 3500 MHz,8,15643,3887,0,Unknown,Desktop Laptop
+Apple M2 Max 12 Core 3680 MHz,12,26841,4139,0,Unknown,Laptop
+Apple M2 Pro 10 Core 3480 MHz,10,21946,4103,0,Unknown,Desktop Laptop
+Apple M2 Pro 12 Core 3480 MHz,12,26711,4095,0,Unknown,Laptop
+Apple M2 Ultra 24 Core,24,50828,4204,0,Unknown,Desktop
+Apple M3 8 Core,8,19088,4715,20,Unknown,Desktop Laptop Mobile/Embedded
+Apple M3 Max 14 Core,14,36492,4770,78,Unknown,Laptop
+Apple M3 Max 16 Core,16,41274,4794,78,Unknown,Laptop
+Apple M3 Pro 11 Core,11,24866,4762,27,Unknown,Laptop
+Apple M3 Pro 12 Core,12,24082,4262,27,Unknown,Laptop
+Apple M3 Ultra 28 Core,28,68704,5119,0,Unknown,Desktop
+Apple M3 Ultra 32 Core,32,72171,5037,0,Unknown,Desktop
+Apple M4 10 Core,10,23713,4519,22,Unknown,Desktop Laptop Mobile/Embedded
+Apple M4 8 Core,8,20737,4468,22,Unknown,Desktop
+Apple M4 9 Core,9,22201,4482,22,Unknown,Mobile/Embedded
+Apple M4 Max 14 Core,14,38567,4643,0,Unknown,Laptop
+Apple M4 Max 16 Core,16,44040,4591,0,Unknown,Laptop
+Apple M4 Pro 12 Core,12,32813,4570,0,Unknown,Desktop Laptop
+Apple M4 Pro 14 Core,14,38135,4563,0,Unknown,Desktop Laptop
+ARM - 10 Core 0 MHz,10,10088,3774,0,Unknown,Unknown
+ARM - 10 Core 2000 MHz,10,9787,3807,0,Unknown,Unknown
+ARM - 12 Core 0 MHz,12,14163,3220,0,Unknown,Mobile/Embedded
+ARM - 12 Core 2000 MHz,12,16944,3991,0,Unknown,Unknown
+ARM - 16 Core 0 MHz,16,19753,3005,0,Unknown,Unknown
+ARM - 2 Core 0 MHz,2,2368,2283,0,Unknown,Mobile/Embedded
+ARM - 20 Core 0 MHz,20,22504,2951,0,Unknown,Mobile/Embedded
+ARM - 32 Core 2911 MHz,32,8132,541,0,Unknown,Mobile/Embedded
+ARM - 32 Core 3000 MHz,32,8376,584,0,Unknown,Unknown
+ARM - 32 Core 3300 MHz,32,8684,585,0,Unknown,Mobile/Embedded
+ARM - 4 Core 0 MHz,4,5816,3437,0,Unknown,Unknown
+ARM - 4 Core 1800 MHz,4,3185,1030,0,Unknown,Unknown
+ARM - 4 Core 1804 MHz,4,3336,1615,0,Unknown,Unknown
+ARM - 4 Core 2016 MHz,4,3653,1680,0,Unknown,Unknown
+ARM - 6 Core 0 MHz,6,8515,3200,0,Unknown,Mobile/Embedded
+ARM - 6 Core 1800 MHz,6,2039,993,0,Unknown,Unknown
+ARM - 8 Core 0 MHz,8,8515,2297,0,Unknown,Mobile/Embedded
+ARM - 8 Core 1766 MHz,8,4080,1205,0,Unknown,Mobile/Embedded
+ARM - 8 Core 1800 MHz,8,3192,1012,0,Unknown,Unknown
+ARM - 8 Core 2208 MHz,8,2270,607,0,Unknown,Unknown
+ARM - 8 Core 2424 MHz,8,8610,3083,0,Unknown,Mobile/Embedded
+ARM Ampere-1 4 Core 0 MHz,4,3034,1014,0,Unknown,Unknown
+ARM Ampere-1a 192 Core 2600 MHz,192,47202,1005,0,Unknown,Unknown
+ARM Apple M1 (Virtual) 4 Core 0 MHz,4,10123,3789,0,Unknown,Mobile/Embedded
+ARM Apple M1 Max (Virtual) 10 Core 0 MHz,10,21197,3723,0,Unknown,Mobile/Embedded
+ARM Apple M5 10 Core,10,27615,5788,28,Unknown,Unknown
+ARM Apple M5 8 Core,8,21992,6260,0,Unknown,Unknown
 06/5f,16,5830,720,0,Unknown,Unknown
 AArch64,4,833,368,0,Unknown,Mobile/Embedded
 AArch64 rev 2 (aarch64),8,2404,906,0,Unknown,Mobile/Embedded
@@ -2609,75 +2678,6 @@ Ampere Altra Max,128,72121,1939,0,Unknown,Server
 Ampere ARM - 192 Core 3200 MHz,192,57444,1228,0,Unknown,Server
 AOSP ranchu,4,2270,1725,0,Unknown,Mobile/Embedded
 ap201,4,565,385,0,Unknown,Mobile/Embedded
-Apple A11 Bionic,6,4438,1334,0,Unknown,Mobile/Embedded
-Apple A12 Bionic,6,5037,2000,0,Unknown,Mobile/Embedded
-Apple A12X Bionic,8,11032,2644,0,Unknown,Mobile/Embedded
-Apple A12Z Bionic,8,9365,2202,0,Unknown,Mobile/Embedded
-Apple A13 Bionic,6,5772,2349,0,Unknown,Mobile/Embedded
-Apple A14 Bionic,6,8546,3382,0,Unknown,Mobile/Embedded
-Apple A15 Bionic,6,9890,3581,0,Unknown,Mobile/Embedded
-Apple A16,5,9975,4047,0,Unknown,Mobile/Embedded
-Apple A16 Bionic,6,10906,3990,0,Unknown,Mobile/Embedded
-Apple A17 Pro,6,12198,4525,0,Unknown,Mobile/Embedded
-Apple A18,6,12453,3956,0,Unknown,Mobile/Embedded
-Apple A18 Pro,6,12850,4091,8,Unknown,Mobile/Embedded
-Apple A19,6,14569,5107,0,Unknown,Mobile/Embedded
-Apple A19 Pro,6,14871,5190,0,Unknown,Mobile/Embedded
-Apple A8,2,1533,916,0,Unknown,Mobile/Embedded
-Apple A8X,3,2385,933,0,Unknown,Mobile/Embedded
-Apple A9,2,2074,1189,0,Unknown,Mobile/Embedded
-Apple A9X,2,2508,1505,0,Unknown,Mobile/Embedded
-Apple M1 8 Core 3200 MHz,8,14138,3676,15.1,Unknown,Desktop Laptop Mobile/Embedded
-Apple M1 Max 10 Core 3200 MHz,10,22152,3833,0,Unknown,Desktop Laptop
-Apple M1 Pro 10 Core 3200 MHz,10,21921,3797,0,Unknown,Desktop Laptop
-Apple M1 Pro 8 Core 3200 MHz,8,17208,3758,0,Unknown,Desktop Laptop
-Apple M1 Ultra 20 Core,20,41366,3862,60,Unknown,Desktop
-Apple M2 8 Core 3500 MHz,8,15643,3887,0,Unknown,Desktop Laptop
-Apple M2 Max 12 Core 3680 MHz,12,26841,4139,0,Unknown,Laptop
-Apple M2 Pro 10 Core 3480 MHz,10,21946,4103,0,Unknown,Desktop Laptop
-Apple M2 Pro 12 Core 3480 MHz,12,26711,4095,0,Unknown,Laptop
-Apple M2 Ultra 24 Core,24,50828,4204,0,Unknown,Desktop
-Apple M3 8 Core,8,19088,4715,20,Unknown,Desktop Laptop Mobile/Embedded
-Apple M3 Max 14 Core,14,36492,4770,78,Unknown,Laptop
-Apple M3 Max 16 Core,16,41274,4794,78,Unknown,Laptop
-Apple M3 Pro 11 Core,11,24866,4762,27,Unknown,Laptop
-Apple M3 Pro 12 Core,12,24082,4262,27,Unknown,Laptop
-Apple M3 Ultra 28 Core,28,68704,5119,0,Unknown,Desktop
-Apple M3 Ultra 32 Core,32,72171,5037,0,Unknown,Desktop
-Apple M4 10 Core,10,23713,4519,22,Unknown,Desktop Laptop Mobile/Embedded
-Apple M4 8 Core,8,20737,4468,22,Unknown,Desktop
-Apple M4 9 Core,9,22201,4482,22,Unknown,Mobile/Embedded
-Apple M4 Max 14 Core,14,38567,4643,0,Unknown,Laptop
-Apple M4 Max 16 Core,16,44040,4591,0,Unknown,Laptop
-Apple M4 Pro 12 Core,12,32813,4570,0,Unknown,Desktop Laptop
-Apple M4 Pro 14 Core,14,38135,4563,0,Unknown,Desktop Laptop
-ARM - 10 Core 0 MHz,10,10088,3774,0,Unknown,Unknown
-ARM - 10 Core 2000 MHz,10,9787,3807,0,Unknown,Unknown
-ARM - 12 Core 0 MHz,12,14163,3220,0,Unknown,Mobile/Embedded
-ARM - 12 Core 2000 MHz,12,16944,3991,0,Unknown,Unknown
-ARM - 16 Core 0 MHz,16,19753,3005,0,Unknown,Unknown
-ARM - 2 Core 0 MHz,2,2368,2283,0,Unknown,Mobile/Embedded
-ARM - 20 Core 0 MHz,20,22504,2951,0,Unknown,Mobile/Embedded
-ARM - 32 Core 2911 MHz,32,8132,541,0,Unknown,Mobile/Embedded
-ARM - 32 Core 3000 MHz,32,8376,584,0,Unknown,Unknown
-ARM - 32 Core 3300 MHz,32,8684,585,0,Unknown,Mobile/Embedded
-ARM - 4 Core 0 MHz,4,5816,3437,0,Unknown,Unknown
-ARM - 4 Core 1800 MHz,4,3185,1030,0,Unknown,Unknown
-ARM - 4 Core 1804 MHz,4,3336,1615,0,Unknown,Unknown
-ARM - 4 Core 2016 MHz,4,3653,1680,0,Unknown,Unknown
-ARM - 6 Core 0 MHz,6,8515,3200,0,Unknown,Mobile/Embedded
-ARM - 6 Core 1800 MHz,6,2039,993,0,Unknown,Unknown
-ARM - 8 Core 0 MHz,8,8515,2297,0,Unknown,Mobile/Embedded
-ARM - 8 Core 1766 MHz,8,4080,1205,0,Unknown,Mobile/Embedded
-ARM - 8 Core 1800 MHz,8,3192,1012,0,Unknown,Unknown
-ARM - 8 Core 2208 MHz,8,2270,607,0,Unknown,Unknown
-ARM - 8 Core 2424 MHz,8,8610,3083,0,Unknown,Mobile/Embedded
-ARM Ampere-1 4 Core 0 MHz,4,3034,1014,0,Unknown,Unknown
-ARM Ampere-1a 192 Core 2600 MHz,192,47202,1005,0,Unknown,Unknown
-ARM Apple M1 (Virtual) 4 Core 0 MHz,4,10123,3789,0,Unknown,Mobile/Embedded
-ARM Apple M1 Max (Virtual) 10 Core 0 MHz,10,21197,3723,0,Unknown,Mobile/Embedded
-ARM Apple M5 10 Core,10,27615,5788,28,Unknown,Unknown
-ARM Apple M5 8 Core,8,21992,6260,0,Unknown,Unknown
 ARM ARMv7 rev 0 (v7l) 4 Core 0 MHz,4,335,405,0,Unknown,Unknown
 ARM ARMv7 rev 1 (v7l) 4 Core 1608 MHz,4,776,445,0,Unknown,Unknown
 ARM ARMv7 rev 1 (v7l) 4 Core 1800 MHz,4,913,506,0,Unknown,Mobile/Embedded
