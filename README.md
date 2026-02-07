@@ -6,6 +6,7 @@ An implementation of my [PassmarkSearcher](https://github.com/decentcarp/Passmar
 ## Commands
 
 !passmark - Short, compact way to get the single core performance, multi core performance and the TDP of a CPU. To compare two CPUs with passmark, seperate them with a pipe [|]. (e.g !passmark i7-7700K | i7-9700K)
+
 !spec - Less compact, but also provides the type of CPU (desktop/laptop/server), socket and cores.
 
 ## Usage
