@@ -1,7 +1,7 @@
 # Decentcarp's Passmark Discord Bot
 An implementation of my [PassmarkSearcher](https://github.com/decentcarp/PassmarkSearcher) as a Discord bot.
 
-![Alt text](https://cdn.discordapp.com/attachments/1460003040424624422/1469729781099532359/image.png?ex=6988b806&is=69876686&hm=272a3d189969422e3cc35c90052d3639a591eab3c3106f79729ca98794d468c9&)
+![Alt text](https://decentcarp.co.uk/images/passmarkbot.png)
 
 ## Commands
 
@@ -23,4 +23,5 @@ An implementation of my [PassmarkSearcher](https://github.com/decentcarp/Passmar
 ## Credits
 
 - Decentcarp/Eleanor/R5900 (aka me)
-- Concord
+- Concord (Discord API bindings)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/) (public code reference)
