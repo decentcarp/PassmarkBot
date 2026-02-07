@@ -1,7 +1,7 @@
 # Decentcarp's Passmark Discord Bot
 An implementation of my [PassmarkSearcher](https://github.com/decentcarp/PassmarkSearcher) as a Discord bot.
 
-![Alt text](https://cdn.discordapp.com/attachments/1460003040424624422/1469436473521471488/image.png?ex=6987a6dc&is=6986555c&hm=efe5298592b05f4a415e047401f6aa269e87626a12afdabc78caed0caedc6020&)
+![Alt text](https://cdn.discordapp.com/attachments/1460003040424624422/1469729781099532359/image.png?ex=6988b806&is=69876686&hm=272a3d189969422e3cc35c90052d3639a591eab3c3106f79729ca98794d468c9&)
 
 ## Commands
 

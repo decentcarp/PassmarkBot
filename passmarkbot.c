@@ -169,15 +169,18 @@ passmark(struct discord *client, const struct discord_message *event)
 
     for (i = 0; i < numberofcpus; i++) {
         if (strcasestr(cpuspecs[i].cpuname, query) != NULL) {
-            if (cpuspecs[i].tdp[0] == '\0' || strcmp(cpuspecs[i].tdp, "0") == 0) {
                 if (query2[0] == '\0') { 
                     char name[256] = "";
                     sprintf(name, "**%s**", cpuspecs[i].cpuname);
 
-
                     char performance[256] = "";
-                    sprintf(performance, "**Single:** %s | **Multi:** %s", cpuspecs[i].single, cpuspecs[i].multi);  
 
+                    if (cpuspecs[i].tdp[0] == '\0' || strcmp(cpuspecs[i].tdp, "0") == 0) {
+                        sprintf(performance, "**Single:** %s | **Multi:** %s", cpuspecs[i].single, cpuspecs[i].multi); 
+                    } else {
+                        sprintf(performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i].single, cpuspecs[i].multi, cpuspecs[i].tdp);
+                    }
+                    
                     struct discord_embed_field fields[] = {
                     {
                         .name = name,
@@ -211,7 +214,14 @@ passmark(struct discord *client, const struct discord_message *event)
                     sprintf(cpu1name, "**%s**", cpuspecs[i].cpuname);
                     
                     char cpu1performance[256] = "";
-                    sprintf(cpu1performance, "**Single:** %s | **Multi:** %s", cpuspecs[i].single, cpuspecs[i].multi);  
+
+                    if (cpuspecs[i].tdp[0] == '\0' || strcmp(cpuspecs[i].tdp, "0") == 0) {
+                        sprintf(cpu1performance, "**Single:** %s | **Multi:** %s", cpuspecs[i].single, cpuspecs[i].multi); 
+                    } else {
+                        sprintf(cpu1performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i].single, cpuspecs[i].multi, cpuspecs[i].tdp);
+                    }
+                    /* char cpu1performance[256] = "";
+                    sprintf(cpu1performance, "**Single:** %s | **Multi:** %s", cpuspecs[i].single, cpuspecs[i].multi);  */
 
                     int i2;
 
@@ -219,9 +229,13 @@ passmark(struct discord *client, const struct discord_message *event)
                         if (strcasestr(cpuspecs[i2].cpuname, query2) != NULL) {
                         char cpu2name[256] = "";
                         sprintf(cpu2name, "**%s**", cpuspecs[i2].cpuname);
+                        
                         char cpu2performance[256] = "";
-                        sprintf(cpu2performance, "**Single:** %s | **Multi:** %s", cpuspecs[i2].single, cpuspecs[i2].multi);  
-
+                        if (cpuspecs[i2].tdp[0] == '\0' || strcmp(cpuspecs[i2].tdp, "0") == 0) {
+                            sprintf(cpu2performance, "**Single:** %s | **Multi:** %s", cpuspecs[i2].single, cpuspecs[i2].multi); 
+                        } else {
+                            sprintf(cpu2performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i2].single, cpuspecs[i2].multi, cpuspecs[i2].tdp);
+                        }
                         
                         struct discord_embed_field fields[] = {
                         {
@@ -258,99 +272,8 @@ passmark(struct discord *client, const struct discord_message *event)
 
                         break;
                     }
-                }
-            }            
-            } else {
-                if (query2[0] == '\0') { 
-                    char name[256] = "";
-                    sprintf(name, "**%s**", cpuspecs[i].cpuname);
-
-
-                    char performance[256] = "";
-                    sprintf(performance, "**Single:** %s | **Multi:** %s", cpuspecs[i].single, cpuspecs[i].multi);  
-
-                    struct discord_embed_field fields[] = {
-                    {
-                        .name = name,
-                        .value = performance,
-                    },
-                    };
-
-                    struct discord_embed embeds[] = {
-                    {
-                    .color = 0x3498DB,
-                    .timestamp = discord_timestamp(client),
-                    .fields =
-                        &(struct discord_embed_fields){
-                            .size = sizeof(fields) / sizeof *fields,
-                            .array = fields,
-                        },
-                    },
-                    };
-
-                    struct discord_create_message params = {
-                    .embeds =
-                        &(struct discord_embeds){
-                            .size = sizeof(embeds) / sizeof *embeds,
-                            .array = embeds,
-                        },
-                    };
-
-                    discord_create_message(client, event->channel_id, &params, NULL);
-                } else { 
-                    char cpu1name[256] = "";
-                    sprintf(cpu1name, "**%s**", cpuspecs[i].cpuname);
-                    
-                    char cpu1performance[256] = "";
-                    sprintf(cpu1performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i].single, cpuspecs[i].multi, cpuspecs[i].tdp);  
-
-                    int i2;
-
-                    for (i2 = 0; i2 < numberofcpus; i2++) {
-                        if (strcasestr(cpuspecs[i2].cpuname, query2) != NULL) {
-                        char cpu2name[256] = "";
-                        sprintf(cpu2name, "**%s**", cpuspecs[i2].cpuname);
-                        char cpu2performance[256] = "";
-                        sprintf(cpu2performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i2].single, cpuspecs[i2].multi, cpuspecs[i2].tdp);  
-
-                        struct discord_embed_field fields[] = {
-                        {
-                        .name = cpu1name,
-                        .value = cpu1performance,
-                        },
-                        {
-                        .name = cpu2name,
-                        .value = cpu2performance,
-                        },
-                        };
-                
-                        struct discord_embed embeds[] = {
-                        {
-                        .color = 0x3498DB,
-                        .timestamp = discord_timestamp(client),
-                        .fields =
-                        &(struct discord_embed_fields){
-                            .size = sizeof(fields) / sizeof *fields,
-                            .array = fields,
-                        },
-                        },
-                        };
-
-                        struct discord_create_message params = {
-                        .embeds =
-                        &(struct discord_embeds){
-                            .size = sizeof(embeds) / sizeof *embeds,
-                            .array = embeds,
-                        },
-                        };
-
-                        discord_create_message(client, event->channel_id, &params, NULL);
-
-                        break;
-                    }
-                }
-            } 
-        };
+                }       
+            };
         break;
     } else if (i == numberofcpus - 1) {
         struct discord_embed_field fields[] = {
