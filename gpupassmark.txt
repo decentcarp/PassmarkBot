@@ -1,0 +1,2582 @@
+Radeon RX 460,4100,584,75,4096 MB,Desktop
+Radeon RX 470/570,7926,724,120,8192 MB,Desktop
+Radeon RX 480,8538,771,150,8192 MB,Desktop
+Radeon RX 5300,7606,710,100,3072 MB,Desktop
+Radeon RX 5300M,5182,385,85,3072 MB,Mobile
+Radeon RX 540,2149,330,0,4096 MB,Desktop
+Radeon RX 550,2686,477,50,4096 MB,Desktop
+Radeon RX 5500,8849,764,150,4096 MB,Desktop
+Radeon RX 5500 XT,9075,777,130,8192 MB,Desktop
+Radeon RX 5500M,5998,414,85,4096 MB,Mobile
+Radeon RX 550X,2365,417,50,4096 MB,Desktop
+Radeon RX 560,3682,486,80,4096 MB,Desktop
+Radeon RX 5600,11753,888,150,6144 MB,Desktop
+Radeon RX 5600 OEM,12404,840,0,0,Unknown
+Radeon RX 5600 XT,13421,871,150,6144 MB,Desktop
+Radeon RX 5600M,8879,486,150,6144 MB,Mobile
+Radeon RX 560X,3415,433,75,4096 MB,Desktop
+Radeon RX 5700,14262,878,180,8192 MB,Desktop
+Radeon RX 5700 XT,16129,921,225,8192 MB,Desktop
+Radeon RX 5700 XT 50th Anniversary,16580,942,235,8192 MB,Desktop
+Radeon RX 5700m 8GB 256 bit Ryzen 5 5600U,1599,560,0,0,Desktop
+Radeon RX 570X,1923,750,120,8192 MB,Desktop
+Radeon RX 580,8792,769,185,8192 MB,Desktop
+Radeon RX 580 2048SP,7628,696,150,16384 MB,Desktop
+Radeon RX 580X,7529,668,185,8192 MB,Desktop
+Radeon RX 590,9305,789,175,8192 MB,Desktop
+Radeon RX 6300,5337,693,0,0,Unknown
+Radeon RX 6300M,6421,384,0,0,Mobile
+Radeon RX 640,2204,340,50,4096 MB,Desktop Mobile
+Radeon RX 6400,7745,736,53,4096 MB,Desktop
+Radeon RX 6450M,6601,503,0,0,Mobile
+Radeon RX 6500,7657,800,0,0,Unknown
+Radeon RX 6500 XT,9625,817,107,4096 MB,Desktop
+Radeon RX 6500M,7319,371,50,4096 MB,Mobile
+Radeon RX 6550M,9667,491,0,0,Mobile
+Radeon RX 6600,15073,895,132,8192 MB,Desktop
+Radeon RX 6600 LE,13934,859,0,0,Unknown
+Radeon RX 6600 XT,16453,914,160,8192 MB,Desktop
+Radeon RX 6600M,13912,723,100,8192 MB,Mobile
+Radeon RX 6600S,13016,628,80,4096 MB,Mobile
+Radeon RX 6650 XT,17130,924,176,8192 MB,Desktop
+Radeon RX 6650M,15197,762,0,0,Mobile
+Radeon RX 6650M XT,17071,688,0,0,Mobile
+Radeon RX 670,3129,385,0,0,Desktop
+Radeon RX 6700,18914,939,175,10240 MB,Desktop
+Radeon RX 6700 XT,19741,953,230,12288 MB,Desktop
+Radeon RX 6700M,13584,554,135,10240 MB,Mobile
+Radeon RX 6700S,15081,737,80,8192 MB,Mobile
+Radeon RX 6750 GRE 10GB,18986,971,0,0,Unknown
+Radeon RX 6750 GRE 12GB,20178,1031,0,0,Unknown
+Radeon RX 6750 XT,20705,980,250,12288 MB,Desktop
+Radeon RX 6800,22032,997,250,16384 MB,Desktop
+Radeon RX 6800 XT,25009,1041,300,16384 MB,Desktop
+Radeon RX 6800M,13249,534,145,12288 MB,Mobile
+Radeon RX 6800S,15762,732,100,8192 MB,Mobile
+Radeon RX 6850M,12274,714,0,0,Mobile
+Radeon RX 6850M XT,17518,654,0,0,Mobile
+Radeon RX 6900 XT,26689,1061,300,16384 MB,Desktop
+Radeon RX 6950 XT,28093,1076,335,16384 MB,Desktop
+Radeon RX 7400,11909,1271,0,0,Desktop
+Radeon RX 7500,1873,572,0,0,Desktop
+Radeon RX 7600,16547,987,165,8192 MB,Desktop
+Radeon RX 7600 XT,17280,1029,190,16384 MB,Desktop
+Radeon RX 7600M,10999,861,0,0,Mobile
+Radeon RX 7600M XT,14670,932,120,8192 MB,Mobile
+Radeon RX 7600S,15567,771,75,8192 MB,Mobile
+Radeon RX 7650 GRE,18281,1136,0,0,Desktop
+Radeon RX 7700,20115,1123,0,0,Desktop
+Radeon RX 7700 XT,22633,1162,245,12288 MB,Desktop
+Radeon RX 7700S,15506,766,0,0,Unknown
+Radeon RX 780,7658,1093,0,0,Unknown
+Radeon RX 7800 XT,24317,1191,263,16384 MB,Desktop
+Radeon RX 7800M,16429,886,0,0,Mobile
+Radeon RX 7900 GRE,27274,1202,260,16384 MB,Desktop
+Radeon RX 7900 XT,28976,1239,315,20480 MB,Desktop
+Radeon RX 7900 XTX,31335,1282,355,24576 MB,Desktop
+Radeon RX 7900M,22511,902,0,0,Mobile
+Radeon RX 9060,18632,1067,0,0,Desktop
+Radeon RX 9060 XT 16GB,20053,1177,160,16384 MB,Desktop
+Radeon RX 9060 XT 8GB,19787,1137,150,8192 MB,Desktop
+Radeon RX 9070,25416,1271,220,16384 MB,Desktop
+Radeon RX 9070 GRE,24418,1215,0,0,Desktop
+Radeon RX 9070 XT,26871,1319,304,16384 MB,Desktop
+GeForce GTX 1050,5046,458,75,2048 MB,Desktop
+GeForce GTX 1050 (Mobile),4463,292,0,4096 MB,Mobile
+GeForce GTX 1050 3GB,5111,605,75,3072 MB,Desktop
+GeForce GTX 1050 Ti,6356,655,75,4096 MB,Desktop
+GeForce GTX 1050 Ti (Mobile),5918,323,0,4096 MB,Mobile
+GeForce GTX 1050 Ti with Max-Q Design,5309,339,0,4096 MB,Mobile
+GeForce GTX 1050 with Max-Q Design,3921,277,0,4096 MB,Mobile
+GeForce GTX 1060,10058,743,120,6144 MB,Desktop
+GeForce GTX 1060 (Mobile),8160,444,80,6144 MB,Mobile
+GeForce GTX 1060 3GB,9829,774,120,3072 MB,Desktop
+GeForce GTX 1060 5GB,9206,636,120,5120 MB,Desktop
+GeForce GTX 1060 with Max-Q Design,7830,398,80,6144 MB,Mobile
+GeForce GTX 1070,13509,847,150,8192 MB,Desktop
+GeForce GTX 1070 (Mobile),10465,603,0,8192 MB,Mobile
+GeForce GTX 1070 Ti,14660,877,180,8192 MB,Desktop
+GeForce GTX 1070 with Max-Q Design,9774,414,90,8192 MB,Mobile
+GeForce GTX 1080,15614,888,180,8192 MB,Desktop
+GeForce GTX 1080 Ti,18590,940,250,11264 MB,Desktop
+GeForce GTX 1080 with Max-Q Design,11604,721,110,8192 MB,Mobile
+GeForce GTX 1630,4995,658,75,4096 MB,Desktop
+GeForce GTX 1650,7873,554,75,4096 MB,Desktop
+GeForce GTX 1650 (Mobile),6968,384,50,4096 MB,Mobile
+GeForce GTX 1650 SUPER,10186,749,100,4096 MB,Desktop
+GeForce GTX 1650 Ti,7529,372,55,4096 MB,Mobile
+GeForce GTX 1650 Ti with Max-Q Design,6602,334,35,4096 MB,Mobile
+GeForce GTX 1650 with Max-Q Design,6332,333,35,4096 MB,Mobile
+GeForce GTX 1660,11624,776,120,6144 MB,Desktop
+GeForce GTX 1660 SUPER,12687,807,125,6144 MB,Desktop
+GeForce GTX 1660 Ti,12689,783,120,6144 MB,Desktop
+GeForce GTX 1660 Ti (Mobile),10101,473,80,6144 MB,Mobile
+GeForce GTX 1660 Ti with Max-Q Design,8617,356,60,6144 MB,Mobile
+GeForce GTX 260,1201,47,202,896 MB,Desktop
+GeForce GTX 260M,382,38,65,1024 MB,Mobile
+GeForce GTX 275,1354,53,219,896 MB,Desktop
+GeForce GTX 280,1285,56,236,1024 MB,Desktop
+GeForce GTX 280M,576,153,75,1024 MB,Mobile
+GeForce GTX 285,1475,66,204,1024 MB,Desktop
+GeForce GTX 285M,584,106,75,1024 MB,Mobile
+GeForce GTX 295,1220,71,289,1792 MB,Desktop
+GeForce GTX 460,2272,397,150,768 MB,Desktop
+GeForce GTX 460 SE,1992,377,150,1024 MB,Desktop
+GeForce GTX 460 v2,2074,408,160,1024 MB,Desktop
+GeForce GTX 460M,1221,257,50,1536 MB,Mobile
+GeForce GTX 465,2656,464,200,1024 MB,Desktop
+GeForce GTX 470,3162,409,215,1280 MB,Desktop
+GeForce GTX 470M,1953,413,50,1536 MB,Mobile
+GeForce GTX 480,4079,432,250,1536 MB,Desktop
+GeForce GTX 480M,1653,430,100,2048 MB,Mobile
+GeForce GTX 485M,2360,479,100,2048 MB,Mobile
+GeForce GTX 550 Ti,1557,387,116,3072 MB,Desktop
+GeForce GTX 555,1604,441,150,1024 MB,Desktop
+GeForce GTX 560,2778,432,150,1024 MB,Desktop
+GeForce GTX 560 SE,1847,482,150,1024 MB,Desktop
+GeForce GTX 560 Ti,3079,441,170,2048 MB,Desktop
+GeForce GTX 560M,1284,271,75,3072 MB,Mobile
+GeForce GTX 570,3931,477,219,2560 MB,Desktop
+GeForce GTX 570M,1862,363,75,1536 MB,Mobile
+GeForce GTX 580,4632,490,244,3072 MB,Desktop
+GeForce GTX 580M,1772,321,100,2048 MB,Mobile
+GeForce GTX 590,3341,394,365,3072 MB,Desktop
+GeForce GTX 645,1876,427,64,1024 MB,Desktop
+GeForce GTX 650,1758,378,64,2048 MB,Desktop
+GeForce GTX 650 Ti,2530,420,110,2048 MB,Desktop
+GeForce GTX 650 Ti BOOST,3408,474,134,2048 MB,Desktop
+GeForce GTX 660,4046,492,140,3072 MB,Desktop
+GeForce GTX 660 Ti,4413,475,150,3072 MB,Desktop
+GeForce GTX 660M,1454,276,50,2048 MB,Mobile
+GeForce GTX 670,5361,539,170,4096 MB,Desktop
+GeForce GTX 670M,1720,310,75,3072 MB,Mobile
+GeForce GTX 670MX,1978,333,75,3072 MB,Mobile
+GeForce GTX 675M,1855,277,100,2048 MB,Mobile
+GeForce GTX 675MX,3083,390,100,4096 MB,Mobile
+GeForce GTX 680,5611,532,195,4096 MB,Desktop
+GeForce GTX 680M,3277,354,100,4096 MB,Mobile
+GeForce GTX 680M KY_Bullet Edition,3569,581,0,0,Mobile
+GeForce GTX 680MX,3799,458,122,4096 MB,Mobile
+GeForce GTX 690,5528,487,300,2048 MB,Desktop
+GeForce GTX 745,2122,480,55,4096 MB,Desktop
+GeForce GTX 750,3308,521,55,2048 MB,Desktop
+GeForce GTX 750 Ti,3901,532,60,4096 MB,Desktop
+GeForce GTX 760,4819,539,170,4096 MB,Desktop
+GeForce GTX 760 Ti,5307,548,170,2048 MB,Desktop
+GeForce GTX 760 Ti OEM,5474,571,0,0,Unknown
+GeForce GTX 760A,1071,261,0,0,Unknown
+GeForce GTX 760M,1728,230,55,2048 MB,Mobile
+GeForce GTX 765M,2008,284,65,2048 MB,Mobile
+GeForce GTX 770,5970,568,230,4096 MB,Desktop
+GeForce GTX 770M,2794,335,75,3072 MB,Mobile
+GeForce GTX 775M,3928,543,0,0,Mobile
+GeForce GTX 780,7953,590,250,6144 MB,Desktop
+GeForce GTX 780 Ti,9466,632,250,3072 MB,Desktop
+GeForce GTX 780M,3875,423,122,4096 MB,Mobile
+GeForce GTX 850A,767,198,0,0,Unknown
+GeForce GTX 850M,2539,228,40,2048 MB,Mobile
+GeForce GTX 850M - MODDED,1092,819,0,0,Mobile
+GeForce GTX 860M,3089,229,45,2048 MB,Mobile
+GeForce GTX 870M,3547,280,110,6144 MB,Mobile
+GeForce GTX 880M,3841,334,130,8192 MB,Mobile
+GeForce GTX 950,5356,651,90,2048 MB,Desktop
+GeForce GTX 950A,2599,270,0,0,Unknown
+GeForce GTX 950M,2572,216,75,2048 MB,Mobile
+GeForce GTX 960,6135,676,120,4096 MB,Desktop
+GeForce GTX 960A,3465,312,0,0,Unknown
+GeForce GTX 960M,3371,244,65,4096 MB,Mobile
+GeForce GTX 965M,3876,353,60,4096 MB,Mobile
+GeForce GTX 970,9637,763,145,4096 MB,Desktop
+GeForce GTX 970M,5699,375,75,3072 MB,Mobile
+GeForce GTX 970XM FORCE,6707,725,0,0,Unknown
+GeForce GTX 980,11072,790,165,4096 MB,Desktop
+GeForce GTX 980 Ti,13676,851,250,6144 MB,Desktop
+GeForce GTX 980M,7379,495,100,4096 MB,Mobile
+GeForce GTX Titan,8195,663,250,6144 MB,Desktop
+GeForce GTX TITAN Black,9192,606,250,6144 MB,Desktop
+GeForce GTX TITAN X,12582,817,250,12288 MB,Desktop
+GeForce GTX TITAN Z,8897,623,375,12288 MB,Desktop
+GeForce MX110,1411,187,0,0,Unknown
+GeForce MX130,1807,195,0,0,Unknown
+GeForce MX150,2254,211,25,2048 MB,Mobile
+GeForce MX230,1824,213,10,2048 MB,Mobile
+GeForce MX250,2376,238,25,2048 MB,Mobile
+GeForce MX330,2349,226,0,0,Unknown
+GeForce MX350,2823,238,0,0,Unknown
+GeForce MX450,3719,306,0,0,Unknown
+GeForce MX550,4461,390,0,0,Unknown
+GeForce MX570,5750,388,0,0,Unknown
+GeForce MX570 A,6308,399,0,0,Unknown
+GeForce PCX 5300,6,197,0,128 MB,Desktop
+GeForce PCX 5750,35,310,0,128 MB,Desktop
+GeForce PCX 5900,34,258,0,256 MB,Desktop
+GeForce RTX 2050,7707,479,45,4096 MB,Mobile
+GeForce RTX 2060,14108,745,160,6144 MB,Desktop
+GeForce RTX 2060 (Mobile),11353,540,80,6144 MB,Mobile
+GeForce RTX 2060 12GB,15929,852,185,12288 MB,Desktop
+GeForce RTX 2060 SUPER,16488,857,175,8192 MB,Desktop
+GeForce RTX 2060 with Max-Q Design,9635,403,65,6144 MB,Mobile
+GeForce RTX 2070,16067,818,175,8192 MB,Desktop
+GeForce RTX 2070 (Mobile),12357,602,115,8192 MB,Mobile
+GeForce RTX 2070 SUPER,18148,878,215,8192 MB,Desktop
+GeForce RTX 2070 Super with Max-Q Design,13410,596,80,8192 MB,Mobile
+GeForce RTX 2070 with Max-Q Design,11399,456,80,8192 MB,Mobile
+GeForce RTX 2080,18640,902,250,8096 MB,Desktop
+GeForce RTX 2080 (Mobile),15014,804,150,8192 MB,Mobile
+GeForce RTX 2080 SUPER,19461,919,250,8192 MB,Desktop
+GeForce RTX 2080 Super with Max-Q Design,13523,562,80,8192 MB,Mobile
+GeForce RTX 2080 Ti,21489,928,250,11264 MB,Desktop
+GeForce RTX 2080 with Max-Q Design,12741,506,90,8192 MB,Mobile
+GeForce RTX 3050 4GB Laptop GPU,9495,490,75,4096 MB,Mobile
+GeForce RTX 3050 6GB,10762,883,70,6144 MB,Desktop
+GeForce RTX 3050 6GB Laptop GPU,10124,564,80,6144 MB,Mobile
+GeForce RTX 3050 8GB,12511,918,130,8192 MB,Desktop
+GeForce RTX 3050 A Laptop GPU,11040,566,35,4096 MB,Mobile
+GeForce RTX 3050 Laptop GPU,12003,826,0,0,Mobile
+GeForce RTX 3050 OEM,11914,985,130,8192 MB,Desktop
+GeForce RTX 3050 Ti Laptop GPU,10094,498,80,4096 MB,Mobile
+GeForce RTX 3060,17001,987,0,0,Desktop
+GeForce RTX 3060 12GB,16755,966,170,12288 MB,Desktop
+GeForce RTX 3060 8GB,15258,977,170,8192 MB,Desktop
+GeForce RTX 3060 Laptop GPU,13155,585,115,6144 MB,Mobile
+GeForce RTX 3060 Ti,20288,990,200,8192 MB,Desktop
+GeForce RTX 3070,22143,1004,220,8192 MB,Desktop
+GeForce RTX 3070 Laptop GPU,15138,632,115,8192 MB,Mobile
+GeForce RTX 3070 Ti,23280,1061,290,8192 MB,Desktop
+GeForce RTX 3070 Ti Laptop GPU,17526,775,115,8192 MB,Mobile
+GeForce RTX 3080,25043,1062,320,10240 MB,Desktop
+GeForce RTX 3080 12GB,26576,1095,350,12288 MB,Desktop
+GeForce RTX 3080 Laptop GPU,16183,633,115,8192 MB,Mobile
+GeForce RTX 3080 Ti,26801,1095,350,12288 MB,Desktop
+GeForce RTX 3080 Ti Laptop GPU,19001,818,115,16384 MB,Mobile
+GeForce RTX 3090,26564,1068,350,24576 MB,Desktop
+GeForce RTX 3090 Ti,29340,1227,450,24576 MB,Desktop
+GeForce RTX 4050 Laptop GPU,14327,630,115,6144 MB,Mobile
+GeForce RTX 4060,19534,1040,115,8192 MB,Desktop
+GeForce RTX 4060 Laptop GPU,17405,731,115,8192 MB,Mobile
+GeForce RTX 4060 Ti,22626,1097,160,8192 MB,Desktop
+GeForce RTX 4060 Ti 16GB,22691,1081,165,16384 MB,Desktop
+GeForce RTX 4070,26914,1167,200,12288 MB,Desktop
+GeForce RTX 4070 Laptop GPU,19538,766,115,8192 MB,Mobile
+GeForce RTX 4070 SUPER,29962,1192,220,12288 MB,Desktop
+GeForce RTX 4070 Ti,31569,1208,285,12288 MB,Desktop
+GeForce RTX 4070 Ti SUPER,31807,1240,285,16384 MB,Desktop
+GeForce RTX 4080,34448,1249,320,16384 MB,Desktop
+GeForce RTX 4080 Laptop GPU,24759,924,150,12288 MB,Mobile
+GeForce RTX 4080 SUPER,34235,1276,320,16384 MB,Desktop
+GeForce RTX 4090,38098,1303,450,24576 MB,Desktop
+GeForce RTX 4090 D,30621,971,0,0,Unknown
+GeForce RTX 4090 Laptop GPU,27108,990,150,16384 MB,Mobile
+GeForce RTX 5050,17402,1088,0,0,Desktop
+GeForce RTX 5050 Laptop GPU,14451,758,100,8192 MB,Mobile
+GeForce RTX 5060,20804,1167,170,8192 MB,Desktop
+GeForce RTX 5060 Laptop GPU,17018,856,100,8192 MB,Mobile
+GeForce RTX 5060 Ti 16GB,22701,1217,180,16384 MB,Desktop
+GeForce RTX 5060 Ti 8GB,22500,1213,180,8192 MB,Desktop
+GeForce RTX 5070,28788,1304,250,12288 MB,Desktop
+GeForce RTX 5070 Laptop GPU,19334,889,100,8192 MB,Mobile
+GeForce RTX 5070 Ti,32470,1333,300,16384 MB,Desktop
+GeForce RTX 5070 Ti Laptop GPU,22771,970,115,12288 MB,Mobile
+GeForce RTX 5080,35737,1410,360,16384 MB,Desktop
+GeForce RTX 5080 Laptop GPU,26536,1093,150,16384 MB,Mobile
+GeForce RTX 5090,38871,1412,575,32768 MB,Desktop
+GeForce RTX 5090 D,41406,1380,575,32768 MB,Desktop
+GeForce RTX 5090 D v2,31108,1297,0,0,Desktop
+GeForce RTX 5090 Laptop GPU,28681,1086,150,24576 MB,Mobile
+Intel Arc A310,5451,631,75,4096 MB,Desktop
+Intel Arc A310 LP,4911,603,45,4096 MB,Desktop
+Intel Arc A370M,5115,724,0,0,Unknown
+Intel Arc A380,6294,626,75,6144 MB,Desktop
+Intel Arc A380E,6290,835,0,0,Desktop
+Intel Arc A530M,8045,734,0,0,Unknown
+Intel Arc A580,12071,744,185,8192 MB,Desktop
+Intel Arc A730M,9808,565,0,0,Unknown
+Intel Arc A750,12601,736,225,8192 MB,Desktop
+Intel Arc A770,13326,759,225,16384 MB,Desktop
+Intel Arc A770M,11850,725,150,16384 MB,Mobile
+Intel Arc B370 GPU,8279,732,0,0,Desktop
+Intel Arc B390 GPU,9419,727,0,0,Desktop
+Intel Arc B570,14050,630,150,10240 MB,Desktop
+Intel Arc B580,15832,694,190,12288 MB,Desktop
+Intel Arc GPU,9446,748,0,0,Desktop
+Intel Arc Pro,5855,692,0,0,Desktop
+Intel Arc Pro 130T GPU,6178,778,0,0,Desktop
+Intel Arc Pro 140T GPU,6657,856,0,0,Desktop
+Intel Arc Pro A30M,5862,696,0,0,Unknown
+Intel Arc Pro A40/A50,5712,696,0,0,Unknown
+Intel Arc Pro A60,9493,654,0,0,Unknown
+Intel Arc Pro B50,12279,659,0,0,Desktop
+Intel Arc Pro B60,14436,793,0,0,Desktop
+ntel - Express Chipset G41,57,325,0,0,Unknown
+Intel - Express Chipset Q45/Q43,58,336,0,0,Unknown
+Intel 4th Generation Haswell HD,420,734,0,0,Unknown
+Intel 82845G Controller,2,132,0,0,Unknown
+Intel 82845G/GL Controller,3,176,0,0,Unknown
+Intel 82845G/GL/GE/PE/GV Controller,3,159,0,0,Unknown
+Intel 82852/82855 GM/GME Controller,1,107,0,0,Unknown
+Intel 82865G Controller,5,194,0,0,Unknown
+Intel 82915G Express,6,206,0,0,Unknown
+Intel 82915G/915GV/910GL,4,95,0,0,Unknown
+Intel 82915G/GV/910GL Advanced v3.5,3,94,0,0,Unknown
+Intel 82915G/GV/910GL Express,3,142,0,0,Unknown
+Intel 82945G Express,9,10,0,0,Unknown
+Intel 82945G Express-Chipsatzfamilie,8,240,0,0,Unknown
+Intel 865 Embedded Controller,4,20,0,0,Unknown
+Intel 915G910G Express,4,166,0,0,Unknown
+Intel 915G/915GV/910GL Embedded Controller Functio,5,41,0,0,Unknown
+Intel 945G Embedded Chipset Function 0,5,251,0,0,Unknown
+Intel 946GZ Embedded Chipset,3,66,0,0,Unknown
+Intel 946GZ Express,2,26,0,0,Unknown
+Intel Arc,5494,677,0,0,Unknown
+Intel Arc 130T GPU,6193,796,0,0,Desktop
+Intel Arc 130V GPU,4502,621,0,0,Desktop
+Intel Arc 130V GPU RI,4882,735,0,0,Desktop
+Intel Arc 140T,5635,688,0,0,Desktop
+Intel Arc 140T GPU,6651,838,0,0,Desktop
+Intel Arc 140V GPU,5144,660,0,0,Desktop
+Intel Arc 140V GPU RI,4871,580,0,0,Desktop
+Intel B43 Express Chipset,138,69,0,0,Unknown
+Intel Coffee Lake UHD,1158,918,0,0,Unknown
+Intel Extreme Controller,2,136,0,0,Unknown
+Intel G33/G31 Express,34,14,0,0,Desktop
+Intel G35 Express,97,111,0,0,Unknown
+Intel G41 Express Chipset,153,13,0,0,Unknown
+Intel G41 Express-Chipsatz,57,267,0,0,Unknown
+Intel G45/G43 Express Chipset,147,17,24,0 MB,Desktop
+Intel G45/G43/G41 Express Chipset,68,318,0,0,Unknown
+Intel G965 Express,196,40,0,0,Unknown
+Intel GMA 3150 Express,3,66,0,0,Unknown
+Intel Graphics,3173,596,0,0,Unknown
+Intel Haswell HD - GT1,123,492,0,0,Unknown
+Intel Haswell HD - GT2,139,630,0,0,Unknown
+Intel HD 2000,213,456,0,0,Unknown
+Intel HD 3000,261,33,0,0,Unknown
+Intel HD 4000,343,195,0,0,Unknown
+Intel HD 4400,530,272,0,1700 MB,Unknown
+Intel HD 4600,631,312,45,0 MB,Desktop
+Intel HD 4600 manual-gen9_2015-134121,653,365,0,0,Desktop
+Intel HD 500,302,79,0,0,Unknown
+Intel HD 5000,587,222,0,0,Unknown
+Intel HD 505,361,91,0,0,Unknown
+Intel HD 510,622,163,0,0,Unknown
+Intel HD 515,637,190,0,0,Unknown
+Intel HD 520,860,206,0,0,Unknown
+Intel HD 5200,830,653,0,0,Unknown
+Intel HD 530,990,252,0,0,Unknown
+Intel HD 5300,407,177,0,0,Unknown
+Intel HD 5500,597,227,0,0,Unknown
+Intel HD 5600,1869,401,0,0,Unknown
+Intel HD 6000,876,270,0,0,Unknown
+Intel HD 610,675,153,0,0,Unknown
+Intel HD 615,690,178,0,0,Unknown
+Intel HD 630,1110,268,0,0,Unknown
+Intel HD Family,465,192,0,0,Unknown
+Intel HD Graphics 620,919,214,0,0,Unknown
+Intel HD manual-15.28-1861,63,72,0,0,Unknown
+Intel HD manual-gen9_2015-133271,165,119,0,0,Unknown
+Intel HD Modded,112,303,0,0,Unknown
+Intel HD P3000,282,64,0,0,Unknown
+Intel HD P4000,516,636,0,0,Unknown
+Intel HD P4600,506,491,0,0,Unknown
+Intel HD P4600/P4700,631,358,0,0,Unknown
+Intel HD P530,1152,264,0,0,Unknown
+Intel HD P630,1283,289,0,0,Unknown
+Intel Infoshock HD,194,393,0,0,Unknown
+Intel Iris 5100,732,268,0,0,Unknown
+Intel Iris 540,1273,318,0,0,Unknown
+Intel Iris 550,1451,310,0,0,Unknown
+Intel Iris 6100,900,308,0,0,Unknown
+Intel Iris 650,1433,644,0,0,Unknown
+Intel Iris P555,1737,356,0,0,Desktop
+Intel Iris Plus,1789,306,0,0,Unknown
+Intel Iris Plus 640,1359,334,0,0 MB,Mobile
+Intel Iris Plus 645,1750,375,0,0,Unknown
+Intel Iris Plus 650,1597,354,0,0 MB,Mobile
+Intel Iris Plus 655,1730,354,0,0,Unknown
+Intel Iris Pro 5200,1171,389,0,0,Unknown
+Intel Iris Pro 580,1984,360,0,0,Unknown
+Intel Iris Pro 6100,925,548,0,0,Unknown
+Intel Iris Pro Graphics 6200,1538,543,0,0,Unknown
+Intel Iris Pro P580,2026,438,0,0,Unknown
+Intel Iris Pro P6300,1582,568,0,0,Unknown
+Intel Iris Xe,2615,391,0,0,Unknown
+Intel Iris Xe MAX,1858,317,0,0,Unknown
+Intel Iris Xe MAX 100,1965,431,0,0,Unknown
+Intel Media Accelerator,33,78,0,0,Unknown
+Intel Media Accelerator 3150,3,86,0,0,Unknown
+Intel Media Accelerator 500,3,71,0,0,Unknown
+Intel Media Accelerator 600,7,58,0,0,Unknown
+Intel Media Accelerator HD,109,31,0,0,Unknown
+Intel Poison Ivy,739,783,0,0,Unknown
+Intel Q33 Express,7,16,0,0,Unknown
+Intel Q35 Embedded,8,303,0,0,Unknown
+Intel Q35 Express,58,16,0,0,Unknown
+Intel Q45/Q43 Express Chipset,202,14,0,0,Unknown
+Intel Q45/Q43 Express-Chipsatz,57,352,0,0,Unknown
+Intel Q965/Q963 Express,119,27,0,0,Unknown
+Intel Skylake HD DT GT2,577,402,0,0,Unknown
+Intel UHD 630,615,166,0,0,Desktop
+Intel UHD 770,790,359,0,0,Desktop
+Intel UHD 770#0x1c005d839205d7e9#,1759,489,0,0,Desktop
+Intel UHD Graphics,1516,308,0,0,Unknown
+Intel UHD Graphics 600,312,90,0,0,Unknown
+Intel UHD Graphics 605,365,105,0,0,Unknown
+Intel UHD Graphics 610,685,171,0,0,Unknown
+Intel UHD Graphics 615,717,170,0,0,Unknown
+Intel UHD Graphics 617,815,216,0,0,Unknown
+Intel UHD Graphics 620,1042,237,15,0 MB,Desktop
+Intel UHD Graphics 630,1229,295,0,0,Unknown
+Intel UHD Graphics 710,1050,322,0,0,Unknown
+Intel UHD Graphics 730,1540,423,0,0,Unknown
+Intel UHD Graphics 750,1694,373,0,0,Unknown
+Intel UHD Graphics 770,1910,550,0,0,Unknown
+Intel UHD Graphics P630,1794,317,0,0,Unknown
+Intel UHD Graphics P750,1669,437,0,0,Unknown
+Intel US15 Embedded Media and Controller,7,67,0,0,Unknown
+Mobile Intel - famiglia Express Chipset 45,39,264,0,0,Unknown
+Mobile Intel 4 Express-Chipsatzfamilie,45,251,0,0,Unknown
+Mobile Intel 45 Express,38,20,0,0,Unknown
+Mobile Intel 45 Express-Chipsatzfamilie,117,270,0,0,Unknown
+Mobile Intel 915GM/GMS/910GML Express,2,32,0,0,Unknown
+Mobile Intel 945 Express,2,7,0,0,Unknown
+Mobile Intel 945GM Express,6,223,0,0,Unknown
+Mobile Intel 945GM/GU Express,5,223,0,0,Unknown
+Mobile Intel 965 Express,46,11,0,0,Unknown
+Mobile Intel 965 Express - BR-0907-0461 v1839,8,124,0,0,Unknown
+Mobile Intel 965 Express-Chipsatzfamilie,24,203,0,0,Unknown
+Mobile Intel HD,245,103,0,0,Unknown
+Mobile Intel serie 4 Express,45,232,0,0,Unknown`
+256MB DDR Radeon 9800 XT,38,192,0,0,Unknown
+7900 MOD - Radeon HD 6520G,610,323,0,0,Unknown
+7900 MOD - Radeon HD 6550D,893,536,0,0,Unknown
+ALL-IN-WONDER 9000,5,103,0,0,Unknown
+ALL-IN-WONDER 9800,23,139,0,0,Unknown
+ALL-IN-WONDER RADEON 8500DV,6,128,0,0,Unknown
+All-in-Wonder X1800XL,30,283,0,0,Unknown
+All-in-Wonder X1900,127,445,0,0,Unknown
+ALL-IN-WONDER X800 GT,84,186,0,0,Unknown
+AMD Ryzen Z1 Extreme,6437,802,0,0,Unknown
+FireGL T2-128,31,178,0,128 MB,Workstation
+FireGL V3100,53,275,0,128 MB,Workstation
+FireGL V3200,85,236,0,128 MB,Workstation
+FireGL V3300,71,326,0,128 MB,Workstation
+FireGL V3350,69,336,0,256 MB,Workstation
+FireGL V3400,103,353,0,128 MB,Workstation
+FireGL V3600,180,399,0,256 MB,Workstation
+FireGL V5100,93,250,0,128 MB,Workstation
+FireGL V5200,115,348,0,256 MB,Workstation
+FireGL V5600,341,445,0,512 MB,Workstation
+FireGL V7100,72,223,0,256 MB,Workstation
+FireGL V7200,116,348,0,256 MB,Workstation
+FireGL V7300,128,322,0,512 MB,Workstation
+FireGL V7350,111,344,0,1024 MB,Workstation
+FireGL V7600,616,488,0,512 MB,Workstation
+FireGL V7700,660,422,0,512 MB,Workstation
+FireGL V8600,839,406,0,1024 MB,Workstation
+FireGL V8650,550,637,0,2048 MB,Workstation
+FireGL X1,59,167,0,0,Unknown
+FireMV 2200 PCI,1,153,0,64 MB,Workstation
+FireMV 2200 PCIe,36,259,0,128 MB,Workstation
+FireMV 2250,46,290,0,0,Unknown
+FireMV 2260,117,488,15,256 MB,Workstation
+FireMV 2400 PCIe,11,283,0,256 MB,Workstation
+FireMV 2450,74,610,0,0,Unknown
+FirePro 2260,113,431,0,0,Unknown
+FirePro 2270,142,173,17,1024 MB,Workstation
+FirePro 2450,51,482,36,512 MB,Workstation
+FirePro 2460,170,352,17,512 MB,Workstation
+FirePro 3D V3700,179,466,32,256 MB,Workstation
+FirePro 3D V3750,341,467,48,256 MB,Workstation
+FirePro 3D V3800,472,507,43,512 MB,Workstation
+FirePro 3D V4800,854,324,69,1024 MB,Workstation
+FirePro 3D V5700,547,517,58,512 MB,Workstation
+FirePro 3D V5800,1232,339,74,1024 MB,Workstation
+FirePro 3D V7750,545,468,76,1024 MB,Workstation
+FirePro 3D V7800,1867,562,138,2048 MB,Workstation
+FirePro 3D V8700,1206,515,151,1024 MB,Workstation
+FirePro 3D V8750,1272,542,154,2048 MB,Workstation
+FirePro 3D V8800,2438,632,208,2048 MB,Workstation
+FirePro 3D V9800,2812,556,225,4096 MB,Workstation
+FirePro M2000,426,205,0,1024 MB,Workstation
+FirePro M4000,1599,405,0,2048 MB,Workstation
+FirePro M4000 Mobility Pro,1629,436,0,0,Unknown
+FirePro M40003,1364,652,0,0,Unknown
+Firepro M4100,1059,623,0,2048 MB,Workstation
+FirePro M4150,1038,167,0,0,Unknown
+FirePro M4170,1168,210,0,0,Unknown
+FirePro M5100,1874,405,0,2048 MB,Workstation
+FirePro M5100 FireGL V,1839,867,0,0,Unknown
+FirePro M5950,1314,574,0,1024 MB,Workstation
+FirePro M6000,1820,776,0,2048 MB,Workstation
+FirePro M6000 Mobility Pro,1741,372,0,0,Unknown
+FirePro M6100,2537,290,0,2048 MB,Workstation
+FirePro M6100 FireGL V,2885,330,0,0,Unknown
+FirePro M7740,665,415,0,1024 MB,Workstation
+FirePro R5000,2647,625,0,0,Unknown
+FirePro RG220,335,552,35,512 MB,Workstation
+FirePro S10000,4537,494,0,0,Unknown
+FirePro S7000,4524,705,150,4096 MB,Workstation
+FirePro S7150,3770,414,0,0,Unknown
+FirePro S9000,5059,561,0,0,Unknown
+FirePro S9050,4901,369,0,0,Unknown
+FirePro V3800,321,179,0,0,Unknown
+FirePro V3900,631,240,50,1024 MB,Workstation
+FirePro V4900,1003,356,75,1024 MB,Workstation
+FirePro V5700,465,469,0,0,Unknown
+FirePro V5800,1184,273,0,0,Unknown
+FirePro V5900,1232,352,75,2048 MB,Workstation
+FirePro V7000,3162,668,0,0,Unknown
+FirePro V7800,2028,307,0,0,Unknown
+FirePro V7900,2261,352,150,2048 MB,Workstation
+FirePro V8700,1539,527,0,0,Unknown
+FirePro V8800,2281,445,0,0,Unknown
+FirePro V9800,2727,655,0,0,Unknown
+FirePro W2100,849,307,26,2048 MB,Workstation
+FirePro W4100,1489,452,50,2048 MB,Workstation
+FirePro W4170M,1052,206,0,0,Unknown
+Firepro W4190M,1180,175,0,0,Unknown
+FirePro W4300,2718,572,50,4096 MB,Workstation
+FirePro W5000,2967,565,75,2048 MB,Workstation
+FirePro W5100,2975,533,75,4096 MB,Workstation
+FirePro W5130M,1445,274,0,0,Unknown
+Firepro W5170M,1782,327,0,2048 MB,Mobile Workstation
+FirePro W600,1695,575,75,2048 MB,Workstation
+FirePro W6150M,2358,286,0,0,Unknown
+FirePro W7000,4311,545,150,4096 MB,Workstation
+FirePro W7000 Adapter,4383,603,0,0,Unknown
+FirePro W7100,5035,656,150,8192 MB,Workstation
+FirePro W7170M,3694,368,0,0,Unknown
+FirePro W8000,4259,533,189,4096 MB,Workstation
+FirePro W8100,6812,741,220,8192 MB,Workstation
+FirePro W9000,6145,747,274,6144 MB,Workstation
+FirePro W9100,7748,796,275,16384 MB,Workstation
+FireStream 9170,647,493,0,0,Unknown
+FireStream 9250,1165,465,150,1024 MB,Workstation
+FireStream 9270,1341,473,160,2048 MB,Workstation
+FireStream 9370,2528,763,225,4096 MB,Workstation
+GeForce 205,126,309,30.5,512 MB,Desktop
+GeForce 210,139,30,30.5,1024 MB,Desktop
+GeForce 240M GT,320,434,0,0,Mobile
+GeForce 256,5,201,0,0,Unknown
+GeForce 305M,151,149,14,512 MB,Mobile
+GeForce 310,144,40,30.5,512 MB,Desktop
+GeForce 310M,128,21,14,512 MB,Mobile
+GeForce 315,196,45,33,512 MB,Desktop
+GeForce 315M,115,35,14,512 MB,Mobile
+GeForce 320M,190,46,20,256 MB,Mobile
+GeForce 405,118,52,0,0,Unknown
+GeForce 410M,274,132,12,512 MB,Mobile
+GeForce 505,144,62,0,0,Unknown
+GeForce 510,290,163,25,2048 MB,Desktop
+GeForce 605,331,168,0,0,Unknown
+GeForce 6100,27,44,0,0,Unknown
+GeForce 6100 nForce 400,25,242,0,0,Unknown
+GeForce 6100 nForce 405,27,56,0,0,Unknown
+GeForce 6100 nForce 420,25,234,0,0,Unknown
+GeForce 6100 nForce 430,23,249,0,0,Unknown
+GeForce 610M,292,114,0,0,Mobile
+GeForce 615,505,286,0,0,Unknown
+GeForce 6150,22,250,0,0,Unknown
+GeForce 6150 LE,33,30,0,0,Unknown
+GeForce 6150SE,25,266,0,0,Unknown
+GeForce 6150SE nForce 430,31,15,0,0,Unknown
+GeForce 6200,37,31,0,256 MB,Desktop
+GeForce 6200 A-LE,32,192,0,256 MB,Desktop
+GeForce 6200 LE,33,56,0,256 MB,Desktop
+GeForce 6200 TurboCache,52,40,0,0,Unknown
+GeForce 6200A,4,117,0,128 MB,Desktop
+GeForce 6200SE TurboCache,37,146,0,0,Unknown
+GeForce 6500,38,300,0,256 MB,Desktop
+GeForce 6600,86,37,0,256 MB,Desktop
+GeForce 6600 GT,143,53,0,256 MB,Desktop
+GeForce 6600 LE,51,234,0,256 MB,Desktop
+GeForce 6610 XL,89,288,0,0,Unknown
+GeForce 6700 XL,95,243,0,0,Unknown
+GeForce 6800,113,258,0,256 MB,Desktop
+GeForce 6800 GS,192,72,0,256 MB,Desktop
+GeForce 6800 GS/XT,103,196,0,256 MB,Desktop
+GeForce 6800 GT,142,212,0,256 MB,Desktop
+GeForce 6800 LE,110,166,0,128 MB,Desktop
+GeForce 6800 Ultra,139,153,0,512 MB,Desktop
+GeForce 6800 XE,59,166,0,0,Unknown
+GeForce 6800 XT,121,103,0,256 MB,Desktop
+GeForce 7000M,13,239,0,256 MB,Mobile
+GeForce 7000M / nForce 610M,13,188,0,0,Mobile
+GeForce 7025 / nForce 630a,33,13,0,0,Unknown
+GeForce 7050 / nForce 610i,26,78,0,0,Unknown
+GeForce 7050 / nForce 620i,42,88,0,0,Unknown
+GeForce 7050 / nForce 630i,38,145,0,0,Unknown
+GeForce 7050 PV / nForce 630a,31,83,0,0,Unknown
+GeForce 705M,456,455,0,0,Mobile
+GeForce 7100 / nForce 620i,26,229,0,0,Unknown
+GeForce 7100 / nForce 630i,42,37,0,0 MB,Desktop
+GeForce 7100 GS,51,79,0,256 MB,Desktop
+GeForce 710A,429,173,33,2048 MB,Desktop
+GeForce 710M,443,127,12,2048 MB,Mobile
+GeForce 7150 / nForce 630i,33,254,0,0,Unknown
+GeForce 7150M / nForce 630M,18,194,0,0,Mobile
+GeForce 7200 GS,23,98,0,256 MB,Desktop
+GeForce 720A,577,253,0,0,Unknown
+GeForce 7300 GS,80,41,0,256 MB,Desktop
+GeForce 7300 GT,124,26,0,256 MB,Desktop
+GeForce 7300 LE,82,34,0,128 MB,Desktop
+GeForce 7300 SE,39,251,0,128 MB,Desktop
+GeForce 7300 SE/7200 GS,48,28,0,512 MB,Workstation
+GeForce 730A,765,186,0,0,Unknown
+GeForce 7350 LE,74,281,0,0,Unknown
+GeForce 7500 LE,91,42,0,256 MB,Desktop
+GeForce 7600 GS,166,33,0,256 MB,Desktop
+GeForce 7600 GT,235,47,0,256 MB,Desktop
+GeForce 7650 GS,134,335,0,0,Unknown
+GeForce 770M,3246,500,0,0,Mobile
+GeForce 7800 GS,177,199,0,256 MB,Desktop
+GeForce 7800 GT,244,273,0,256 MB,Desktop
+GeForce 7800 GTX,268,143,86,512 MB,Desktop
+GeForce 7900 GS,262,65,0,256 MB,Desktop
+GeForce 7900 GT,258,160,0,256 MB,Desktop
+GeForce 7900 GT/GTO,247,469,0,256 MB,Desktop
+GeForce 7900 GTX,388,165,0,512 MB,Desktop
+GeForce 7950 GT,346,129,0,512 MB,Desktop
+GeForce 7950 GX2,267,217,0,1024 MB,Desktop
+GeForce 7950 Xtreme,288,288,0,0,Unknown
+GeForce 800A,435,134,0,0,Unknown
+GeForce 800M,477,195,0,0,Mobile
+GeForce 8100 / nForce 720a,79,308,0,0,Unknown
+GeForce 810A,655,277,0,0,Unknown
+GeForce 810M,420,67,0,0,Mobile
+GeForce 8200,164,61,0,0,Unknown
+GeForce 8200M G,65,34,19.2,256 MB,Mobile
+GeForce 820A,556,161,0,0,Unknown
+GeForce 820M,480,114,15,2048 MB,Mobile
+GeForce 825M,761,212,33,2048 MB,Mobile
+GeForce 8300,102,168,0,0,Unknown
+GeForce 8300 GS,115,111,40,512 MB,Desktop
+GeForce 830A,1173,279,0,0,Unknown
+GeForce 830M,1000,135,25,2048 MB,Mobile
+GeForce 8400,81,160,0,0,Unknown
+GeForce 8400 GS,169,23,40,512 MB,Desktop
+GeForce 8400 SE,68,290,0,0,Unknown
+GeForce 8400M G,105,124,10,128 MB,Mobile
+GeForce 8400M GS,105,27,11,128 MB,Mobile
+GeForce 8400M GT,67,56,14,256 MB,Mobile
+GeForce 840A,1086,180,0,0,Unknown
+GeForce 840M,1099,151,30,2048 MB,Mobile
+GeForce 845M,1501,204,0,0,Mobile
+GeForce 8500 GT,171,29,45,1024 MB,Desktop
+GeForce 8600 GS,179,82,47,512 MB,Desktop
+GeForce 8600 GT,142,39,47,1024 MB,Desktop
+GeForce 8600 GTS,185,24,75,512 MB,Desktop
+GeForce 8600M GS,89,34,20,256 MB,Mobile
+GeForce 8600M GT,164,24,20,256 MB,Mobile
+GeForce 8700M GT,124,57,29,256 MB,Mobile
+GeForce 8800 GS,330,121,105,768 MB,Desktop
+GeForce 8800 GT,455,47,125,1024 MB,Desktop
+GeForce 8800 GTS,405,31,146,320 MB,Desktop
+GeForce 8800 GTS 512,550,66,135,512 MB,Desktop
+GeForce 8800 GTX,556,80,155,768 MB,Desktop
+GeForce 8800 Ultra,643,252,171,768 MB,Desktop
+GeForce 8800M GTS,382,159,50,512 MB,Mobile
+GeForce 8800M GTX,462,175,65,512 MB,Mobile
+GeForce 9100,82,345,0,0,Unknown
+GeForce 9100M G,83,42,0,0,Mobile
+GeForce 910M,598,112,0,0,Mobile
+GeForce 9200,168,24,0,0,Unknown
+GeForce 9200M GE,144,61,0,0,Mobile
+GeForce 9200M GS,129,46,13,256 MB,Mobile
+GeForce 920A,826,144,0,0,Unknown
+GeForce 920M,717,120,0,0,Mobile
+GeForce 920MX,1062,149,0,0,Unknown
+GeForce 9300,127,385,0,0,Unknown
+GeForce 9300 / nForce 730i,129,367,0,0,Unknown
+GeForce 9300 GE,109,35,0,256 MB,Desktop
+GeForce 9300 GS,102,80,0,256 MB,Desktop
+GeForce 9300 SE,82,344,0,0,Unknown
+GeForce 9300GE,98,367,0,0,Unknown
+GeForce 9300M G,85,242,13,256 MB,Mobile
+GeForce 9300M GS,128,23,13,256 MB,Mobile
+GeForce 930A,1218,199,0,0,Unknown
+GeForce 930M,1012,148,0,0,Mobile
+GeForce 930MX,1275,194,17,2048 MB,Mobile
+GeForce 9400,147,50,0,0,Unknown
+GeForce 9400 GT,195,37,50,1024 MB,Desktop
+GeForce 9400M,101,55,0,0,Mobile
+GeForce 9400M G,148,39,12,256 MB,Mobile
+GeForce 940A,1114,192,0,0,Unknown
+GeForce 940M,1132,153,33,2048 MB,Mobile
+GeForce 940MX,1509,172,0,0,Unknown
+GeForce 9450,105,342,0,0,Unknown
+GeForce 945A,1852,716,0,0,Unknown
+GeForce 945M,2138,237,0,0,Mobile
+GeForce 9500 GS,216,34,0,0,Unknown
+GeForce 9500 GT,191,33,50,1024 MB,Desktop
+GeForce 9500M,104,320,0,0,Mobile
+GeForce 9500M G,122,172,20,512 MB,Mobile
+GeForce 9500M GS,133,54,20,512 MB,Mobile
+GeForce 9600 GS,282,41,0,768 MB,Desktop
+GeForce 9600 GSO,323,90,84,1536 MB,Desktop
+GeForce 9600 GSO 512,330,79,90,512 MB,Desktop
+GeForce 9600 GT,472,42,95,1024 MB,Desktop
+GeForce 9600M GS,131,58,20,1024 MB,Mobile
+GeForce 9600M GT,163,25,23,512 MB,Mobile
+GeForce 9600M GT / GeForce GT 220M,293,291,0,0,Mobile
+GeForce 9650M GS,270,328,29,512 MB,Mobile
+GeForce 9650M GT,137,57,23,1024 MB,Mobile
+GeForce 9700M GT,327,97,45,512 MB,Mobile
+GeForce 9700M GTS,312,33,60,512 MB,Mobile
+GeForce 9800 GT,446,53,125,1024 MB,Desktop
+GeForce 9800 GT 1024MB,134,315,0,0,Unknown
+GeForce 9800 GTX,769,366,140,512 MB,Desktop
+GeForce 9800 GTX+,489,75,141,1024 MB,Desktop
+GeForce 9800 GTX/9800 GTX+,571,78,0,0,Unknown
+GeForce 9800 GX2,613,262,197,2 MB,Desktop
+GeForce 9800 S,636,427,0,0,Unknown
+GeForce 9800M GS,517,44,60,512 MB,Mobile
+GeForce 9800M GT,381,81,65,512 MB,Mobile
+GeForce 9800M GTS,357,72,75,512 MB,Mobile
+GeForce 9800M GTX,454,89,75,1024 MB,Mobile
+GeForce 999 GTX,84,138,0,0,Unknown
+GeForce FX 5100,8,247,0,0,Unknown
+GeForce FX 5200,8,154,0,128 MB,Desktop
+GeForce FX 5200 Ultra,12,138,0,128 MB,Desktop
+GeForce FX 5200LE,7,170,0,0,Unknown
+GeForce FX 5200SE,12,194,0,0,Unknown
+GeForce FX 5500,8,152,0,256 MB,Desktop
+GeForce FX 5600,13,168,0,256 MB,Desktop
+GeForce FX 5600 Ultra,17,122,0,128 MB,Desktop
+GeForce FX 5600XT,9,166,0,0,Unknown
+GeForce FX 5700,41,173,0,256 MB,Desktop
+GeForce FX 5700 Ultra,34,126,0,256 MB,Desktop
+GeForce FX 5700LE,25,147,0,256 MB,Desktop
+GeForce FX 5700VE,33,161,0,256 MB,Desktop
+GeForce FX 5900,35,188,0,128 MB,Desktop
+GeForce FX 5900 Ultra,41,170,0,256 MB,Desktop
+GeForce FX 5900XT,40,134,0,128 MB,Desktop
+GeForce FX 5900ZT,33,129,0,128 MB,Desktop
+GeForce FX 5950 Ultra,59,274,0,256 MB,Desktop
+GeForce FX Go 5200,8,190,0,32 MB,Mobile
+GeForce FX Go 5600,18,186,0,32 MB,Mobile
+GeForce FX Go5300,13,159,0,0,Unknown
+GeForce FX Go5650,17,211,0,0,Unknown
+GeForce FX Go5700,51,171,0,0,Unknown
+GeForce G 103M,63,34,14,512 MB,Mobile
+GeForce G 105M,92,20,14,512 MB,Mobile
+GeForce G100,176,63,0,0,Unknown
+GeForce G102M,168,59,0,0,Mobile
+GeForce G105M,133,31,0,0,Mobile
+GeForce G200,136,82,0,0,Unknown
+GeForce G205M,125,105,0,0,Mobile
+GeForce G210,151,37,0,0,Unknown
+GeForce G210M,129,18,14,512 MB,Mobile
+GeForce Go 6100,18,181,0,0,Unknown
+GeForce Go 6150,19,92,0,0,Unknown
+GeForce Go 6200,15,204,0,16 MB,Mobile
+GeForce Go 6400,24,212,0,16 MB,Mobile
+GeForce Go 6600,69,209,0,128 MB,Mobile
+GeForce Go 6600 TE/6200 TE,45,223,0,0,Unknown
+GeForce Go 6800,106,205,0,128 MB,Mobile
+GeForce Go 6800 Ultra,138,198,0,256 MB,Mobile
+GeForce Go 7200,45,199,0,64 MB,Mobile
+GeForce Go 7300,52,114,0,512 MB,Mobile
+GeForce Go 7400,66,112,0,256 MB,Mobile
+GeForce Go 7600,128,220,0,512 MB,Mobile
+GeForce Go 7600 GT,210,125,0,256 MB,Mobile
+GeForce Go 7700,148,232,0,512 MB,Mobile
+GeForce Go 7800,115,209,35,256 MB,Mobile
+GeForce Go 7800 GTX,210,239,65,256 MB,Mobile
+GeForce Go 7900 GS,178,88,20,256 MB,Mobile
+GeForce Go 7900 GTX,270,264,45,256 MB,Mobile
+GeForce Go 7950 GTX,264,283,45,512 MB,Mobile
+GeForce GPU,1154,156,0,1024 MB,Mobile
+GeForce GT 1010,972,257,0,0,Unknown
+GeForce GT 1030,2400,443,30,2048 MB,Desktop
+GeForce GT 120,187,46,50,512 MB,Desktop
+GeForce GT 120 / 9500 GT,325,327,0,0,Unknown
+GeForce GT 120M,151,32,23,1024 MB,Mobile
+GeForce GT 130,381,109,75,1536 MB,Desktop
+GeForce GT 130M,170,27,23,1024 MB,Mobile
+GeForce GT 140,658,225,105,1024 MB,Desktop
+GeForce GT 220,223,43,58,1024 MB,Desktop
+GeForce GT 220M,208,53,14,1024 MB,Mobile
+GeForce GT 230,323,70,0,0,Unknown
+GeForce GT 230M,221,38,23,1024 MB,Mobile
+GeForce GT 240,486,43,69,1024 MB,Desktop
+GeForce GT 240M,212,48,23,1024 MB,Mobile
+GeForce GT 320,470,59,43,1024 MB,Desktop
+GeForce GT 320M,114,32,14,1024 MB,Mobile
+GeForce GT 325M,170,49,23,1024 MB,Mobile
+GeForce GT 330,392,51,0,0,Unknown
+GeForce GT 330M,219,39,23,1024 MB,Mobile
+GeForce GT 335M,368,27,28,1024 MB,Mobile
+GeForce GT 340,738,242,69,1024 MB,Desktop
+GeForce GT 415,251,249,0,0,Unknown
+GeForce GT 415M,286,221,12,512 MB,Mobile
+GeForce GT 420,434,195,50,1024 MB,Desktop
+GeForce GT 420M,392,92,23,512 MB,Mobile
+GeForce GT 425M,499,170,23,1024 MB,Mobile
+GeForce GT 430,599,208,49,1024 MB,Desktop
+GeForce GT 435M,536,176,35,2048 MB,Mobile
+GeForce GT 440,770,241,65,2048 MB,Desktop
+GeForce GT 445M,811,203,35,1536 MB,Mobile
+GeForce GT 520,325,136,29,2048 MB,Desktop
+GeForce GT 520M,285,77,12,1024 MB,Mobile
+GeForce GT 520MX,289,54,20,1024 MB,Mobile
+GeForce GT 525M,449,97,20,1024 MB,Mobile
+GeForce GT 530,658,239,50,2048 MB,Desktop
+GeForce GT 540M,473,91,32,1024 MB,Mobile
+GeForce GT 545,1119,330,0,0,Unknown
+GeForce GT 550M,558,116,32,1024 MB,Mobile
+GeForce GT 555M,647,110,30,1024 MB,Mobile
+GeForce GT 610,333,134,29,2048 MB,Desktop
+GeForce GT 610M / GT 620M / GT 710M / GT 720M / GT,369,824,0,0,Mobile
+GeForce GT 620,391,158,30,512 MB,Desktop
+GeForce GT 620M,431,128,15,2048 MB,Mobile
+GeForce GT 625,375,189,30,1024 MB,Desktop
+GeForce GT 625M,485,139,15,2048 MB,Mobile
+GeForce GT 630,686,242,50,2048 MB,Desktop
+GeForce GT 630M,519,151,33,2048 MB,Mobile
+GeForce GT 635,810,232,0,0,Unknown
+GeForce GT 635M,536,170,35,1536 MB,Mobile
+GeForce GT 640,1166,299,65,4096 MB,Desktop
+GeForce GT 640M,887,204,32,2048 MB,Mobile
+GeForce GT 640M LE,698,171,32,2048 MB,Mobile
+GeForce GT 645,2006,443,0,0,Unknown
+GeForce GT 645M,945,167,32,2048 MB,Mobile
+GeForce GT 650M,1184,238,45,2048 MB,Mobile
+GeForce GT 705,370,163,29,1024 MB,Desktop
+GeForce GT 710,619,215,25,2048 MB,Desktop
+GeForce GT 710M,427,117,0,0,Mobile
+GeForce GT 720,661,226,19,2048 MB,Desktop
+GeForce GT 720A,567,207,0,0,Unknown
+GeForce GT 720M,438,119,0,2048 MB,Mobile
+GeForce GT 730,824,258,49,2048 MB,Desktop
+GeForce GT 730A,743,714,0,0,Unknown
+GeForce GT 730M,806,171,33,2048 MB,Mobile
+GeForce GT 735M,660,130,0,2048 MB,Mobile
+GeForce GT 740,1424,350,64,1024 MB,Desktop
+GeForce GT 740A,710,265,0,0,Unknown
+GeForce GT 740M,779,148,0,2048 MB,Mobile
+GeForce GT 745A,1234,297,0,0,Unknown
+GeForce GT 745M,1077,177,45,2048 MB,Mobile
+GeForce GT 750M,1331,242,50,2048 MB,Mobile
+GeForce GT 755M,1722,334,50,2048 MB,Mobile
+GeForce GT 820M,537,143,0,0,Mobile
+GeForce GT625M,422,113,0,0,Mobile
+GeForce GTS 150M,504,407,0,1024 MB,Mobile
+GeForce GTS 160M,679,308,60,1024 MB,Mobile
+GeForce GTS 240,515,91,120,1024 MB,Desktop
+GeForce GTS 250,567,50,150,1024 MB,Desktop
+GeForce GTS 250M,520,37,28,1024 MB,Mobile
+GeForce GTS 350M,381,69,28,1024 MB,Mobile
+GeForce GTS 360M,631,49,38,1024 MB,Mobile
+GeForce GTS 450,1341,328,106,1024 MB,Desktop
+GeForce2 Go,4,95,0,32 MB,Mobile
+GeForce2 GTS/GeForce2 Pro,4,136,0,0,Unknown
+GeForce2 Integrated GPU,4,171,0,0,Unknown
+GeForce2 MX,3,143,0,64 MB,Desktop
+GeForce2 MX 100/200,3,119,0,0,Unknown
+GeForce2 MX with DVI-D and TV-out,5,187,0,0,Unknown
+GeForce2 MX with TV Out,3,98,0,0,Unknown
+GeForce2 MX/MX 400,4,129,0,0,Unknown
+GeForce2 Ti,5,149,0,64 MB,Desktop
+GeForce2 Ultra,6,147,0,64 MB,Desktop
+GeForce3,5,120,0,64 MB,Desktop
+GeForce3 Ti 200,4,140,0,0,Unknown
+GeForce3 Ti 500,3,116,0,0,Unknown
+GeForce4 420 Go,3,147,0,32 MB,Mobile
+GeForce4 420 Go 32M,5,168,0,0,Unknown
+GeForce4 4200 Go,4,173,0,64 MB,Mobile
+GeForce4 440,5,193,0,0,Unknown
+GeForce4 440 Go,4,140,0,64 MB,Mobile
+GeForce4 440 Go 64M,6,156,0,0,Unknown
+GeForce4 448 Go,6,199,0,0,Unknown
+GeForce4 MX 4000,5,131,0,0,Unknown
+GeForce4 MX 420,5,168,0,64 MB,Desktop
+GeForce4 MX 440,5,140,0,64 MB,Desktop
+GeForce4 MX 440 with AGP8X,5,157,0,128 MB,Desktop
+GeForce4 MX 440SE,5,159,0,0,Unknown
+GeForce4 MX 460,4,176,0,128 MB,Desktop
+GeForce4 MX Integrated GPU,7,198,0,0,Unknown
+GeForce4 Ti 4200,6,154,0,0,Unknown
+GeForce4 Ti 4400,7,170,0,0,Unknown
+GeForce4 Ti 4600,6,173,0,128 MB,Desktop
+GeForce4 Ti 4800,6,190,0,0,Unknown
+GeForce4 Ti 4800 SE,7,187,0,0,Unknown
+GeForce9400M,106,161,0,0,Mobile
+I
+Mobile Intel965 Express,18,264,0,0,Unknown
+MOBILITY FIREGL 7800,5,86,0,64 MB,Workstation
+MOBILITY FIREGL T2,41,171,0,128 MB,Workstation
+MOBILITY FIREGL T2/T2e,34,171,0,128 MB,Workstation
+MOBILITY FireGL V3200,62,238,0,128 MB,Workstation
+MOBILITY FireGL V5000,82,223,0,128 MB,Workstation
+MOBILITY FireGL V5200,45,248,0,256 MB,Workstation
+MOBILITY FireGL V5250,27,252,0,512 MB,Workstation
+Mobility FireGL V5725,219,405,0,256 MB,Workstation
+MOBILITY IGP 9000/9100,10,125,0,0,Unknown
+Mobility Radeon 4100,81,265,0,0,Unknown
+MOBILITY RADEON 7000 IGP,6,151,0,0,Unknown
+MOBILITY RADEON 7500,4,103,0,64 MB,Mobile
+MOBILITY RADEON 9000,3,111,0,64 MB,Mobile
+MOBILITY RADEON 9000 IGP,8,143,0,0,Unknown
+MOBILITY RADEON 9000/9100 IGP,6,118,0,0,Unknown
+MOBILITY RADEON 9100 IGP,3,128,0,0,Unknown
+MOBILITY RADEON 9200,3,145,0,64 MB,Mobile
+MOBILITY RADEON 9550,30,166,0,64 MB,Mobile
+MOBILITY RADEON 9600,36,172,0,128 MB,Mobile
+MOBILITY RADEON 9600 PRO TURBO,25,137,0,0,Unknown
+MOBILITY RADEON 9600/9700,39,165,0,128 MB,Mobile
+MOBILITY RADEON 9700,27,158,0,128 MB,Mobile
+MOBILITY RADEON 9800,46,110,0,256 MB,Mobile
+Mobility Radeon HD 2300,51,211,0,512 MB,Mobile
+Mobility Radeon HD 2400,90,212,0,256 MB,Mobile
+Mobility Radeon HD 2400 XT,102,246,0,256 MB,Mobile
+Mobility Radeon HD 2600,168,267,0,256 MB,Mobile
+Mobility Radeon HD 2600 XT,192,329,0,256 MB,Mobile
+Mobility Radeon HD 3400 Serisi,111,239,0,0,Unknown
+Mobility Radeon HD 3410,63,130,0,512 MB,Mobile
+Mobility Radeon HD 3430,98,260,0,256 MB,Mobile
+Mobility Radeon HD 3450,91,247,0,256 MB,Mobile
+Mobility Radeon HD 3470,93,250,0,256 MB,Mobile
+Mobility Radeon HD 3470 Hybrid X2,94,206,0,0,Unknown
+Mobility Radeon HD 3650,140,31,0,1024 MB,Mobile
+Mobility Radeon HD 3670,232,331,0,1024 MB,Mobile
+Mobility Radeon HD 3850,366,248,0,512 MB,Mobile
+Mobility Radeon HD 3870,548,288,0,512 MB,Mobile
+Mobility Radeon HD 3870 X2,478,187,0,2 MB,Mobile
+Mobility Radeon HD 4200,91,260,0,512 MB,Mobile
+Mobility Radeon HD 4225,66,174,0,512 MB,Mobile
+Mobility Radeon HD 4250,98,280,0,512 MB,Mobile
+Mobility Radeon HD 4270,93,282,0,512 MB,Mobile
+Mobility Radeon HD 4300 Serisi,73,216,0,0,Unknown
+Mobility Radeon HD 4330,135,377,0,512 MB,Mobile
+Mobility Radeon HD 4350,148,369,0,0,Unknown
+Mobility Radeon HD 4550,191,290,0,512 MB,Mobile
+Mobility Radeon HD 4570,150,19,0,512 MB,Mobile
+Mobility Radeon HD 4650,401,320,0,1024 MB,Mobile
+Mobility Radeon HD 4670,463,375,0,1024 MB,Mobile
+Mobility Radeon HD 4830,512,285,0,1024 MB,Mobile
+Mobility Radeon HD 4850,866,472,0,1024 MB,Mobile
+Mobility Radeon HD 4870,720,416,0,1024 MB,Mobile
+Mobility Radeon HD 5000,773,429,0,0,Unknown
+Mobility Radeon HD 5000 Serisi,479,305,0,0,Unknown
+Mobility Radeon HD 5165,284,362,35,1024 MB,Mobile
+Mobility Radeon HD 530v,175,353,0,1024 MB,Mobile
+Mobility Radeon HD 540v,188,382,0,0,Unknown
+Mobility Radeon HD 5430,181,330,7,1024 MB,Mobile
+Mobility Radeon HD 5450,214,320,11,1024 MB,Mobile
+Mobility Radeon HD 545v,200,270,0,1024 MB,Mobile
+Mobility Radeon HD 5470,236,362,13,512 MB,Mobile
+Mobility Radeon HD 550v,266,398,0,1024 MB,Mobile
+Mobility Radeon HD 5570,525,247,0,0,Unknown
+Mobility Radeon HD 560v,318,366,0,1024 MB,Mobile
+Mobility Radeon HD 5650,441,150,15,1024 MB,Mobile
+Mobility Radeon HD 565v,353,318,0,1024 MB,Mobile
+Mobility Radeon HD 5730,507,153,26,1024 MB,Mobile
+Mobility Radeon HD 5850,763,403,31,1024 MB,Mobile
+Mobility Radeon HD 5870,1078,222,50,1024 MB,Mobile
+Mobility Radeon HD serie 4200,97,227,0,0,Unknown
+Mobility Radeon X1300,40,222,0,128 MB,Mobile
+Mobility Radeon X1350,40,274,0,128 MB,Mobile
+Mobility Radeon X1400,43,226,0,128 MB,Mobile
+Mobility Radeon X1450,33,205,0,128 MB,Mobile
+Mobility Radeon X1600,92,236,0,256 MB,Mobile
+Mobility Radeon X1700,105,228,0,256 MB,Mobile
+MOBILITY RADEON X1800,130,247,0,256 MB,Mobile
+Mobility Radeon X1900,135,287,0,256 MB,Mobile
+Mobility Radeon X2300,48,263,0,128 MB,Mobile
+Mobility Radeon X2300 HD,49,244,0,0,Unknown
+Mobility Radeon X2500,82,235,0,256 MB,Mobile
+MOBILITY RADEON X300,34,204,0,128 MB,Mobile
+MOBILITY RADEON X600,50,209,0,128 MB,Mobile
+MOBILITY RADEON X600 SE,49,233,0,0,Unknown
+MOBILITY RADEON X700,67,200,0,128 MB,Mobile
+MOBILITY RADEON X700 XL,60,189,0,0,Unknown
+MOBILITY RADEON XPRESS 200,27,176,0,0,Unknown
+Mobility Radeon. HD 5470,215,398,13,512 MB,Mobile
+MOBILITY/RADEON 9000,4,153,0,0,Unknown
+MONSTER GeForce GTX 675M,2637,686,0,0,Mobile
+nForce 750a SLI,83,351,0,0,Unknown
+nForce 760i SLI,140,379,0,0,Unknown
+nForce 780a SLI,92,425,0,0,Unknown
+nForce 980a/780a SLI,165,128,0,0,Unknown
+NV44,15,251,0,0,Unknown
+NVIDIA A10,21687,983,0,0,Unknown
+NVIDIA A10-4Q,2752,202,0,0,Unknown
+NVIDIA A10G,17660,578,0,0,Unknown
+NVIDIA A40,13900,489,0,0,Unknown
+NVIDIA A40-12Q,4336,81,0,0,Unknown
+NVIDIA A40-4Q,4407,87,0,0,Unknown
+NVIDIA A40-8Q,4252,74,0,0,Unknown
+NVIDIA GeForce3 Ti200,6,218,0,0,Unknown
+nVidia L20,13430,1397,0,0,Desktop
+nVidia L40,27355,1186,0,0,Unknown
+nVidia L40-48Q,33270,1371,0,0,Desktop
+nVidia L40-4Q,32601,1389,0,0,Desktop
+nVidia L40S-48Q,3869,78,0,0,Desktop
+nVidia L40S-4Q,7687,309,0,0,Desktop
+NVIDIA TITAN X,13660,912,250,12288 MB,Desktop
+NVIDIA TITAN Xp,18762,884,250,12288 MB,Desktop
+NVS 2100M,137,116,14,512 MB,Workstation
+NVS 300,121,38,17.5,512 MB,Workstation
+NVS 310,283,180,19.5,512 MB,Workstation
+NVS 3100M,125,33,14,512 MB,Workstation
+NVS 315,338,181,19.5,1024 MB,Workstation
+NVS 4200M,312,78,0,1024 MB,Workstation
+NVS 510,678,287,35,2048 MB,Workstation
+NVS 5100M,200,62,35,1024 MB,Workstation
+NVS 5200M,497,184,35,1024 MB,Workstation
+NVS 5400M,616,185,35,2048 MB,Workstation
+NVS 810,1147,283,0,0,Unknown
+Quadro 1000M,553,197,45,2048 MB,Workstation
+Quadro 1100M,755,734,0,0,Unknown
+Quadro 2000,946,306,62,1024 MB,Workstation
+Quadro 2000 D,1239,594,0,0,Unknown
+Quadro 2000D,980,328,0,0,Unknown
+Quadro 2000M,756,227,55,2048 MB,Workstation
+Quadro 2100M,1100,765,0,0,Unknown
+Quadro 280 NVS PCIe,6,185,0,0,Unknown
+Quadro 3000M,1006,315,75,2048 MB,Workstation
+Quadro 400,148,59,32,512 MB,Workstation
+Quadro 4000,1473,387,142,2048 MB,Workstation
+Quadro 4000M,1287,271,100,2048 MB,Workstation
+Quadro 410,437,217,38,512 MB,Workstation
+Quadro 5000,1963,396,152,2560 MB,Workstation
+Quadro 5000M,2060,426,100,2048 MB,Workstation
+Quadro 500M,571,365,35,1024 MB,Workstation
+Quadro 5010M,1691,297,100,4096 MB,Workstation
+Quadro 600,520,233,40,1024 MB,Workstation
+Quadro 6000,2692,456,204,6144 MB,Workstation
+Quadro 7000,3505,397,204,6144 MB,Workstation
+Quadro CX,947,454,0,0,Unknown
+Quadro FX 1000,34,266,0,128 MB,Workstation
+Quadro FX 1100,36,178,0,256 MB,Workstation
+Quadro FX 1300,34,276,55,128 MB,Workstation
+Quadro FX 1400,124,152,70,128 MB,Workstation
+Quadro FX 1500,170,74,65,256 MB,Workstation
+Quadro FX 1500M,171,275,45,512 MB,Workstation
+Quadro FX 1600M,195,53,50,512 MB,Workstation
+Quadro FX 1700,212,32,42,512 MB,Workstation
+Quadro FX 1700M,173,135,50,512 MB,Workstation
+Quadro FX 1800,395,54,59,768 MB,Workstation
+Quadro FX 1800M,486,63,45,1024 MB,Workstation
+Quadro FX 2000,18,146,0,128 MB,Workstation
+Quadro FX 2500M,218,272,45,512 MB,Workstation
+Quadro FX 2700,543,465,0,0,Unknown
+Quadro FX 2700M,367,38,65,512 MB,Workstation
+Quadro FX 2800M,415,39,75,1024 MB,Workstation
+Quadro FX 3000,69,178,0,256 MB,Workstation
+Quadro FX 3400/4400,104,239,101,256 MB,Workstation
+Quadro FX 3450,149,235,83,256 MB,Workstation
+Quadro FX 3450/4000 SDI,206,61,0,256 MB,Workstation
+Quadro FX 350,86,378,21,128 MB,Workstation
+Quadro FX 3500,265,66,80,256 MB,Workstation
+Quadro FX 3500M,306,309,45,512 MB,Workstation
+Quadro FX 350M,45,132,15,256 MB,Workstation
+Quadro FX 3600M,467,365,70,512 MB,Workstation
+Quadro FX 360M,87,308,17,256 MB,Workstation
+Quadro FX 370,84,385,35,256 MB,Workstation
+Quadro FX 370 Low Profile,103,492,0,0,Unknown
+Quadro FX 370 LP,108,481,25,256 MB,Workstation
+Quadro FX 3700,372,73,78,512 MB,Workstation
+Quadro FX 3700M,451,76,75,1024 MB,Workstation
+Quadro FX 370M,93,334,20,256 MB,Workstation
+Quadro FX 380,206,60,34,256 MB,Workstation
+Quadro FX 380 LP,145,71,28,512 MB,Workstation
+Quadro FX 3800,824,46,108,1024 MB,Workstation
+Quadro FX 3800M,556,33,100,1024 MB,Workstation
+Quadro FX 380M,121,106,25,512 MB,Workstation
+Quadro FX 4000,101,78,142,256 MB,Workstation
+Quadro FX 4500,227,120,109,512 MB,Workstation
+Quadro FX 4500 X2,236,653,0,0,Unknown
+Quadro FX 4600,402,96,134,768 MB,Workstation
+Quadro FX 4700 X2,676,509,0,0,Unknown
+Quadro FX 4800,1008,53,150,1536 MB,Workstation
+Quadro FX 500/600 PCI,14,203,0,0,Unknown
+Quadro FX 500/FX 600,8,151,0,0,Unknown
+Quadro FX 540,81,294,35,128 MB,Workstation
+Quadro FX 550,64,325,25,128 MB,Workstation
+Quadro FX 5500,242,394,96,1024 MB,Workstation
+Quadro FX 560,114,360,30,128 MB,Workstation
+Quadro FX 5600,518,98,0,0,Unknown
+Quadro FX 570,258,53,38,256 MB,Workstation
+Quadro FX 570M,99,70,45,512 MB,Workstation
+Quadro FX 580,188,39,40,512 MB,Workstation
+Quadro FX 5800,1211,76,189,4096 MB,Workstation
+Quadro FX 770M,213,35,35,512 MB,Workstation
+Quadro FX 880M,237,52,35,1024 MB,Workstation
+Quadro FX Go1400,102,223,0,0,Unknown
+Quadro GP100,13736,734,235,16384 MB,Workstation
+Quadro GV100,18881,825,250,32768 MB,Workstation
+Quadro K1000M,751,246,45,2048 MB,Workstation
+Quadro K1100M,1087,252,45,2048 MB,Workstation
+Quadro K1200,2960,574,45,4096 MB,Workstation
+Quadro K2000,1582,383,51,2048 MB,Workstation
+Quadro K2000D,1607,411,51,2048 MB,Workstation
+Quadro K2000M,996,255,55,2048 MB,Workstation
+Quadro K2100M,1371,284,55,2048 MB,Workstation
+Quadro K2200,3581,545,68,4096 MB,Workstation
+Quadro K2200M,3534,360,0,0,Unknown
+Quadro K3000M,1621,336,75,2048 MB,Workstation
+Quadro K3100M,2297,324,75,4096 MB,Workstation
+Quadro K4000,2715,429,80,3072 MB,Workstation
+Quadro K4000M,2060,304,100,4096 MB,Workstation
+Quadro K4100M,2809,339,100,4096 MB,Workstation
+Quadro K420,723,290,41,1024 MB,Workstation
+Quadro K4200,4338,500,105,4096 MB,Workstation
+Quadro K5000,3993,457,122,4096 MB,Workstation
+Quadro K5000M,2805,358,100,4096 MB,Workstation
+Quadro K500M,480,184,0,0,Unknown
+Quadro K5100M,3352,353,100,8192 MB,Workstation
+Quadro K510M,641,441,30,1024 MB,Workstation
+Quadro K5200,6164,562,150,8192 MB,Workstation
+Quadro K600,720,281,41,1024 MB,Workstation
+Quadro K6000,8016,553,225,12288 MB,Workstation
+Quadro K610M,713,216,30,1024 MB,Workstation
+Quadro K620,2209,484,45,2048 MB,Workstation
+Quadro K620M,1171,157,0,0,Unknown
+Quadro M1000M,2837,308,40,4096 MB,Mobile Workstation
+Quadro M1200,3211,303,45,4096 MB,Mobile Workstation
+Quadro M2000,4031,567,75,4096 MB,Workstation
+Quadro M2000M,3408,332,55,4096 MB,Mobile Workstation
+Quadro M2200,4288,375,55,4096 MB,Mobile Workstation
+Quadro M3000M,5543,398,75,4096 MB,Mobile Workstation
+Quadro M4000,6667,668,120,8192 MB,Workstation
+Quadro M4000M,6073,404,100,4096 MB,Mobile Workstation
+Quadro M5000,9391,655,150,8192 MB,Workstation
+Quadro M5000M,7076,472,100,8192 MB,Mobile Workstation
+Quadro M500M,1176,178,30,2048 MB,Mobile Workstation
+Quadro M520,1924,225,25,2048 MB,Mobile Workstation
+Quadro M5500,7915,698,150,8192 MB,Mobile Workstation
+Quadro M6000,11767,728,250,12288 MB,Workstation
+Quadro M6000 24GB,11540,701,250,24576 MB,Workstation
+Quadro M600M,2246,283,30,2048 MB,Mobile Workstation
+Quadro M620,2757,384,30,2048 MB,Mobile Workstation
+Quadro NVS 110M,48,236,10,512 MB,Workstation
+Quadro NVS 120M,47,274,10,512 MB,Workstation
+Quadro NVS 130M,97,190,10,256 MB,Workstation
+Quadro NVS 135M,50,45,10,256 MB,Workstation
+Quadro NVS 140M,79,46,10,512 MB,Workstation
+Quadro NVS 150M,70,168,10,256 MB,Workstation
+Quadro NVS 160M,146,24,12,256 MB,Workstation
+Quadro NVS 210S,24,265,0,0,Unknown
+Quadro NVS 210S / GeForce 6150LE,21,272,0,0,Unknown
+Quadro NVS 280 PCI,8,261,0,0,Unknown
+Quadro NVS 280 SD,2,119,0,0,Unknown
+Quadro NVS 285,44,67,0,0,Unknown
+Quadro NVS 285 128MB,38,313,0,0,Unknown
+Quadro NVS 290,228,47,0,0,Unknown
+Quadro NVS 295,114,41,23,256 MB,Workstation
+Quadro NVS 320M,208,84,20,512 MB,Workstation
+Quadro NVS 420,137,103,0,0,Unknown
+Quadro NVS 440,38,358,0,0,Unknown
+Quadro NVS 450,67,89,0,0,Unknown
+Quadro NVS 510M,238,111,45,1024 MB,Workstation
+Quadro NVS 55/280 PCI,6,116,0,0,Unknown
+Quadro P1000,4496,579,47,4096 MB,Workstation
+Quadro P2000,6990,623,75,5120 MB,Workstation
+Quadro P2000 with Max-Q Design,5341,437,0,0,Unknown
+Quadro P2200,9410,870,75,5120 MB,Workstation
+Quadro P3000,6375,416,75,6144 MB,Mobile Workstation
+Quadro P3200,8513,435,0,0,Unknown
+Quadro P3200 with Max-Q Design,9117,522,0,0,Unknown
+Quadro P400,1661,428,30,2048 MB,Workstation
+Quadro P4000,11446,779,105,8192 MB,Workstation
+Quadro P4000 with Max-Q Design,9083,700,80,16384 MB,Mobile
+Quadro P4200,10380,454,100,8192 MB,Workstation
+Quadro P4200 with Max-Q Design,11520,578,0,0,Workstation
+Quadro P500,1647,234,0,0,Unknown
+Quadro P5000,12677,686,180,16384 MB,Workstation
+Quadro P520,2018,228,0,0,Unknown
+Quadro P5200,11585,504,0,0,Mobile
+Quadro P5200 with Max-Q Design,12414,475,0,0,Unknown
+Quadro P600,3324,526,40,2048 MB,Workstation
+Quadro P6000,15556,739,250,24000 MB,Workstation
+Quadro P620,3702,530,40,2048 MB,Workstation
+Quadro RTX 3000,10746,481,80,6144 MB,Mobile Workstation
+Quadro RTX 3000 with Max-Q Design,8120,330,60,6144 MB,Mobile
+Quadro RTX 4000,14883,819,160,8192 MB,Workstation
+Quadro RTX 4000 (Mobile),11699,507,110,8192 MB,Mobile
+Quadro RTX 4000 with Max-Q Design,12077,496,80,8192 MB,Mobile
+Quadro RTX 5000,15354,689,230,16384 MB,Workstation
+Quadro RTX 5000 (Mobile),14832,705,110,16384 MB,Mobile Workstation
+Quadro RTX 5000 with Max-Q Design,12680,519,80,16384 MB,Mobile Workstation
+Quadro RTX 6000,17841,763,295,24576 MB,Workstation
+Quadro RTX 8000,19911,876,260,49152 MB,Workstation
+Quadro T1000,6493,388,0,0,Mobile
+Quadro T1000 with Max-Q Design,6675,399,0,0,Mobile
+Quadro T2000,7298,415,60,4096 MB,Mobile
+Quadro T2000 with Max-Q Design,6985,378,0,0,Mobile
+Quadro2 MXR/EX,5,142,0,64 MB,Workstation
+Quadro2 Pro,1,143,0,64 MB,Workstation
+Quadro4 380 XGL,7,225,0,0,Unknown
+Quadro4 900 XGL,5,194,0,0,Unknown
+Quadro4 980 XGL,5,181,0,0,Unknown
+Qualcomm Adreno 540 GPU,126,56,0,0,Unknown
+Qualcomm Adreno 618 GPU,129,64,0,0,Unknown
+Qualcomm Adreno 630 GPU,293,110,0,0,Unknown
+Qualcomm Adreno 675 GPU,540,81,0,0,Unknown
+Qualcomm Adreno 680 GPU,896,88,0,0,Unknown
+Qualcomm Adreno 685 GPU,922,256,0,0,Unknown
+Qualcomm Adreno 690 GPU,1088,86,0,0,Unknown
+Qualcomm Adreno 7c Gen 3 GPU,778,156,0,0,Unknown
+Qualcomm Adreno 7c+ Gen 3,703,167,0,0,Unknown
+Qualcomm Adreno 8cx Gen 3,1949,223,0,0,Unknown
+Qualcomm Adreno 8cx Gen 3 GPU,1933,410,0,0,Desktop
+Qualcomm Adreno X1-45 GPU,1896,358,0,0,Desktop
+Qualcomm Adreno X1-85 GPU,3048,468,0,0,Desktop
+QXL KMDOD,19,203,0,0,Unknown
+Racer-Tech USB Display Device,13692,831,0,0,Desktop
+Radeon 2100,60,286,0,0,Unknown
+Radeon 3000,98,414,0,0,Unknown
+Radeon 3015e,351,113,0,0,Unknown
+Radeon 3020e,504,150,0,0,Unknown
+Radeon 3100,74,228,0,0,Unknown
+Radeon 520,880,204,0,0,Unknown
+Radeon 530,1035,173,0,0,Unknown
+Radeon 535,1048,181,0,0,Unknown
+Radeon 535DX,774,169,0,0,Unknown
+Radeon 540,1458,237,0,0,Unknown
+Radeon 540X,1599,305,0,0,Unknown
+Radeon 550,2127,478,0,0,Unknown
+Radeon 550X,1480,220,0,0,Unknown
+Radeon 610M,1201,273,0,0,Mobile
+Radeon 610M Ryzen 7 7840HX,20904,558,0,0,Mobile
+Radeon 610M Ryzen 7 8745HX,1336,368,0,0,Mobile
+Radeon 610M Ryzen 9 7845HX,5948,586,0,0,Mobile
+Radeon 610M Ryzen 9 7940HX,1605,532,0,0,Mobile
+Radeon 610M Ryzen 9 7945HX,1821,535,0,0,Mobile
+Radeon 610M Ryzen 9 7945HX3D,1660,534,0,0,Mobile
+Radeon 610M Ryzen 9 8940HX,5986,524,0,0,Mobile
+Radeon 610M Ryzen 9 8945HX,3522,543,0,0,Mobile
+Radeon 620,954,206,0,0,Unknown
+Radeon 625,1073,204,0,0,Unknown
+Radeon 630,1603,216,0,0,Unknown
+Radeon 6600M,534,181,0,0,Mobile
+Radeon 660M,3221,643,0,0,Mobile
+Radeon 660M Ryzen 3 7335U,2167,673,0,0,Mobile
+Radeon 660M Ryzen 5 6600H,4461,701,0,0,Mobile
+Radeon 660M Ryzen 5 7533HS,2938,746,0,0,Mobile
+Radeon 660M Ryzen 5 7535HS,3048,738,0,0,Mobile
+Radeon 660M Ryzen 5 Pro 7535U,4025,858,0,0,Mobile
+Radeon 6750M,911,570,0,0,Mobile
+Radeon 680M,3717,621,0,0,Unknown
+Radeon 680M Ryzen 7 7735HS,4219,742,0,0,Mobile
+Radeon 680M Ryzen 7 Pro 7735U,3531,819,0,0,Mobile
+Radeon 680M Ryzen 9 6900HX,5493,858,0,0,Mobile
+Radeon 7000 / Radeon VE,3,99,0,0,Unknown
+RADEON 7000 / RADEON VE Family,4,107,0,0,Unknown
+RADEON 7200,3,94,0,0,Unknown
+Radeon 740M,3007,788,0,0,Mobile
+RADEON 7500,3,35,0,64 MB,Desktop
+RADEON 7500 Family,5,125,0,0,Unknown
+Radeon 760M,5410,896,0,0,Mobile
+Radeon 780M,6876,890,0,0,Mobile
+Radeon 8040S,10431,1094,0,0,Desktop
+Radeon 8050S,16253,1116,0,0,Desktop
+Radeon 8060S,18114,1174,0,0,Desktop
+Radeon 820M,2151,741,0,0,Mobile
+Radeon 840M,3841,875,0,0,Mobile
+RADEON 8500 Family,7,146,0,0,Unknown
+Radeon 860M,4899,922,0,0,Mobile
+Radeon 880M,7691,972,0,0,Mobile
+Radeon 890M,8158,977,0,0,Mobile
+RADEON 9000,5,126,0,128 MB,Desktop
+RADEON 9000 Family,4,123,0,0,Unknown
+RADEON 9100 Family,6,163,0,0,Unknown
+RADEON 9100 IGP,5,128,0,0,Unknown
+RADEON 9200,4,135,0,256 MB,Desktop
+RADEON 9200 LE Family,3,128,0,0,Unknown
+RADEON 9200 PRO Family,3,135,0,0,Unknown
+RADEON 9200 SE,3,129,0,256 MB,Desktop
+RADEON 9250,3,127,0,256 MB,Desktop
+RADEON 9500,36,173,0,128 MB,Desktop
+RADEON 9500 PRO / 9700,42,157,0,0,Unknown
+RADEON 9550,35,145,0,256 MB,Desktop
+Radeon 9550 / X1050,29,150,0,0,Unknown
+RADEON 9600 Family,25,150,0,0,Unknown
+RADEON 9600 PRO,43,163,0,256 MB,Desktop
+RADEON 9600 PRO Family,27,148,0,0,Unknown
+RADEON 9600 TX Family,18,138,0,0,Unknown
+RADEON 9600 XT,35,147,0,256 MB,Desktop
+RADEON 9600SE,27,143,0,0,Unknown
+RADEON 9700 PRO,54,149,0,128 MB,Desktop
+Radeon 9700 TX with TV-Out,44,152,0,0,Unknown
+RADEON 9800,58,191,0,128 MB,Desktop
+RADEON 9800 PRO,59,153,0,256 MB,Desktop
+RADEON 9800 SE,24,131,0,256 MB,Desktop
+RADEON 9800 XT,57,160,0,256 MB,Desktop
+RADEON A9800XT,23,145,0,0,Unknown
+Radeon AI PRO R9700,27771,1288,0,0,Desktop
+Radeon Athlon 300GE,563,216,0,0,Desktop
+Radeon Athlon Gold 3150U,772,234,0,0,Unknown
+Radeon Athlon Gold PRO 4150GE,1574,613,0,0,Unknown
+Radeon Athlon PRO 3045B,563,181,0,0,Unknown
+Radeon Athlon Silver 3050U,673,223,0,0,Unknown
+RADEON E2400,52,287,0,0,Unknown
+RADEON E4690,405,347,0,0,Unknown
+Radeon E6460,324,225,0,0,Unknown
+Radeon E6465,231,354,0,0,Unknown
+Radeon E6760,850,434,0,0,Unknown
+Radeon E8860,1691,428,0,0,Unknown
+Radeon E8870PCIe,3368,708,0,0,Unknown
+Radeon E9550,4707,225,0,0,Desktop
+Radeon Eng Sample: 100-000000252-50_Y,2411,478,0,0,Desktop
+Radeon Eng Sample: 100-000000263-50_Y,3975,924,0,0,Desktop
+Radeon Eng Sample: 100-000000285-30_Y,2640,698,0,0,Desktop
+Radeon Eng Sample: 100-000000288-40_Y,2103,692,0,0,Desktop
+Radeon Eng Sample: 100-000000295-40_Y,2879,812,0,0,Desktop
+Radeon Eng Sample: 100-000000536-40_Y,4211,820,0,0,Desktop
+Radeon Eng Sample: 100-000000544-40_Y,5630,842,0,0,Desktop
+Radeon Eng Sample: 100-000000546-40_Y,3307,876,0,0,Desktop
+Radeon EPYC 4124P 4-Core,1260,474,0,0,Desktop
+Radeon EPYC 4244P 6-Core,1424,541,0,0,Desktop
+Radeon EPYC 4344P 8-Core,1449,485,0,0,Desktop
+Radeon EPYC 4364P 8-Core,886,253,0,0,Desktop
+Radeon EPYC 4464P 12-Core,1461,534,0,0,Desktop
+Radeon EPYC 4484PX 12-Core,1620,551,0,0,Desktop
+Radeon EPYC 4564P 16-Core,1226,346,0,0,Desktop
+Radeon EPYC 4584PX 16-Core,1662,559,0,0,Desktop
+Radeon HD 2350,77,262,20,256 MB,Desktop
+Radeon HD 2400,121,298,0,0,Unknown
+Radeon HD 2400 PCI,14,86,0,0,Unknown
+Radeon HD 2400 Pro,114,346,20,512 MB,Desktop
+Radeon HD 2400 XT,119,357,25,256 MB,Desktop
+Radeon HD 2600 PRO,211,337,35,512 MB,Desktop
+Radeon HD 2600 Pro AGP,110,137,0,0,Unknown
+Radeon HD 2600 XT,283,371,45,512 MB,Desktop
+Radeon HD 2900 GT,292,344,150,512 MB,Desktop
+Radeon HD 2900 PRO,628,397,200,1024 MB,Desktop
+Radeon HD 2900 XT,660,397,215,1024 MB,Desktop
+Radeon HD 3000,96,264,0,0,Unknown
+Radeon HD 3200,82,227,0,0,Unknown
+Radeon HD 3300,127,373,0,0,Unknown
+Radeon HD 3450,179,24,25,512 MB,Desktop
+Radeon HD 3470,117,55,30,512 MB,Desktop
+Radeon HD 3650 AGP,150,155,0,0,Unknown
+Radeon HD 3670,169,41,0,0,Unknown
+Radeon HD 3850,401,29,75,1024 MB,Desktop
+Radeon HD 3850 AGP,432,92,75,1024 MB,Desktop
+Radeon HD 3850 X2,822,422,349,1024 MB,Desktop
+Radeon HD 3870,552,57,106,1024 MB,Desktop
+Radeon HD 3870 X2,587,117,165,512 MB,Desktop
+Radeon HD 4200,112,372,0,512 MB,Desktop
+Radeon HD 4250,123,408,0,512 MB,Desktop
+Radeon HD 4270,110,303,0,0,Unknown
+Radeon HD 4290,141,442,0,512 MB,Desktop
+Radeon HD 4300/4500 Serisi,156,347,0,0,Unknown
+Radeon HD 4330,135,26,0,0,Unknown
+Radeon HD 4350,165,26,20,1024 MB,Desktop
+Radeon HD 4550,236,429,20,1024 MB,Desktop
+Radeon HD 4650,248,29,48,1024 MB,Desktop
+Radeon HD 4650 AGP,208,156,0,0,Unknown
+Radeon HD 4670,381,34,59,1024 MB,Desktop
+Radeon HD 4770,909,81,80,512 MB,Desktop
+Radeon HD 4810,775,225,95,512 MB,Desktop
+Radeon HD 4830,866,49,95,1024 MB,Desktop
+Radeon HD 4850,947,72,110,2048 MB,Desktop
+Radeon HD 4850 X2,1132,542,250,1024 MB,Desktop
+Radeon HD 4870,1386,43,150,2048 MB,Desktop
+Radeon HD 4870 X2,1309,565,286,1024 MB,Desktop
+Radeon HD 4890,1546,65,190,2048 MB,Desktop
+Radeon HD 5450,136,140,19.1,2048 MB,Desktop
+Radeon HD 5470,268,298,0,0,Unknown
+Radeon HD 5550,384,185,39,2048 MB,Desktop
+Radeon HD 5570,475,199,39,2048 MB,Desktop
+Radeon HD 5600/5700,615,283,0,0,Unknown
+Radeon HD 5670,798,294,64,2048 MB,Desktop
+Radeon HD 5750,1173,343,86,1024 MB,Desktop
+Radeon HD 5770,1349,340,108,2048 MB,Desktop
+Radeon HD 5830,1724,398,175,1024 MB,Desktop
+Radeon HD 5850,1949,419,151,2048 MB,Desktop
+Radeon HD 5870,2180,423,228,2048 MB,Desktop
+Radeon HD 5970,2290,417,294,2048 MB,Desktop
+Radeon HD 6230,179,254,0,0,Unknown
+Radeon HD 6250,94,30,35,0,Mobile
+Radeon HD 6290,105,32,45,0,Mobile
+Radeon HD 6290M,140,92,0,0,Mobile
+Radeon HD 6300M,144,107,0,0,Mobile
+Radeon HD 6310,122,35,45,0,Mobile
+Radeon HD 6320,147,43,45,0,Mobile
+Radeon HD 6320 Graphic,216,159,0,0,Unknown
+Radeon HD 6320M,198,151,0,0,Mobile
+RADEON HD 6350,141,171,19.1,512 MB,Desktop
+Radeon HD 6370D,255,146,65,0,Desktop
+Radeon HD 6370M,276,401,11,1024 MB,Mobile
+Radeon HD 6380G,201,91,35,0,Mobile
+Radeon HD 6410D,237,117,65,0,Desktop
+Radeon HD 6430M,193,106,0,1024 MB,Mobile
+Radeon HD 6450,198,119,18,512 MB,Desktop
+Radeon HD 6450 + 8470D Dual,763,486,0,0,Unknown
+Radeon HD 6450A,260,208,0,0,Unknown
+Radeon HD 6470M,225,105,0,1024 MB,Mobile
+Radeon HD 6480G,258,81,45,0,Mobile
+Radeon HD 6480M,353,282,0,0,Mobile
+Radeon HD 6490M,378,514,0,512 MB,Mobile
+Radeon HD 6520G,300,82,45,0,Mobile
+Radeon HD 6530D,337,136,100,0,Desktop
+Radeon HD 6550A,708,609,0,0,Unknown
+Radeon HD 6550D,400,131,100,0,Desktop
+Radeon HD 6570,554,221,44,1024 MB,Desktop
+Radeon HD 6610M,565,527,0,0,Mobile
+Radeon HD 6620G,341,103,45,0,Mobile
+Radeon HD 6630M,685,390,0,1024 MB,Mobile
+Radeon HD 6650A,836,418,0,0,Unknown
+Radeon HD 6650M,769,235,0,1024 MB,Mobile
+Radeon HD 6670,731,252,66,2048 MB,Desktop
+Radeon HD 6670 + 6670 Dual,647,552,0,0,Unknown
+Radeon HD 6670 + 7660D Dual,1492,483,0,0,Unknown
+Radeon HD 6670/7670,946,320,0,0,Unknown
+Radeon HD 6700M,1017,523,0,0,Mobile
+Radeon HD 6750,1039,284,86,1024 MB,Desktop
+Radeon HD 6750M,937,487,0,1024 MB,Mobile
+Radeon HD 6770,1277,323,108,1024 MB,Desktop
+Radeon HD 6770M,964,572,0,1024 MB,Mobile
+Radeon HD 6790,1568,391,150,1024 MB,Desktop
+Radeon HD 6800M,749,222,0,0,Mobile
+Radeon HD 6850,1937,437,127,1024 MB,Desktop
+Radeon HD 6850 X2,2534,373,0,0,Unknown
+Radeon HD 6870,2204,424,151,2048 MB,Desktop
+Radeon HD 6900M,1695,375,0,0,Mobile
+Radeon HD 6950,2594,449,200,1024 MB,Desktop
+Radeon HD 6970,2831,436,250,2048 MB,Desktop
+Radeon HD 6970M,2270,656,75,2048 MB,Mobile
+Radeon HD 6990,3118,504,375,2048 MB,Desktop
+Radeon HD 7290,112,48,0,0,Unknown
+Radeon HD 7290M,123,90,0,0,Mobile
+Radeon HD 7310,128,44,0,0,Unknown
+Radeon HD 7310 - Carte graphique,174,120,0,0,Unknown
+Radeon HD 7310G,181,119,0,0,Unknown
+Radeon HD 7310M,166,127,0,0,Mobile
+Radeon HD 7340,153,50,0,0,Unknown
+Radeon HD 7340G,196,146,0,0,Unknown
+Radeon HD 7340M,221,160,0,0,Mobile
+Radeon HD 7350,165,187,19.1,512 MB,Desktop
+Radeon HD 7400G,266,107,0,0,Unknown
+Radeon HD 7420G,316,103,0,0,Unknown
+Radeon HD 7450,224,145,18,1024 MB,Desktop
+Radeon HD 7450A,288,385,0,0,Unknown
+Radeon HD 7450M,330,441,7,1024 MB,Mobile
+Radeon HD 7470,289,152,27,1024 MB,Desktop
+Radeon HD 7470M,408,393,7,1024 MB,Mobile
+Radeon HD 7480D,281,119,65,0,Desktop
+Radeon HD 7500G,316,102,0,0,Unknown
+Radeon HD 7500G + 7500M/7600M Dual,617,308,0,0,Mobile
+Radeon HD 7500G + 7550M Dual,497,263,0,0,Mobile
+Radeon HD 7500G + HD 7500M/7600M Dual,356,265,0,0,Mobile
+Radeon HD 7520G,315,107,0,0,Unknown
+Radeon HD 7520G + 7400M Dual,487,280,0,0,Mobile
+Radeon HD 7520G + 7470M Dual,543,345,0,0,Mobile
+Radeon HD 7520G + 7500/7600 Dual,582,379,0,0,Unknown
+Radeon HD 7520G + 7600M Dual,591,362,0,0,Mobile
+Radeon HD 7520G + 7610M Dual,588,317,0,0,Mobile
+Radeon HD 7520G + 7650M Dual,453,345,0,0,Mobile
+Radeon HD 7520G + 7670M Dual,523,323,0,0,Mobile
+Radeon HD 7520G + 7700M Dual,1061,331,0,0,Mobile
+Radeon HD 7520G + 8600/8700M Dual,311,329,0,0,Mobile
+Radeon HD 7520G + 8750M Dual,377,388,0,0,Mobile
+Radeon HD 7520G + HD 7400M Dual,545,315,0,0,Mobile
+Radeon HD 7520G + HD 7500/7600 Dual,832,355,0,0,Unknown
+Radeon HD 7520G + HD 7600M Dual,447,150,0,0,Mobile
+Radeon HD 7520G + HD 7670M Dual,495,295,0,0,Mobile
+Radeon HD 7520G + HD 7700M Dual,575,389,0,0,Mobile
+Radeon HD 7520G + HD 8600/8700M Dual,624,291,0,0,Mobile
+Radeon HD 7520G + HD 8750M Dual,651,289,0,0,Mobile
+Radeon HD 7520G N HD 7520G + HD 7500/7600 7500/760,575,386,0,0,Unknown
+Radeon HD 7520G N HD 7520G + HD 7600M N HD 7600M D,365,263,0,0,Mobile
+Radeon HD 7540D,331,128,65,0,Desktop
+Radeon HD 7540D + 6570 Dual,720,469,0,0,Unknown
+Radeon HD 7540D + 7500 Dual,822,471,0,0,Unknown
+Radeon HD 7540D + HD 6450 Dual,643,444,0,0,Unknown
+Radeon HD 7550M,465,403,13,1024 MB,Mobile
+Radeon HD 7550M/7650M,729,524,13,1024 MB,Mobile
+Radeon HD 7560D,450,164,100,0,Desktop
+Radeon HD 7560D + 6450 Dual,569,490,0,0,Unknown
+Radeon HD 7560D + 6570 Dual,833,476,0,0,Unknown
+Radeon HD 7560D + 6670 Dual,1131,501,0,0,Unknown
+Radeon HD 7560D + 7560D Dual,983,420,0,0,Unknown
+Radeon HD 7560D + 7570 Dual,985,434,0,0,Unknown
+Radeon HD 7560D + 7670 Dual,1426,445,0,0,Unknown
+Radeon HD 7560D + 7700 Dual,1919,518,0,0,Unknown
+Radeon HD 7560D + HD 6570 Dual,1237,528,0,0,Unknown
+Radeon HD 7560D + HD 6670 Dual,1555,652,0,0,Unknown
+Radeon HD 7560D + HD 7000 Dual,534,423,0,0,Unknown
+Radeon HD 7560D + HD 7600 Dual,1258,457,0,0,Unknown
+Radeon HD 7560D + HD 7670 Dual,1380,463,0,0,Unknown
+Radeon HD 7560D + HD 7700 Dual,1347,497,0,0,Unknown
+Radeon HD 7560D + HD 8570 Dual,936,425,0,0,Unknown
+Radeon HD 7560D + R5 235 Dual,563,397,0,0,Unknown
+Radeon HD 7570,623,254,44,1024 MB,Desktop
+Radeon HD 7570M,419,186,13,1024 MB,Mobile
+Radeon HD 7570M/HD 7670M,699,555,25,1024 MB,Mobile
+Radeon HD 7580D,351,430,0,0,Unknown
+Radeon HD 7600G,335,91,0,0,Unknown
+Radeon HD 7600G + 6400M Dual,377,257,0,0,Mobile
+Radeon HD 7600G + 7450M Dual,390,221,0,0,Mobile
+Radeon HD 7600G + 7500M/7600M Dual,406,210,0,0,Mobile
+Radeon HD 7600G + 7550M Dual,423,247,0,0,Mobile
+Radeon HD 7600G + 8500M/8700M Dual,334,131,0,0,Mobile
+Radeon HD 7600G + HD 7400M Dual,329,147,0,0,Mobile
+Radeon HD 7600G + HD 7500M/7600M Dual,477,126,0,0,Mobile
+Radeon HD 7600G + HD 7550M Dual,509,202,0,0,Mobile
+Radeon HD 7600G + HD 8670M Dual,544,241,0,0,Mobile
+Radeon HD 7600G + HD Dual,435,158,0,0,Unknown
+Radeon HD 7600G N HD 7600G + HD ON HD Dual,526,244,0,0,Unknown
+Radeon HD 7600M + 7600M Dual,773,317,0,0,Mobile
+Radeon HD 7610M,632,479,20,1024 MB,Mobile
+Radeon HD 7620G,357,107,0,0,Unknown
+Radeon HD 7620G + 8600M Dual,509,294,0,0,Mobile
+Radeon HD 7620G + 8670M Dual,577,322,0,0,Mobile
+Radeon HD 7620G + HD 8600M Dual,443,267,0,0,Mobile
+Radeon HD 7620G + HD 8670M Dual,507,267,0,0,Mobile
+Radeon HD 7620G N HD 7620G + HD 8600M N HD 8600M D,452,238,0,0,Mobile
+Radeon HD 7640G,447,121,0,0,Unknown
+Radeon HD 7640G + 6400M Dual,527,279,0,0,Mobile
+Radeon HD 7640G + 7400M Dual,637,286,0,0,Mobile
+Radeon HD 7640G + 7450M Dual,754,353,0,0,Mobile
+Radeon HD 7640G + 7470M Dual,595,301,0,0,Mobile
+Radeon HD 7640G + 7500/7600 Dual,627,293,0,0,Unknown
+Radeon HD 7640G + 7500M/7600M Dual,776,317,0,0,Mobile
+Radeon HD 7640G + 7600M Dual,706,294,0,0,Mobile
+Radeon HD 7640G + 7610M Dual,510,309,0,0,Mobile
+Radeon HD 7640G + 7650M Dual,747,188,0,0,Mobile
+Radeon HD 7640G + 7670M Dual,645,294,0,0,Mobile
+Radeon HD 7640G + 7690M Dual,946,325,0,0,Mobile
+Radeon HD 7640G + 7700M Dual,691,324,0,0,Mobile
+Radeon HD 7640G + 8500M Dual,586,308,0,0,Mobile
+Radeon HD 7640G + 8570M Dual,558,274,0,0,Mobile
+Radeon HD 7640G + 8600/8700M Dual,689,308,0,0,Mobile
+Radeon HD 7640G + 8600M Dual,250,217,0,0,Mobile
+Radeon HD 7640G + 8670M Dual,558,316,0,0,Mobile
+Radeon HD 7640G + 8750M Dual,655,305,0,0,Mobile
+Radeon HD 7640G + HD 7400M Dual,577,152,0,0,Mobile
+Radeon HD 7640G + HD 7500/7600 Dual,424,301,0,0,Unknown
+Radeon HD 7640G + HD 7600M Dual,704,277,0,0,Mobile
+Radeon HD 7640G + HD 7600M N HD 7600M Dual,407,198,0,0,Mobile
+Radeon HD 7640G + HD 7670M Dual,519,97,0,0,Mobile
+Radeon HD 7640G + HD 7700M Dual,589,277,0,0,Mobile
+Radeon HD 7640G + HD 7700M N HD 7700M Dual,631,272,0,0,Mobile
+Radeon HD 7640G + HD 8500M Dual,607,305,0,0,Mobile
+Radeon HD 7640G + HD 8500M N HD 8500M Dual,666,311,0,0,Mobile
+Radeon HD 7640G + HD 8570M Dual,475,196,0,0,Mobile
+Radeon HD 7640G + HD 8600/8700M Dual,587,298,0,0,Mobile
+Radeon HD 7640G + HD 8670M Dual,677,249,0,0,Mobile
+Radeon HD 7640G + HD 8750M Dual,997,293,0,0,Mobile
+Radeon HD 7640G + R5 M200 Dual,559,249,0,0,Unknown
+Radeon HD 7640G + R5 M230 Dual,239,75,0,0,Unknown
+Radeon HD 7640G N HD 7640G + HD 7600M N HD 7600M D,824,262,0,0,Mobile
+Radeon HD 7640G N HD 7640G + HD 7670M Dual,680,305,0,0,Mobile
+Radeon HD 7640G N HD 7640G + HD 8570M Dual,423,287,0,0,Mobile
+Radeon HD 7650A,556,283,0,0,Unknown
+Radeon HD 7650M,432,48,20,1024 MB,Mobile
+Radeon HD 7660D,514,180,100,0,Desktop
+Radeon HD 7660D + 6570 Dual,1100,551,0,0,Unknown
+Radeon HD 7660D + 6670 Dual,1238,524,0,0,Unknown
+Radeon HD 7660D + 7470 Dual,466,491,0,0,Unknown
+Radeon HD 7660D + 7500 Dual,1121,500,0,0,Unknown
+Radeon HD 7660D + 7540D Dual,1204,547,0,0,Unknown
+Radeon HD 7660D + 7670 Dual,1062,494,0,0,Unknown
+Radeon HD 7660D + HD 6670 Dual,1485,515,0,0,Unknown
+Radeon HD 7660D + HD 7000 Dual,634,465,0,0,Unknown
+Radeon HD 7660D + HD 7400 Dual,340,448,0,0,Unknown
+Radeon HD 7660D + HD 7700 Dual,1958,495,0,0,Unknown
+Radeon HD 7660D + R5 235 Dual,524,386,0,0,Unknown
+Radeon HD 7660D + R7 240 Dual,942,453,0,0,Unknown
+Radeon HD 7660G,481,130,0,0,Unknown
+Radeon HD 7660G + 7400M Dual,588,326,0,0,Mobile
+Radeon HD 7660G + 7470M Dual,631,351,0,0,Mobile
+Radeon HD 7660G + 7600M Dual,832,341,0,0,Mobile
+Radeon HD 7660G + 7610M Dual,746,323,0,0,Mobile
+Radeon HD 7660G + 7670M Dual,743,347,0,0,Mobile
+Radeon HD 7660G + 7700M Dual,757,311,0,0,Mobile
+Radeon HD 7660G + 7730M Dual,931,392,0,0,Mobile
+Radeon HD 7660G + 8600M Dual,446,360,0,0,Mobile
+Radeon HD 7660G + 8670M Dual,588,333,0,0,Mobile
+Radeon HD 7660G + HD 7500/7600 7500/7600 Dual,1002,347,0,0,Unknown
+Radeon HD 7660G + HD 7500/7600 Dual,760,369,0,0,Unknown
+Radeon HD 7660G + HD 7500M/7600M Dual,999,323,0,0,Mobile
+Radeon HD 7660G + HD 7600M Dual,568,90,0,0,Mobile
+Radeon HD 7660G + HD 7600M N HD 7600M Dual,460,297,0,0,Mobile
+Radeon HD 7660G + HD 7670M Dual,707,317,0,0,Mobile
+Radeon HD 7660G + HD 7700M Dual,777,168,0,0,Mobile
+Radeon HD 7660G + HD 7730M Dual,882,329,0,0,Mobile
+Radeon HD 7660G + HD 8500M Dual,758,355,0,0,Mobile
+Radeon HD 7660G + HD 8600/8700M Dual,747,365,0,0,Mobile
+Radeon HD 7660G + HD 8600M Dual,364,337,0,0,Mobile
+Radeon HD 7660G + HD 8670M Dual,711,325,0,0,Mobile
+Radeon HD 7660G N HD 7660G + HD 7600M N HD 7600M D,723,292,0,0,Mobile
+Radeon HD 7660G N HD 7660G + HD 7670M Dual,705,318,0,0,Mobile
+Radeon HD 7660G N HD 7660G + HD 7700M N HD 7700M D,967,351,0,0,Mobile
+Radeon HD 7670,803,317,66,1024 MB,Desktop
+Radeon HD 7670A,1050,702,0,0,Unknown
+Radeon HD 7670M,481,87,20,1024 MB,Mobile
+Radeon HD 7670M + 7670M Dual,738,294,0,0,Mobile
+Radeon HD 7690M,832,354,20,2048 MB,Mobile
+Radeon HD 7690M XT,1009,552,25,2048 MB,Mobile
+Radeon HD 7700-serie,1899,533,0,0,Unknown
+Radeon HD 7730,1163,389,47,1024 MB,Desktop
+Radeon HD 7730M,791,209,25,2048 MB,Mobile
+Radeon HD 7750,1701,447,55,4096 MB,Desktop
+Radeon HD 7750M,1191,693,28,2048 MB,Mobile
+Radeon HD 7770,2175,472,80,2048 MB,Desktop
+Radeon HD 7790,3090,459,85,2048 MB,Desktop
+Radeon HD 7800-serie,4029,708,0,0,Unknown
+Radeon HD 7850,3898,574,130,2048 MB,Desktop
+Radeon HD 7850M,1373,566,40,2048 MB,Mobile
+Radeon HD 7870,4566,585,175,2048 MB,Desktop
+Radeon HD 7870 XT,4470,661,185,2048 MB,Desktop
+Radeon HD 7870M,1507,556,45,2048 MB,Mobile
+Radeon HD 7950 / R9 280,4765,691,200,3072 MB,Desktop
+Radeon HD 7970 / R9 280X,5248,730,250,3072 MB,Desktop
+Radeon HD 7970M,3663,471,75,4096 MB,Mobile
+Radeon HD 7990,5566,766,375,3072 MB,Desktop
+Radeon HD 8180,135,37,0,0,Unknown
+Radeon HD 8210,195,47,0,0,Unknown
+Radeon HD 8210E,194,202,0,0,Unknown
+Radeon HD 8240,246,63,0,0,Unknown
+Radeon HD 8250,212,59,0,0,Unknown
+Radeon HD 8280,261,75,0,0,Unknown
+Radeon HD 8280E,273,79,0,0,Unknown
+Radeon HD 8280G,270,130,0,0,Unknown
+Radeon HD 8310E,341,187,0,0,Unknown
+Radeon HD 8330,277,67,0,0,Unknown
+Radeon HD 8330E,262,83,0,0,Unknown
+Radeon HD 8350,163,222,4.4,512 MB,Desktop
+Radeon HD 8350G,267,124,35,0 MB,Mobile
+Radeon HD 8370D,315,147,0,0,Unknown
+Radeon HD 8400,271,77,0,0,Unknown
+Radeon HD 8400E,276,113,0,0,Unknown
+Radeon HD 8410G,435,263,0,0,Unknown
+Radeon HD 8450G,335,133,0,0,Unknown
+Radeon HD 8450G + 8600/8700M Dual,1070,381,0,0,Mobile
+Radeon HD 8450G + 8600M Dual,545,356,0,0,Mobile
+Radeon HD 8450G + 8670M Dual,475,414,0,0,Mobile
+Radeon HD 8450G + 8750M Dual,637,299,0,0,Mobile
+Radeon HD 8450G + HD 8600M Dual,452,326,0,0,Mobile
+Radeon HD 8450G + HD 8670M Dual,478,267,0,0,Mobile
+Radeon HD 8450G + HD 8750M Dual,504,323,0,0,Mobile
+Radeon HD 8450G + R5 M230 Dual,578,298,0,0,Unknown
+Radeon HD 8470,247,157,35,1024 MB,Desktop
+Radeon HD 8470D,375,148,0,0,Unknown
+Radeon HD 8470D + 6450 Dual,717,558,0,0,Unknown
+Radeon HD 8470D + 6570 Dual,838,454,0,0,Unknown
+Radeon HD 8470D + HD 6450 Dual,863,590,0,0,Unknown
+Radeon HD 8470D + HD 6670 Dual,1436,512,0,0,Unknown
+Radeon HD 8470D + HD 7500 Dual,1545,465,0,0,Unknown
+Radeon HD 8490,263,175,35,1024 MB,Desktop
+Radeon HD 8500M,449,116,0,0,Mobile
+Radeon HD 8500M/8700M,853,503,0,0,Mobile
+Radeon HD 8510G,373,107,0,0,Unknown
+Radeon HD 8510G + 8500M Dual,596,260,0,0,Mobile
+Radeon HD 8510G + HD 8500M Dual,630,191,0,0,Mobile
+Radeon HD 8550D,567,226,0,0,Unknown
+Radeon HD 8550G,416,116,0,0,Unknown
+Radeon HD 8550G + 7600M Dual,901,395,0,0,Mobile
+Radeon HD 8550G + 8500M Dual,603,304,0,0,Mobile
+Radeon HD 8550G + 8570M Dual,533,307,0,0,Mobile
+Radeon HD 8550G + 8600/8700M Dual,803,336,0,0,Mobile
+Radeon HD 8550G + 8600M Dual,618,321,0,0,Mobile
+Radeon HD 8550G + 8670M Dual,579,334,0,0,Mobile
+Radeon HD 8550G + 8690M Dual,664,260,0,0,Mobile
+Radeon HD 8550G + 8750M Dual,796,321,0,0,Mobile
+Radeon HD 8550G + HD 7600M Dual,548,181,0,0,Mobile
+Radeon HD 8550G + HD 8500M Dual,559,301,0,0,Mobile
+Radeon HD 8550G + HD 8570M Dual,529,260,0,0,Mobile
+Radeon HD 8550G + HD 8600/8700M Dual,655,170,0,0,Mobile
+Radeon HD 8550G + HD 8600M Dual,594,322,0,0,Mobile
+Radeon HD 8550G + HD 8670M Dual,546,315,0,0,Mobile
+Radeon HD 8550G + HD 8750M Dual,819,336,0,0,Mobile
+Radeon HD 8550G + R5 M200 Dual,619,276,0,0,Unknown
+Radeon HD 8550G + R5 M230 Dual,488,211,0,0,Unknown
+Radeon HD 8550G N HD 8550G + HD 8600M N HD 8600M D,612,116,0,0,Mobile
+Radeon HD 8570,941,287,66,2048 MB,Desktop
+Radeon HD 8570 + 8670D Dual,620,496,0,0,Unknown
+Radeon HD 8570 + HD 7660D Dual,949,467,0,0,Unknown
+Radeon HD 8570D,410,148,0,0,Unknown
+Radeon HD 8570D + 6570 Dual,1239,459,0,0,Unknown
+Radeon HD 8570D + 6670 Dual,1040,505,0,0,Unknown
+Radeon HD 8570D + HD 6570 Dual,868,506,0,0,Unknown
+Radeon HD 8570D + HD 6670 Dual,1261,537,0,0,Unknown
+Radeon HD 8570D + HD 7000 Dual,753,465,0,0,Unknown
+Radeon HD 8570D + HD 7700 Dual,1835,466,0,0,Unknown
+Radeon HD 8570D + HD 8470 Dual,338,416,0,0,Unknown
+Radeon HD 8570D + HD 8570 Dual,1033,520,0,0,Unknown
+Radeon HD 8570D + HD8490 Dual,374,380,0,0,Unknown
+Radeon HD 8570D + R5 235 Dual,471,470,0,0,Unknown
+Radeon HD 8570D + R7 200 Dual,999,401,0,0,Unknown
+Radeon HD 8570D + R7 240 Dual,964,489,0,0,Unknown
+Radeon HD 8570M,450,164,0,0,Mobile
+Radeon HD 8600/8700M,1030,554,0,0,Mobile
+Radeon HD 8610G,400,113,0,0,Unknown
+Radeon HD 8610G + 8500M Dual,610,298,0,0,Mobile
+Radeon HD 8610G + 8600M Dual,589,320,0,0,Mobile
+Radeon HD 8610G + 8670M Dual,600,356,0,0,Mobile
+Radeon HD 8610G + HD 8500M Dual,646,274,0,0,Mobile
+Radeon HD 8610G + HD 8600M Dual,481,156,0,0,Mobile
+Radeon HD 8610G + HD 8670M Dual,578,282,0,0,Mobile
+Radeon HD 8610G + R5 M200 Dual,676,291,0,0,Unknown
+Radeon HD 8650D,396,259,0,0,Unknown
+Radeon HD 8650G,500,140,0,0,Unknown
+Radeon HD 8650G + 7600M Dual,742,404,0,0,Mobile
+Radeon HD 8650G + 7670M Dual,884,379,0,0,Mobile
+Radeon HD 8650G + 7700M Dual,1126,399,0,0,Mobile
+Radeon HD 8650G + 8500M Dual,627,351,0,0,Mobile
+Radeon HD 8650G + 8570M Dual,654,282,0,0,Mobile
+Radeon HD 8650G + 8600/8700M Dual,832,374,0,0,Mobile
+Radeon HD 8650G + 8600M Dual,613,370,0,0,Mobile
+Radeon HD 8650G + 8670M Dual,635,355,0,0,Mobile
+Radeon HD 8650G + 8750M Dual,787,381,0,0,Mobile
+Radeon HD 8650G + HD 7600M Dual,820,346,0,0,Mobile
+Radeon HD 8650G + HD 7670M Dual,634,305,0,0,Mobile
+Radeon HD 8650G + HD 8570M Dual,716,317,0,0,Mobile
+Radeon HD 8650G + HD 8600/8700M Dual,764,356,0,0,Mobile
+Radeon HD 8650G + HD 8600M Dual,606,378,0,0,Mobile
+Radeon HD 8650G + HD 8600M N HD 8600M Dual,758,413,0,0,Mobile
+Radeon HD 8650G + HD 8670M Dual,585,320,0,0,Mobile
+Radeon HD 8650G + HD 8750M Dual,652,233,0,0,Mobile
+Radeon HD 8650G + HD 8790M Dual,800,404,0,0,Mobile
+Radeon HD 8650G + R5 M200 Dual,723,323,0,0,Unknown
+Radeon HD 8650G + R5 M230 Dual,686,374,0,0,Unknown
+Radeon HD 8650G N HD 8650G + HD 8570M Dual,773,368,0,0,Mobile
+Radeon HD 8650G N HD 8650G + HD 8600/8700M Dual,796,322,0,0,Mobile
+Radeon HD 8650G N HD 8650G + HD 8600M N HD 8600M D,680,347,0,0,Mobile
+Radeon HD 8670D,515,178,0,0,Unknown
+Radeon HD 8670D + 6670 Dual,1361,568,0,0,Unknown
+Radeon HD 8670D + 7000 Dual,812,488,0,0,Unknown
+Radeon HD 8670D + 7700 Dual,1789,572,0,0,Unknown
+Radeon HD 8670D + 8570 Dual,974,419,0,0,Unknown
+Radeon HD 8670D + HD 6670 Dual,1222,541,0,0,Unknown
+Radeon HD 8670D + HD 7000 Dual,719,403,0,0,Unknown
+Radeon HD 8670D + HD 7600 Dual,1318,472,0,0,Unknown
+Radeon HD 8670D + HD 7700 Dual,1892,446,0,0,Unknown
+Radeon HD 8670D + R5 235 Dual,837,518,0,0,Unknown
+Radeon HD 8670D + R5 330 Dual,746,494,0,0,Unknown
+Radeon HD 8670D + R7 200 Dual,950,506,0,0,Unknown
+Radeon HD 8670D + R7 240 Dual,1020,525,0,0,Unknown
+Radeon HD 8670D N HD 8670D + HD 8670D Dual,489,526,0,0,Unknown
+Radeon HD 8670M,520,488,0,1024 MB,Mobile
+Radeon HD 8690A,517,127,0,0,Unknown
+Radeon HD 8690M,984,768,0,0,Mobile
+Radeon HD 8730M,826,174,0,2048 MB,Mobile
+Radeon HD 8750M,1061,201,0,2048 MB,Mobile
+Radeon HD 8770,2607,925,0,0,Unknown
+Radeon HD 8790M,1306,751,0,2048 MB,Mobile
+Radeon HD 8790M / R9 M290X,1211,694,0,0,Mobile
+Radeon HD 8850M,973,502,0,2048 MB,Mobile
+Radeon HD 8850M / R9 M265X,1140,741,0,0,Mobile
+Radeon HD 8870M,1638,629,0,2048 MB,Mobile
+Radeon HD 8870M / R9 M270X / M370X,1800,679,0,0,Mobile
+Radeon HD 8950,2835,370,225,3072 MB,Desktop
+Radeon HD 8970M,3876,807,100,4096 MB,Mobile
+Radeon HD 8990,5214,658,375,3072 MB,Desktop
+Radeon HD HD7850M,1727,567,0,0,Mobile
+Radeon HD4650,240,99,0,0,Unknown
+Radeon HD4670,366,585,0,0,Unknown
+RADEON HD6370D,320,312,0,0,Unknown
+RADEON HD6410D,423,296,0,0,Unknown
+RADEON HD6530D,532,327,0,0,Unknown
+RADEON HD7450,199,215,0,0,Unknown
+Radeon HD8530M,478,278,0,0,Mobile
+Radeon HD8970M,3369,663,0,0,Mobile
+Radeon HDG 4670,170,197,0,0,Unknown
+RADEON IGP 320,4,44,0,0,Unknown
+Radeon IGP 320M,4,101,0,0,Mobile
+Radeon IGP 340M,3,102,0,0,Mobile
+RADEON IGP 345M,3,82,0,0,Mobile
+RADEON IGP 34xM,2,89,0,0,Mobile
+RADEON IGP 350M,6,136,0,0,Mobile
+Radeon Infoshock 3000,107,475,0,0,Unknown
+Radeon Instinct MI25 MxGPU,4403,313,0,0,Unknown
+Radeon Instinct MI60,11638,564,0,0,Desktop
+Radeon M535DX,750,288,0,0,Unknown
+Radeon Pro,2349,591,0,0,Unknown
+Radeon Pro 450,2723,619,0,0,Unknown
+Radeon Pro 455,3113,705,0,0,Unknown
+Radeon Pro 460,3453,679,0,0,Unknown
+Radeon Pro 465,4538,562,0,0,Unknown
+Radeon Pro 5300,7089,621,0,0,Unknown
+Radeon Pro 5300M,5816,560,85,4096 MB,Mobile
+Radeon Pro 5500 XT,7911,612,0,0,Unknown
+Radeon Pro 5500M,6732,644,85,8192 MB,Mobile
+Radeon Pro 555,3141,659,0,0,Unknown
+Radeon Pro 560,3475,724,0,0,Unknown
+Radeon Pro 5600M,9335,677,50,8192 MB,Mobile
+Radeon Pro 560X,3678,711,0,0,Unknown
+Radeon Pro 570,6337,697,0,0,Unknown
+Radeon Pro 5700,11457,788,130,8192 MB,Desktop
+Radeon Pro 5700 XT,12457,800,130,16384 MB,Desktop
+Radeon Pro 580,7753,943,0,0,Unknown
+Radeon Pro 580X,7540,698,150,8192 MB,Desktop
+Radeon Pro Duo,8299,787,350,8192 MB,Desktop
+Radeon PRO Ryzen 5 PRO 6650U,3999,768,0,0,Unknown
+Radeon PRO Ryzen 7 PRO 6850U,5599,758,0,0,Unknown
+Radeon Pro SSG,10972,588,0,0,Unknown
+Radeon Pro V340 MxGPU,2853,118,0,0,Unknown
+Radeon Pro V520 MxGPU,12258,525,0,0,Unknown
+Radeon Pro V620 MxGPU,15633,653,0,0,Desktop
+Radeon PRO V710 MxGPU,7419,715,0,0,Desktop
+Radeon Pro Vega 16,4809,585,0,0,Unknown
+Radeon Pro Vega 20,5169,566,0,0,Unknown
+Radeon Pro Vega 48,11270,793,0,0,Unknown
+Radeon Pro Vega 56,12061,836,0,8192 MB,Desktop
+Radeon Pro Vega 64,12896,808,0,0,Unknown
+Radeon Pro Vega 64X,13369,839,0,0,Unknown
+Radeon Pro Vega II,15597,748,0,0,Unknown
+Radeon Pro Vega II Duo,13690,868,0,0,Unknown
+Radeon Pro VII,13437,716,0,0,Unknown
+Radeon Pro W5500,8940,818,125,8192 MB,Desktop
+Radeon Pro W5500M,3470,482,85,4096 MB,Mobile
+Radeon Pro W5500X,7351,729,0,8192 MB,Unknown
+Radeon Pro W5700,14166,893,205,8192 MB,Desktop
+Radeon Pro W5700X,15176,888,0,0,Unknown
+Radeon PRO W6300,5560,667,25,2048 MB,Mobile Workstation
+Radeon PRO W6400,8420,910,0,0,Unknown
+Radeon PRO W6600,14961,947,0,0,Unknown
+Radeon PRO W6600M,11407,777,0,0,Mobile
+Radeon PRO W6600X,13113,856,0,0,Unknown
+Radeon PRO W6800,20159,930,0,0,Unknown
+Radeon Pro W6800X,16619,817,0,0,Desktop
+Radeon Pro W6800X Duo,14742,801,0,0,Desktop
+Radeon Pro W6900X,17413,782,0,0,Desktop
+Radeon PRO W7500,13311,1177,70,8192 MB,Workstation
+Radeon PRO W7600,16046,1054,0,0,Unknown
+Radeon PRO W7700,23062,1321,0,0,Unknown
+Radeon PRO W7800,27503,1188,0,0,Unknown
+Radeon PRO W7900,27957,1153,0,0,Unknown
+Radeon PRO W7900 Dual Slot,13182,534,0,0,Desktop
+Radeon Pro WX 2100,1883,384,35,2048 MB,Mobile
+Radeon Pro WX 3100,2606,414,50,4096 MB,Workstation
+Radeon Pro WX 3200,2222,379,65,4096 MB,Mobile
+Radeon Pro WX 4100,3684,640,50,4096 MB,Workstation
+Radeon Pro WX 4130,1909,347,50,4096 MB,Mobile
+Radeon Pro WX 4150,2580,367,50,4096 MB,Mobile
+Radeon Pro WX 4170,2870,316,50,4096 MB,Mobile
+Radeon Pro WX 5100,5465,778,75,8096 MB,Workstation
+Radeon Pro WX 7100,7715,781,130,8192 MB,Workstation
+Radeon Pro WX 7130,6584,444,130,8192 MB,Mobile
+Radeon Pro WX 8200,12592,746,230,8192 MB,Desktop
+Radeon Pro WX 9100,11852,741,230,16384 MB,Desktop
+Radeon Pro WX Vega M GL,4556,328,65,4096 MB,Mobile
+Radeon R1E,301,179,0,0,Unknown
+Radeon R2,255,67,0,0,Unknown
+Radeon R2E,211,88,0,0,Unknown
+Radeon R3,315,95,0,0,Unknown
+Radeon R3E,225,87,0,0,Unknown
+Radeon R4,348,99,0,0,Unknown
+Radeon R4E,487,366,0,0,Unknown
+Radeon R5 220,150,111,19,1024 MB,Desktop
+Radeon R5 230,222,255,0,0,Unknown
+Radeon R5 235,336,164,35,1024 MB,Desktop
+Radeon R5 235 + HD 7560D Dual,744,441,0,0,Unknown
+Radeon R5 235 + HD 8570D Dual,738,486,0,0,Unknown
+Radeon R5 235X,277,202,18,1024 MB,Desktop
+Radeon R5 240,560,195,50,2048 MB,Desktop
+Radeon R5 310,332,545,0,0,Unknown
+Radeon R5 330,523,179,30,2048 MB,Desktop
+Radeon R5 340,857,329,0,0,Unknown
+Radeon R5 420,575,230,0,0,Unknown
+Radeon R5 430,885,302,0,0,Unknown
+Radeon R5 435,762,230,0,0,Unknown
+Radeon R5 A10-9600P 4C+6G,619,146,0,0,Unknown
+Radeon R5 A10-9600P RADEON R5 10 COMPUTE CORES 4C,699,148,0,0,Unknown
+Radeon R5 A10-9620P 4C+6G,732,196,0,0,Unknown
+Radeon R5 A10-9620P RADEON R5 10 COMPUTE CORES 4C,653,162,0,0,Unknown
+Radeon R5 A10-9630P 4C+6G,977,270,0,0,Unknown
+Radeon R5 A10-9630P RADEON R5 10 COMPUTE CORES 4C,840,180,0,0,Unknown
+Radeon R5 A240,576,802,0,0,Unknown
+Radeon R5 A6-7480,679,179,0,0,Unknown
+Radeon R5 A6-8500P,587,190,0,0,Unknown
+Radeon R5 A6-9400 RADEON R5 6 COMPUTE CORES 2C+4G,605,271,0,0,Unknown
+Radeon R5 A6-9500 2C+6G,853,249,0,0,Unknown
+Radeon R5 A6-9500 RADEON R5 8 COMPUTE CORES 2C+6G,903,207,0,0,Unknown
+Radeon R5 A6-9500E 2C+4G,1015,438,0,0,Unknown
+Radeon R5 A6-9500E RADEON R5 6 COMPUTE CORES 2C+4,721,224,0,0,Unknown
+Radeon R5 M230,427,128,0,4096 MB,Mobile
+Radeon R5 M240,488,139,0,0,Unknown
+Radeon R5 M255,544,132,0,4096 MB,Mobile
+Radeon R5 M315,496,143,0,0,Unknown
+Radeon R5 M320,475,141,0,0,Unknown
+Radeon R5 M330,596,519,18,4096 MB,Mobile
+Radeon R5 M335,549,577,0,4096 MB,Mobile
+Radeon R5 M420,503,138,0,0,Unknown
+Radeon R5 M430,649,516,0,0,Unknown
+Radeon R5 M435,869,167,0,0,Unknown
+Radeon R5 Opteron X3216,416,171,0,0,Unknown
+Radeon R5 PRO A10-8730B 4C+6G,695,201,0,0,Unknown
+Radeon R5 PRO A10-8730B R5 10 COMPUTE CORES 4C+6G,615,139,0,0,Unknown
+Radeon R5 PRO A6-8500B 2C+4G,508,416,0,0,Unknown
+Radeon R5 PRO A6-8500B R5 6 Compute Cores 2C+4G,511,140,0,0,Unknown
+Radeon R5 PRO A6-8530B 2C+4G,690,354,0,0,Unknown
+Radeon R5 PRO A6-8530B R5 6 COMPUTE CORES 2C+4G,465,132,0,0,Unknown
+Radeon R5 PRO A6-8570 2C+6G,847,292,0,0,Unknown
+Radeon R5 PRO A6-8570 R5 8 COMPUTE CORES 2C+6G,957,227,0,0,Unknown
+Radeon R5 PRO A6-8570E 2C+4G,638,268,0,0,Unknown
+Radeon R5 PRO A6-8570E R5 6 COMPUTE CORES 2C+4G,633,178,0,0,Unknown
+Radeon R5 PRO A6-9500 2C+6G,1096,353,0,0,Unknown
+Radeon R5 PRO A6-9500 R5 8 COMPUTE CORES 2C+6G,761,179,0,0,Unknown
+Radeon R5 PRO A6-9500B 2C+4G,693,323,0,0,Unknown
+Radeon R5 PRO A6-9500B R5 6 COMPUTE CORES 2C+4G,413,121,0,0,Unknown
+Radeon R5 PRO A6-9500E 2C+4G,771,288,0,0,Unknown
+Radeon R5 PRO A8-9600B 4C+6G,659,224,0,0,Unknown
+Radeon R5 PRO A8-9600B R5 10 COMPUTE CORES 4C+6G,569,143,0,0,Unknown
+Radeon R5E,315,98,0,0,Unknown
+Radeon R6,609,135,15,0 MB,Desktop Mobile
+Radeon R6 + R7 M265DX Dual,571,328,0,0,Unknown
+Radeon R6 A10-8700P,545,137,0,0,Unknown
+Radeon R6 A10-9600P 4C+6G,970,336,0,0,Unknown
+Radeon R6 A8-8600P,475,151,0,0,Unknown
+Radeon R6 M255DX,605,116,0,0,Unknown
+Radeon R6 Opteron X3418,955,399,0,0,Unknown
+Radeon R6 PRO A10-8700B 4C+6G,538,146,0,0,Unknown
+Radeon R6 PRO A10-8700B R6 10 Compute Cores 4C+6G,553,135,0,0,Unknown
+Radeon R6 PRO A8-8600B 4C+6G,532,158,0,0,Unknown
+Radeon R6 PRO A8-8600B R6 10 Compute Cores 4C+6G,584,145,0,0,Unknown
+Radeon R7 + HD 7700 Dual,1962,498,0,0,Unknown
+Radeon R7 + R5 330 Dual,1028,531,0,0,Unknown
+Radeon R7 + R5 340 Dual,1235,471,0,0,Unknown
+Radeon R7 + R5 435 Dual A10-9700 RADEON,886,480,0,0,Unknown
+Radeon R7 + R5 Dual,898,496,0,0,Unknown
+Radeon R7 + R7 200 Dual,1077,282,0,0,Unknown
+Radeon R7 + R7 240 Dual,1045,374,0,0,Unknown
+Radeon R7 + R7 250 Dual,1232,576,0,0,Unknown
+Radeon R7 + R7 350 Dual,1982,552,0,0,Unknown
+Radeon R7 +8G,1191,460,0,0,Unknown
+Radeon R7 240,905,280,30,2048 MB,Desktop
+Radeon R7 240 + HD 8570D Dual,918,352,0,0,Unknown
+Radeon R7 240 + HD 8670D Dual,930,471,0,0,Unknown
+Radeon R7 250,1055,284,75,2048 MB,Desktop
+Radeon R7 250X,2269,637,95,2048 MB,Desktop
+Radeon R7 260,2892,559,95,1024 MB,Desktop
+Radeon R7 260X,3203,522,115,2048 MB,Desktop
+Radeon R7 340,953,347,0,0,Unknown
+Radeon R7 360,3127,524,100,2048 MB,Desktop
+Radeon R7 370,4483,615,150,0,Desktop
+Radeon R7 430,1089,364,0,0,Unknown
+Radeon R7 450,1881,535,65,2048 MB,Desktop
+Radeon R7 7850A10-7850K,551,506,0,0,Unknown
+Radeon R7 A10 Extreme Edition,806,210,0,0,Unknown
+Radeon R7 A10 PRO-7800B,715,217,0,0,Unknown
+Radeon R7 A10 PRO-7850B,822,295,0,0,Unknown
+Radeon R7 A10-7700K,774,220,0,0,Unknown
+Radeon R7 A10-7800,738,194,0,0,Unknown
+Radeon R7 A10-7850K,926,268,95,16384 MB,Desktop
+Radeon R7 A10-7860K,871,218,0,0,Unknown
+Radeon R7 A10-7870K,1054,260,0,0,Unknown
+Radeon R7 A10-7890K,999,275,0,0,Unknown
+Radeon R7 A10-8750,856,216,0,0,Unknown
+Radeon R7 A10-8850,773,277,0,0,Unknown
+Radeon R7 A10-9700 RADEON,906,218,0,0,Unknown
+Radeon R7 A10-9700E RADEON,887,237,0,0,Unknown
+Radeon R7 A12-9700P RADEON,683,159,0,0,Unknown
+Radeon R7 A12-9720P RADEON,733,170,0,0,Unknown
+Radeon R7 A12-9730P RADEON,976,251,0,0,Unknown
+Radeon R7 A12-9800 RADEON,1053,263,0,0,Unknown
+Radeon R7 A12-9800E RADEON,943,226,0,0,Unknown
+Radeon R7 A265,994,468,0,0,Unknown
+Radeon R7 A360,616,215,0,0,Unknown
+Radeon R7 A365,781,763,0,0,Unknown
+Radeon R7 A370,1281,742,0,0,Unknown
+Radeon R7 A8 PRO-7600B,641,176,0,0,Unknown
+Radeon R7 A8-7500,811,264,0,0,Unknown
+Radeon R7 A8-7500 4C+6G,853,390,0,0,Unknown
+Radeon R7 A8-7600,772,209,0,0,Unknown
+Radeon R7 A8-7650K,758,213,0,0,Unknown
+Radeon R7 A8-7670K,847,289,0,0,Unknown
+Radeon R7 A8-7680,781,192,0,0,Unknown
+Radeon R7 A8-7690K,1141,336,0,0,Unknown
+Radeon R7 A8-7A8-7600,583,191,0,0,Unknown
+Radeon R7 A8-8650,719,329,0,0,Unknown
+Radeon R7 A8-9600 RADEON,856,202,0,0,Unknown
+Radeon R7 FX-8800P,820,188,0,0,Unknown
+Radeon R7 FX-9800P RADEON,753,185,0,0,Unknown
+Radeon R7 FX-9830P RADEON,1348,225,0,0,Unknown
+Radeon R7 G,870,532,0,0,Unknown
+Radeon R7 M260,529,127,0,4096 MB,Mobile
+Radeon R7 M260DX,817,195,0,0,Unknown
+Radeon R7 M260X,1016,160,0,4096 MB,Mobile
+Radeon R7 M265,559,134,0,4096 MB,Mobile
+Radeon R7 M265DX,499,138,0,0,Unknown
+Radeon R7 M270,780,145,0,0,Unknown
+Radeon R7 M270DX,962,233,0,0,Unknown
+Radeon R7 M340,648,150,0,0,Mobile
+Radeon R7 M350,1076,213,0,0,Unknown
+Radeon R7 M360,589,146,0,4096 MB,Mobile
+Radeon R7 M365X,842,165,0,0,Unknown
+Radeon R7 M370,1418,676,0,0,Mobile
+Radeon R7 M380,1669,534,0,0,Unknown
+Radeon R7 M440,902,166,0,0,Unknown
+Radeon R7 M445,952,171,0,0,Unknown
+Radeon R7 M460,1073,198,0,0,Unknown
+Radeon R7 M465,1090,185,0,0,Unknown
+Radeon R7 M465X,1787,374,0,0,Unknown
+Radeon R7 Opteron X3421,1104,280,0,0,Unknown
+Radeon R7 PRO A10-8750B,771,218,0,0,Unknown
+Radeon R7 PRO A10-8770,888,220,0,0,Unknown
+Radeon R7 PRO A10-8770E,790,194,0,0,Unknown
+Radeon R7 PRO A10-8850B,945,552,0,0,Unknown
+Radeon R7 PRO A10-9700,810,198,0,0,Unknown
+Radeon R7 PRO A10-9700B,629,182,0,0,Unknown
+Radeon R7 PRO A10-9700E,920,219,0,0,Unknown
+Radeon R7 PRO A12-8800B,610,183,0,0,Unknown
+Radeon R7 PRO A12-8830B,580,174,0,0,Unknown
+Radeon R7 PRO A12-8870,982,244,0,0,Unknown
+Radeon R7 PRO A12-8870E,875,225,0,0,Unknown
+Radeon R7 PRO A12-9800,940,244,0,0,Unknown
+Radeon R7 PRO A12-9800B,683,182,0,0,Unknown
+Radeon R7 PRO A12-9800E,968,245,0,0,Unknown
+Radeon R7 PRO A6-9500 2C+6G,781,439,0,0,Unknown
+Radeon R7 PRO A6-9500 R5 8 COMPUTE CORES 2C+6G,1293,290,0,0,Unknown
+Radeon R7 PRO A8-8650B,726,198,0,0,Unknown
+Radeon R7 PRO A8-8670E,978,283,0,0,Unknown
+Radeon R7 PRO A8-9600,837,218,0,0,Unknown
+Radeon R7E,565,159,0,0,Unknown
+Radeon R8 M365DX,647,199,0,0,Unknown
+Radeon R8 M445DX,797,181,0,0,Unknown
+Radeon R8 M535DX,670,182,0,0,Unknown
+Radeon R9 255,1365,368,0,2048 MB,Desktop
+Radeon R9 260,3048,508,0,0,Unknown
+Radeon R9 270,4306,567,0,0,Unknown
+Radeon R9 270 / R7 370,4260,645,150,2048 MB,Desktop
+Radeon R9 270X,4874,616,180,4096 MB,Desktop
+Radeon R9 280,5530,668,250,3072 MB,Desktop
+Radeon R9 280X,6086,672,250,3072 MB,Desktop
+Radeon R9 285,6680,597,0,0,Unknown
+Radeon R9 285 / 380,5550,655,190,2048 MB,Desktop
+Radeon R9 290,8150,757,0,0,Unknown
+Radeon R9 290 / 390,8150,695,275,4096 MB,Desktop
+Radeon R9 290X,8433,749,0,0,Unknown
+Radeon R9 290X / 390X,8380,696,290,4096 MB,Desktop
+Radeon R9 295X2,8778,760,500,8192 MB,Desktop
+Radeon R9 350,1997,463,60,2048 MB,Desktop
+Radeon R9 360,3032,460,85,2048 MB,Desktop
+Radeon R9 370,4722,781,150,4096 MB,Desktop
+Radeon R9 380,5980,664,190,4096 MB,Desktop
+Radeon R9 380X,6131,681,190,4096 MB,Desktop
+Radeon R9 390,8813,793,275,8192 MB,Desktop
+Radeon R9 390X,9270,821,275,8192 MB,Desktop
+Radeon R9 A375,1024,232,0,0,Unknown
+Radeon R9 Fury,9516,781,0,0,Unknown
+Radeon R9 Fury + Fury X,9741,811,275,4096 MB,Desktop
+Radeon R9 Fury X,9375,778,0,0,Unknown
+Radeon R9 M265X,1173,190,0,4096 MB,Mobile
+Radeon R9 M270X,1204,306,0,4096 MB,Mobile
+Radeon R9 M275,1115,569,0,0,Mobile
+Radeon R9 M275X,1609,290,0,0,Unknown
+Radeon R9 M275X / M375,1575,467,50,4096 MB,Mobile
+Radeon R9 M280X,814,247,75,4096 MB,Mobile
+Radeon R9 M290X,3244,411,100,4096 MB,Mobile
+Radeon R9 M295X,5150,832,125,4096 MB,Mobile
+Radeon R9 M360,1814,395,0,0,Unknown
+Radeon R9 M365X,1482,446,50,4096 MB,Mobile
+Radeon R9 M370X,1571,353,50,4096 MB,Mobile
+Radeon R9 M375,1005,160,0,4096 MB,Mobile
+Radeon R9 M375X,1746,305,0,4096 MB,Mobile
+Radeon R9 M380,2752,536,0,4096 MB,Mobile
+Radeon R9 M385,2061,244,70,4096 MB,Mobile
+Radeon R9 M385X,1994,267,75,0,Mobile
+Radeon R9 M390X,3895,465,100,4096 MB,Mobile
+Radeon R9 M395,4866,702,125,2048 MB,Mobile
+Radeon R9 M395X,5109,695,125,4096 MB,Mobile
+Radeon R9 M470,2331,307,75,4096 MB,Mobile
+Radeon R9 M470X,3244,426,75,4096 MB,Mobile
+Radeon R9 M485X,3801,388,0,0,Unknown
+Radeon RX Vega - Renoir Ryzen 3 5300U,2312,571,0,0,Unknown
+Radeon RX Vega 10,1628,370,0,0,Unknown
+Radeon RX Vega 10 Athlon 300U,506,186,0,0,Desktop
+Radeon RX Vega 10 Ryzen 5 3500U,1778,456,0,0,Unknown
+Radeon RX Vega 10 Ryzen 7 3700C,1166,312,0,0,Desktop
+Radeon RX Vega 10 Ryzen 7 3700U,1471,318,0,0,Unknown
+Radeon RX Vega 10 Ryzen 7 3750H,1846,358,0,0,Unknown
+Radeon RX Vega 11,2091,508,0,0 MB,Desktop
+Radeon RX Vega 11 PRD,2402,601,0,0,Unknown
+Radeon RX Vega 11 Processor,1789,457,0,0,Unknown
+Radeon RX Vega 11 Ryzen 5 3350G,1917,464,0,0,Unknown
+Radeon RX Vega 11 Ryzen 5 3350GE,2480,499,0,0,Desktop
+Radeon RX Vega 11 Ryzen 5 3400G,2125,484,0,0,Unknown
+Radeon RX Vega 11 Ryzen 5 3400GE,1971,461,0,0,Unknown
+Radeon RX Vega 11 Ryzen 7 3700U,2602,528,0,0,Unknown
+Radeon RX Vega 11 Ryzen 7 3750H,1856,414,0,0,Unknown
+Radeon RX Vega 56,13005,770,210,8192 MB,Desktop
+Radeon RX Vega 6,1492,348,0,0,Unknown
+Radeon RX Vega 6 Ryzen 3 3200U,906,275,0,0,Unknown
+Radeon RX Vega 64,13924,784,295,8192 MB,Desktop
+Radeon RX Vega 8,1540,407,0,0,Unknown
+Radeon RX Vega M GH,6555,759,0,0,Unknown
+Radeon RX Vega M GL,3927,458,0,0,Unknown
+Radeon RX Vega Ryzen 3 5300U,2330,582,0,0,Unknown
+Radeon RX Vega Ryzen 5 5500U,2356,369,0,0,Unknown
+Radeon RX Vega Ryzen 5 5600GT,9558,1042,0,0,Desktop
+Radeon RX Vega Ryzen 7 5825U,2916,549,0,0,Desktop
+Radeon RX Vega11,1605,405,0,0,Unknown
+Radeon RX Vega11 Ryzen 7 3750H,1607,337,0,0,Unknown
+Radeon RX Vega11 Ryzen 7 Microsoft Surface Edition,1519,325,0,0,Unknown
+Radeon RX590 GME,8340,713,175,8192 MB,Desktop
+Radeon Ryzen 3 3200U,816,360,0,0,Desktop
+Radeon Ryzen 3 3250U,787,224,0,0,Unknown
+Radeon Ryzen 3 3300U,1353,376,0,0,Desktop
+Radeon Ryzen 3 3500U,803,265,0,0,Desktop
+Radeon Ryzen 3 5300U,1530,425,0,0,Unknown
+Radeon Ryzen 3 5425U,1580,532,0,0,Unknown
+Radeon Ryzen 3 7330U,1561,487,0,0,Unknown
+Radeon Ryzen 3 7335U,2165,682,0,0,Desktop
+Radeon Ryzen 3 PRO 4355GE,1622,544,0,0,Unknown
+Radeon Ryzen 3 PRO 5355G,2544,765,0,0,Desktop
+Radeon Ryzen 3 PRO 5355GE,1952,700,0,0,Desktop
+Radeon Ryzen 3 PRO 5450U,1602,516,0,0,Unknown
+Radeon Ryzen 3 PRO 5475U,1720,497,0,0,Unknown
+Radeon Ryzen 3 PRO 7330U,1858,630,0,0,Unknown
+Radeon Ryzen 3 PRO 7335U,1979,663,0,0,Unknown
+Radeon Ryzen 5 150,2595,750,0,0,Desktop
+Radeon Ryzen 5 3450U,1116,255,0,0,Unknown
+Radeon Ryzen 5 3550H,1254,343,0,0,Desktop
+Radeon Ryzen 5 4400G,2296,692,0,0,Unknown
+Radeon Ryzen 5 4600GE with Radeon Graphics,2337,626,0,0,Unknown
+Radeon Ryzen 5 5500GT,2417,698,0,0,Unknown
+Radeon Ryzen 5 5500H,2049,561,0,0,Unknown
+Radeon Ryzen 5 5500U,2018,475,0,0,Unknown
+Radeon Ryzen 5 5560U,2031,595,0,0,Unknown
+Radeon Ryzen 5 5600GE,2317,704,0,0,Unknown
+Radeon Ryzen 5 5600GT,2399,731,0,0,Unknown
+Radeon Ryzen 5 5600H,2369,621,0,0,Unknown
+Radeon Ryzen 5 5600U,2091,592,0,0,Unknown
+Radeon Ryzen 5 5625U,2058,539,0,0,Unknown
+Radeon Ryzen 5 6600H,3472,740,0,0,Unknown
+Radeon Ryzen 5 6600HS Creator Edition,3795,743,0,0,Unknown
+Radeon Ryzen 5 6600U,3211,670,0,0,Unknown
+Radeon Ryzen 5 7400 6-Core,1506,504,0,0,Desktop
+Radeon Ryzen 5 7430U,2273,591,0,0,Desktop
+Radeon Ryzen 5 7530U,2182,602,0,0,Unknown
+Radeon Ryzen 5 7533HS,3321,700,0,0,Desktop
+Radeon Ryzen 5 7535HS,3248,670,0,0,Unknown
+Radeon Ryzen 5 7535U,3156,715,0,0,Unknown
+Radeon Ryzen 5 7600 6-Core,1684,541,0,0,Unknown
+Radeon Ryzen 5 7600X 6-Core,1612,533,0,0,Unknown
+Radeon Ryzen 5 7600X3D 6-Core,1670,550,0,0,Desktop
+Radeon Ryzen 5 Microsoft Surface Edition,2027,503,0,0,Unknown
+Radeon Ryzen 5 PRO 4400G,2273,615,0,0,Desktop
+Radeon Ryzen 5 PRO 4500U,2078,557,0,0,Unknown
+Radeon Ryzen 5 PRO 4655G,2267,645,0,0,Unknown
+Radeon Ryzen 5 PRO 4655GE,2217,614,0,0,Unknown
+Radeon Ryzen 5 PRO 5650G,2318,734,0,0,Unknown
+Radeon Ryzen 5 PRO 5650GE,2235,715,0,0,Unknown
+Radeon Ryzen 5 PRO 5655G,2398,756,0,0,Desktop
+Radeon Ryzen 5 PRO 5655GE,1743,643,0,0,Desktop
+Radeon Ryzen 5 PRO 5675U,1864,543,0,0,Unknown
+Radeon Ryzen 5 PRO 6650H,3637,743,0,0,Unknown
+Radeon Ryzen 5 PRO 6650U,3548,676,0,0,Unknown
+Radeon Ryzen 5 PRO 7445 6-Core,1592,536,0,0,Desktop
+Radeon Ryzen 5 Pro 7535U,2807,664,0,0,Unknown
+Radeon Ryzen 5 PRO 7645 6-Core,1616,545,0,0,Unknown
+Radeon Ryzen 7 170,5382,474,0,0,Desktop
+Radeon Ryzen 7 3700U,1136,275,0,0,Unknown
+Radeon Ryzen 7 4700G,2526,659,0,0,Unknown
+Radeon Ryzen 7 4700GE,2586,635,0,0,Unknown
+Radeon Ryzen 7 4700U,2041,516,0,0,Unknown
+Radeon Ryzen 7 4800H,3174,518,0,0,Unknown
+Radeon Ryzen 7 4800HS,3058,541,0,0,Unknown
+Radeon Ryzen 7 4800U,2299,546,0,0,Unknown
+Radeon Ryzen 7 4850U Mobile,2138,519,0,0,Unknown
+Radeon Ryzen 7 5700U,2207,489,0,0,Unknown
+Radeon Ryzen 7 5800H,2842,694,0,0,Unknown
+Radeon Ryzen 7 5800HS,2550,634,0,0,Unknown
+Radeon Ryzen 7 5800HS Creator Edition,2271,576,0,0,Unknown
+Radeon Ryzen 7 5800U,2387,627,0,0,Unknown
+Radeon Ryzen 7 5825U,2418,611,0,0,Unknown
+Radeon Ryzen 7 6800H,4854,715,0,0,Unknown
+Radeon Ryzen 7 6800HS,6012,795,0,0,Unknown
+Radeon Ryzen 7 6800HS Creator Edition,5322,761,0,0,Unknown
+Radeon Ryzen 7 6800U,4213,521,0,0,Unknown
+Radeon Ryzen 7 6810U,5937,897,0,0,Desktop
+Radeon Ryzen 7 7700 8-Core,1658,532,0,0,Unknown
+Radeon Ryzen 7 7700X 8-Core,1793,550,0,0,Unknown
+Radeon Ryzen 7 7730U,2330,593,0,0,Unknown
+Radeon Ryzen 7 7735H,5348,774,0,0,Unknown
+Radeon Ryzen 7 7735HS,4901,773,0,0,Unknown
+Radeon Ryzen 7 7735U,4647,732,0,0,Unknown
+Radeon Ryzen 7 7736U,5826,729,0,0,Unknown
+Radeon Ryzen 7 7745HX,1614,599,0,0,Unknown
+Radeon Ryzen 7 7800X3D 8-Core,1714,512,0,0,Unknown
+Radeon Ryzen 7 Microsoft Surface Edition,2244,501,0,0,Unknown
+Radeon Ryzen 7 PRO 4700G,2148,711,0,0,Desktop
+Radeon Ryzen 7 PRO 4750G,2527,664,0,0,Unknown
+Radeon Ryzen 7 PRO 4750GE,2356,622,0,0,Unknown
+Radeon Ryzen 7 PRO 4750U,1976,491,0,0,Unknown
+Radeon Ryzen 7 PRO 5755G,2859,784,0,0,Desktop
+Radeon Ryzen 7 PRO 5755GE,2120,669,0,0,Desktop
+Radeon Ryzen 7 PRO 5800H,2945,780,0,0,Desktop
+Radeon Ryzen 7 PRO 5875U,2174,563,0,0,Unknown
+Radeon Ryzen 7 PRO 6850H,5516,845,0,0,Unknown
+Radeon Ryzen 7 PRO 6850HS,5057,841,0,0,Unknown
+Radeon Ryzen 7 PRO 6850U,4988,742,0,0,Unknown
+Radeon Ryzen 7 PRO 6860Z,4536,693,0,0,Unknown
+Radeon Ryzen 7 PRO 7730U,2257,588,0,0,Unknown
+Radeon Ryzen 7 Pro 7735U,3822,610,0,0,Unknown
+Radeon Ryzen 7 PRO 7745 8-Core,1661,532,0,0,Unknown
+Radeon Ryzen 9 4900H,2555,634,0,0,Unknown
+Radeon Ryzen 9 4950U Mobile,2594,575,0,0,Mobile
+Radeon Ryzen 9 5900H,1610,417,0,0,Unknown
+Radeon Ryzen 9 5980HS,2749,751,0,0,Unknown
+Radeon Ryzen 9 6900HS,6770,698,0,0,Unknown
+Radeon Ryzen 9 6900HS Creator Edition,5156,710,0,0,Unknown
+Radeon Ryzen 9 7900 12-Core,1871,565,0,0,Unknown
+Radeon Ryzen 9 7900X 12-Core,2130,565,0,0,Unknown
+Radeon Ryzen 9 7900X3D 12-Core,1764,564,0,0,Unknown
+Radeon Ryzen 9 7950X 16-Core,3083,582,0,0,Unknown
+Radeon Ryzen 9 7950X3D 16-Core,1642,542,0,0,Unknown
+Radeon Ryzen 9 PRO 6950H,5609,897,0,0,Unknown
+Radeon Ryzen 9 PRO 6950HS,4463,816,0,0,Unknown
+Radeon Ryzen 9 PRO 7945 12-Core,1608,563,0,0,Unknown
+Radeon Ryzen Embedded R2312,755,310,0,0,Desktop
+Radeon Ryzen Embedded R2314,1046,314,0,0,Unknown
+Radeon Ryzen Embedded R2514,1387,377,0,0,Unknown
+Radeon Ryzen Embedded R2544,1865,443,0,0,Unknown
+Radeon Ryzen Embedded V2516,1796,532,0,0,Unknown
+Radeon Ryzen Embedded V2546,1435,358,0,0,Desktop
+Radeon Ryzen Embedded V2718,1999,554,0,0,Unknown
+Radeon Ryzen Embedded V2748,2216,613,0,0,Unknown
+Radeon Ryzen Z2 Go,4784,727,0,0,Desktop
+Radeon Sky 500,4723,634,0,0,Unknown
+Radeon TM,5542,700,0,0,Desktop
+Radeon TM R9 A360,2060,646,0,0,Unknown
+Radeon V520 MxGPU,10474,330,0,0,Desktop
+Radeon VE,2,36,0,0,Unknown
+Radeon Vega 10,1501,340,0,0,Unknown
+Radeon Vega 10 Mobile,1535,343,0,0,Unknown
+Radeon Vega 11,1866,472,0,0,Unknown
+Radeon Vega 11 Ryzen 5 PRO 3350G,2194,479,0,0,Unknown
+Radeon Vega 11 Ryzen 5 PRO 3350GE,1811,441,0,0,Unknown
+Radeon Vega 11 Ryzen 5 PRO 3400G,1989,461,0,0,Unknown
+Radeon Vega 2,506,244,0,0,Unknown
+Radeon Vega 2 Athlon Silver 3050U,488,192,0,0,Unknown
+Radeon Vega 3,891,302,0,0,Unknown
+Radeon Vega 3 3020e,527,170,0,0,Unknown
+Radeon Vega 3 Athlon 3000G,950,320,0,0,Unknown
+Radeon Vega 3 Athlon 300GE,999,348,0,0,Unknown
+Radeon Vega 3 Athlon 300U,814,221,0,0,Unknown
+Radeon Vega 3 Athlon 320GE,744,275,0,0,Unknown
+Radeon Vega 3 Athlon Gold 3150C,366,85,0,0,Desktop
+Radeon Vega 3 Athlon Gold 3150G,1089,405,0,0,Unknown
+Radeon Vega 3 Athlon Gold 3150U,679,197,0,0,Unknown
+Radeon Vega 3 Athlon Gold PRO 3150G,837,311,0,0,Desktop
+Radeon Vega 3 Athlon Gold PRO 3150GE,920,433,0,0,Unknown
+Radeon Vega 3 Athlon Silver 3050e,518,172,0,0,Unknown
+Radeon Vega 3 Athlon Silver 3050U,806,230,0,0,Unknown
+Radeon Vega 3 Mobile,1053,325,0,0,Unknown
+Radeon Vega 3 Mobile Ryzen 5 3500U,1764,376,0,0,Desktop
+Radeon Vega 3 Ryzen 3 3200U,835,254,0,0,Unknown
+Radeon Vega 3 Ryzen 3 3250U,686,206,0,0,Unknown
+Radeon Vega 3 Ryzen Embedded R1305G,581,207,0,0,Unknown
+Radeon Vega 3 Ryzen Embedded R1505G,725,260,0,0,Unknown
+Radeon Vega 3 Ryzen Embedded R1606G,1000,316,0,0,Desktop
+Radeon Vega 6,1309,328,0,0,Unknown
+Radeon Vega 6 Ryzen 3 3300U,1332,320,0,0,Unknown
+Radeon Vega 6 Ryzen 3 3350U,1420,337,0,0,Unknown
+Radeon Vega 8,1567,401,0,0 MB,Desktop Mobile
+Radeon Vega 8 Mobile,1442,335,0,0,Unknown
+Radeon Vega 8 Mobile Ryzen 5 3500U,2006,406,0,0,Mobile
+Radeon Vega 8 Ryzen 3 3200G,1674,414,0,0,Unknown
+Radeon Vega 8 Ryzen 3 3200GE,1916,453,0,0,Unknown
+Radeon Vega 8 Ryzen 3 PRO 3200G,1402,372,0,0,Unknown
+Radeon Vega 8 Ryzen 5 3450U,1311,316,0,0,Unknown
+Radeon Vega 8 Ryzen 5 3500C,1410,388,0,0,Desktop
+Radeon Vega 8 Ryzen 5 3500U,1358,314,0,0,Unknown
+Radeon Vega 8 Ryzen 5 3550H,1814,346,0,0,Unknown
+Radeon Vega 8 Ryzen 5 3580U,1621,408,0,0,Desktop
+Radeon Vega 9,1588,402,0,0,Unknown
+Radeon Vega 9 Ryzen 5 3550H,1517,355,0,0,Unknown
+Radeon Vega 9 Ryzen 5 Microsoft Surface Edition,1527,360,0,0,Unknown
+Radeon Vega Frontier Edition,12674,721,350,16384 MB,Desktop
+Radeon VII,16261,795,300,16384 MB,Desktop
+Radeon with 3 5300U Ryzen 3 5300U,1266,449,0,0,Unknown
+Radeon X1050,49,245,0,256 MB,Desktop
+Radeon X1200,33,169,0,0,Unknown
+Radeon X1250,37,199,0,0,Unknown
+Radeon X1270,31,169,0,0,Unknown
+Radeon X1300,58,237,0,256 MB,Desktop
+Radeon X1300 PRO,84,313,0,0,Unknown
+Radeon X1550,67,253,27,512 MB,Desktop
+Radeon X1550 64-bit,48,257,0,0,Unknown
+Radeon X1600,49,209,0,0,Unknown
+Radeon X1600 Pro,99,273,41,512 MB,Desktop
+Radeon X1600 Pro / X1300XT,69,285,0,0,Unknown
+Radeon X1600 XT,116,356,42,512 MB,Desktop
+Radeon X1650 GTO,75,384,0,0,Unknown
+Radeon X1650 Pro,85,241,44,512 MB,Desktop
+Radeon X1650 SE,71,358,0,0,Unknown
+Radeon X1700 Targa Edition,117,255,0,0,Unknown
+Radeon X1800 GTO,141,415,48,512 MB,Desktop
+Radeon X1900 CrossFire Edition,137,507,100,512 MB,Desktop
+Radeon X1900 GT,146,409,75,256 MB,Desktop
+Radeon X1950 CrossFire Edition,151,466,0,512 MB,Desktop
+Radeon X1950 GT,106,279,57,512 MB,Desktop
+Radeon X1950 Pro,113,318,66,512 MB,Desktop
+RADEON X300SE,38,242,0,0,Unknown
+RADEON X550,51,266,0,256 MB,Desktop
+RADEON X550XT,56,224,0,0,Unknown
+Radeon X550XTX,71,240,0,0,Unknown
+RADEON X600 256MB HyperMemory,57,210,0,256 MB,Desktop
+RADEON X600 PRO,67,252,0,0,Unknown
+RADEON X600 SE,49,229,0,0,Unknown
+RADEON X600XT,92,258,0,0,Unknown
+RADEON X700,73,248,0,256 MB,Desktop
+RADEON X700 PRO,76,302,0,256 MB,Desktop
+RADEON X700 SE,71,348,0,128 MB,Desktop
+RADEON X800 GT,84,423,0,256 MB,Desktop
+RADEON X800 GTO,115,162,0,256 MB,Desktop
+RADEON X800 PRO,65,190,0,256 MB,Desktop
+RADEON X800 PRO/GTO,73,181,0,256 MB,Desktop
+RADEON X800 SE,130,384,0,256 MB,Desktop
+RADEON X800 XL,69,271,0,256 MB,Desktop
+RADEON X800 XT,98,271,0,256 MB,Desktop
+RADEON X800 XT Platinum Edition,81,170,0,256 MB,Desktop
+RADEON X800GT,80,264,0,0,Unknown
+RADEON X850 PRO,73,157,0,256 MB,Desktop
+RADEON X850 XT,81,326,0,256 MB,Desktop
+RADEON X850 XT Platinum Edition,82,261,0,256 MB,Desktop
+Radeon Xpress 1100,34,187,0,0,Unknown
+Radeon Xpress 1150,30,192,0,0,Unknown
+Radeon Xpress 1200,36,192,0,0,Unknown
+Radeon Xpress 1250,43,197,0,0,Unknown
+Radeon Xpress 1270,27,191,0,0,Unknown
+Radeon Xpress 1300,52,266,0,0,Unknown
+Radeon Xpress 1300M,40,195,0,0,Mobile
+RADEON XPRESS 200,30,188,0,0,Unknown
+RADEON XPRESS 200 CROSSFIRE,18,164,0,0,Unknown
+RADEON XPRESS 200M,23,176,0,0,Mobile
+RadeonT 610M,1064,256,0,0,Mobile
+RadeonT 660M,2221,755,0,0,Mobile
+RadeonT 660M Ryzen 5 6600H,6700,638,0,0,Mobile
+RadeonT 660M Ryzen 5 7535HS,4051,701,0,0,Mobile
+RadeonT 680M Ryzen 7 6800H,2381,521,0,0,Mobile
+RadeonT 680M Ryzen 7 7735HS,5681,594,0,0,Mobile
+RadeonT 760M,5846,760,0,0,Mobile
+RadeonT 780M,7113,802,0,0,Mobile
+RadeonT Athlon Silver 3050e,742,243,0,0,Desktop
+RadeonT RX 6850M XT,13992,628,165,12288 MB,Mobile
+RadeonT RX Vega 11,1917,421,0,0,Unknown
+RadeonT Ryzen 3 3250U,582,226,0,0,Desktop
+RadeonT Vega 8,1894,355,0,0,Unknown
+Rage 128 Pro,1,40,0,0,Unknown
+RAGE 128 PRO AGP 4X TMDS,1,142,0,0,Unknown
+Rage Fury Pro/Xpert 2000 Pro,3,53,0,0,Unknown
+RIVA TNT2 Model 64/Model 64 Pro,4,107,0,0,Unknown
+RIVA TNT2/TNT2 Pro,3,71,0,0,Unknown
+RTX 1000 Ada Generation Laptop GPU,13573,560,0,0,Mobile
+RTX 2000 Ada Generation,17200,1101,0,0,Unknown
+RTX 2000 Ada Generation Embedded GPU,15314,779,0,0,Desktop
+RTX 2000 Ada Generation Laptop GPU,14893,598,0,0,Mobile
+RTX 2000E Ada Generation,15994,1129,0,0,Desktop
+RTX 3000 Ada Generation Laptop GPU,15957,543,0,0,Mobile
+RTX 3500 Ada Generation Embedded GPU,23982,1069,0,0,Desktop
+RTX 3500 Ada Generation Laptop GPU,19766,715,0,0,Mobile
+RTX 4000 Ada Generation,23903,1128,0,0,Unknown
+RTX 4000 Ada Generation Laptop GPU,22005,723,0,0,Mobile
+RTX 4000 SFF Ada Generation,20951,1108,0,0,Unknown
+RTX 4500 Ada Generation,28073,1168,0,0,Unknown
+RTX 500 Ada Generation Laptop GPU,11182,534,0,0,Mobile
+RTX 5000 Ada Generation,30284,994,0,0,Unknown
+RTX 5000 Ada Generation Embedded GPU,17056,592,0,0,Desktop
+RTX 5000 Ada Generation Laptop GPU,23364,750,0,0,Mobile
+RTX 5880 Ada Generation,25096,777,0,0,Desktop
+RTX 6000 Ada Generation,28510,1007,0,0,Unknown
+RTX A1000,10815,1096,0,0,Desktop
+RTX A1000 6GB Laptop GPU,10063,589,0,0,Mobile
+RTX A1000 Embedded GPU,11009,700,0,0,Unknown
+RTX A1000 Laptop GPU,9474,524,0,0,Mobile
+RTX A2000,13425,954,0,0,Unknown
+RTX A2000 12GB,13688,1099,0,0,Unknown
+RTX A2000 8GB Laptop GPU,10501,553,0,0,Mobile
+RTX A2000 Embedded GPU,11117,695,0,0,Desktop
+RTX A2000 Laptop GPU,9479,502,95,4096 MB,Mobile Workstation
+RTX A3000 12GB Laptop GPU,13904,610,0,0,Mobile
+RTX A3000 Laptop GPU,12660,557,130,6144 MB,Mobile Workstation
+RTX A400,5998,904,0,0,Desktop
+RTX A4000,19470,1025,140,16384 MB,Workstation
+RTX A4000 Laptop GPU,14796,586,140,16384 MB,Mobile Workstation
+RTX A4000H,11815,692,0,0,Desktop
+RTX A4500,21116,1039,0,0,Unknown
+RTX A4500 Embedded GPU,8296,447,0,0,Unknown
+RTX A4500 Laptop GPU,16677,711,0,0,Mobile
+RTX A500 Embedded GPU,6197,362,0,0,Desktop
+RTX A500 Laptop GPU,6583,416,0,0,Mobile
+RTX A5000,22993,1062,230,24576 MB,Workstation
+RTX A5000 Laptop GPU,16418,668,165,16384 MB,Mobile Workstation
+RTX A5500,21335,928,0,0,Unknown
+RTX A5500 Laptop GPU,17115,716,0,0,Mobile
+RTX A6000,22826,910,300,49152 MB,Workstation
+RTX PRO 1000 Blackwell Generation Laptop GPU,14997,757,0,0,Mobile
+RTX PRO 2000 Blackwell,20617,1388,0,0,Desktop
+RTX PRO 2000 Blackwell Generation Laptop GPU,17013,776,0,0,Mobile
+RTX PRO 3000 Blackwell Generation Laptop GPU,22760,858,0,0,Mobile
+RTX PRO 4000 Blackwell,27221,1162,0,0,Desktop
+RTX PRO 4000 Blackwell Generation Laptop GPU,23511,895,0,0,Desktop
+RTX PRO 4000 Blackwell SFF Edition,21611,991,0,0,Desktop
+RTX PRO 4500 Blackwell,32842,1270,0,0,Desktop
+RTX PRO 500 Blackwell Generation Laptop GPU,13307,701,0,0,Mobile
+RTX PRO 5000 72GB Blackwell,40493,1436,0,0,Desktop
+RTX PRO 5000 Blackwell,31227,1156,0,0,Desktop
+RTX PRO 5000 Blackwell Generation Laptop GPU,24443,843,0,0,Desktop
+RTX Pro 6000 Blackwell DC-12Q,2747,102,0,0,Desktop
+RTX Pro 6000 Blackwell DC-24Q,5044,101,0,0,Desktop
+RTX PRO 6000 Blackwell Max-Q Workstation Edition,31910,1215,0,0,Desktop
+RTX PRO 6000 Blackwell Server Edition,42223,1459,0,0,Desktop
+RTX PRO 6000 Blackwell Workstation Edition,35557,1362,0,0,Desktop
+RTX6000-Ada-3A,16841,818,0,0,Desktop
+RTX6000-Ada-6Q,23236,839,0,0,Desktop
+RTXA5000-24Q,4803,78,0,0,Desktop
+RTXA5000-6Q,1522,71,0,0,Desktop
+RTXA5000-8Q,4916,117,0,0,Desktop
+RTXA6000-8Q,4237,86,0,0,Unknown
+RV530 PRO,119,386,0,0,Unknown
+Ryzen 3 4300G with Radeon Graphics,1700,499,0,0,Unknown
+Ryzen 3 4300GE with Radeon Graphics,2289,654,0,0,Unknown
+Ryzen 3 4300U with Radeon Graphics,1371,456,0,0,Unknown
+Ryzen 3 5300G with Radeon Graphics,1990,664,0,0,Unknown
+Ryzen 3 5300GE with Radeon Graphics,1968,706,0,0,Unknown
+Ryzen 3 5300U with Radeon Graphics,1539,487,0,0,Unknown
+Ryzen 3 5400U with Radeon Graphics,1604,536,0,0,Unknown
+Ryzen 3 5425U with Radeon Graphics,1691,542,0,0,Unknown
+Ryzen 3 7330U with Radeon Graphics,1693,575,0,0,Unknown
+Ryzen 3 7335U with Radeon Graphics,1980,709,0,0,Unknown
+Ryzen 3 PRO 4200G with Radeon Graphics,1799,705,0,0,Unknown
+Ryzen 3 PRO 4200GE with Radeon Graphics,1748,593,0,0,Unknown
+Ryzen 3 PRO 4300U with Radeon Graphics,1543,539,0,0,Unknown
+Ryzen 3 Pro 4350G with Radeon Graphics,2059,594,0,0,Unknown
+Ryzen 3 PRO 4350GE with Radeon Graphics,1941,591,0,0,Unknown
+Ryzen 3 PRO 4450U with Radeon Graphics,1463,451,0,0,Unknown
+Ryzen 3 PRO 5350G with Radeon Graphics,2305,766,0,0,Unknown
+Ryzen 3 PRO 5350GE with Radeon Graphics,1791,659,0,0,Unknown
+Ryzen 3 PRO 5450U with Radeon Graphics,1617,473,0,0,Unknown
+Ryzen 3 PRO 5475U with Radeon Graphics,1432,596,0,0,Unknown
+Ryzen 3 PRO 7330U with Radeon Graphics,2144,678,0,0,Unknown
+Ryzen 5 2500U with Radeon Vega,1503,388,0,0,Unknown
+Ryzen 5 4500U with Radeon Graphics,1803,507,0,0,Unknown
+Ryzen 5 4600G with Radeon Graphics,2332,606,0,0,Unknown
+Ryzen 5 4600H with Radeon Graphics,2119,540,0,0,Unknown
+Ryzen 5 4600HS with Radeon Graphics,8371,414,0,0,Unknown
+Ryzen 5 4600U with Radeon Graphics,1896,526,0,0,Unknown
+Ryzen 5 5500GT with Radeon Graphics,2224,680,0,0,Unknown
+Ryzen 5 5500U with Radeon Graphics,1971,527,0,0,Unknown
+Ryzen 5 5560U with Radeon Graphics,2098,592,0,0,Unknown
+Ryzen 5 5600G with Radeon Graphics,2547,748,0,0,Unknown
+Ryzen 5 5600GE with Radeon Graphics,2547,867,0,0,Unknown
+Ryzen 5 5600GT with Radeon Graphics,2201,669,0,0,Unknown
+Ryzen 5 5600H with Radeon Graphics,2297,574,0,0,Unknown
+Ryzen 5 5600U with Radeon Graphics,2151,617,0,0,Unknown
+Ryzen 5 5625U with Radeon Graphics,1997,577,0,0,Unknown
+Ryzen 5 6600H with Radeon Graphics,3580,641,0,0,Unknown
+Ryzen 5 6600HS Creator Edition,3691,705,0,0,Unknown
+Ryzen 5 6600U with Radeon Graphics,3233,754,0,0,Unknown
+Ryzen 5 7430U with Radeon Graphics,2270,586,0,0,Unknown
+Ryzen 5 7530U with Radeon Graphics,2250,568,0,0,Unknown
+Ryzen 5 7535HS with Radeon Graphics,3680,731,0,0,Unknown
+Ryzen 5 7535U with Radeon Graphics,3324,619,0,0,Unknown
+Ryzen 5 9600X 6-Core Processor,1859,631,0,0,Unknown
+Ryzen 5 PRO 4400G with Radeon Graphics,2306,599,0,0,Unknown
+Ryzen 5 PRO 4400GE with Radeon Graphics,1442,563,0,0,Unknown
+Ryzen 5 PRO 4500U with Radeon Graphics,2008,564,0,0,Unknown
+Ryzen 5 Pro 4650G with Radeon Graphics,2377,647,0,0,Unknown
+Ryzen 5 PRO 4650GE with Radeon Graphics,2166,590,0,0,Unknown
+Ryzen 5 PRO 4650U with Radeon Graphics,1690,460,0,0,Unknown
+Ryzen 5 PRO 5650G with Radeon Graphics,2481,846,0,0,Unknown
+Ryzen 5 PRO 5650GE with Radeon Graphics,2455,820,0,0,Unknown
+Ryzen 5 PRO 5650U with Radeon Graphics,1995,560,0,0,Unknown
+Ryzen 5 PRO 5675U with Radeon Graphics,1720,586,0,0,Unknown
+Ryzen 5 PRO 6650H with Radeon Graphics,3727,845,0,0,Unknown
+Ryzen 5 PRO 6650U,3519,766,0,0,Unknown
+Ryzen 5 PRO 6650U with Radeon Graphics,3534,714,0,0,Unknown
+Ryzen 5 PRO 7530U with Radeon Graphics,1905,562,0,0,Unknown
+Ryzen 5 Pro 7535U with Radeon Graphics,3750,688,0,0,Unknown
+Ryzen 7 2700U with Radeon Vega,1617,442,0,0,Unknown
+Ryzen 7 4700G with Radeon Graphics,2187,671,0,0,Unknown
+Ryzen 7 4700GE with Radeon Graphics,2496,761,0,0,Unknown
+Ryzen 7 4700U with Radeon Graphics,2034,553,0,0,Unknown
+Ryzen 7 4800H with Radeon Graphics,2113,585,0,0,Unknown
+Ryzen 7 4800HS with Radeon Graphics,6999,355,0,0,Unknown
+Ryzen 7 4800U with Radeon Graphics,2344,570,0,0,Unknown
+Ryzen 7 5700G with Radeon Graphics,2725,769,0,0,Unknown
+Ryzen 7 5700GE with Radeon Graphics,2607,802,0,0,Unknown
+Ryzen 7 5700U with Radeon Graphics,2241,553,0,0,Unknown
+Ryzen 7 5800H with Radeon Graphics,2737,708,0,0,Unknown
+Ryzen 7 5800HS with Radeon Graphics,2795,569,0,0,Unknown
+Ryzen 7 5800U with Radeon Graphics,2310,633,0,0,Unknown
+Ryzen 7 5825U with Radeon Graphics,2351,634,0,0,Unknown
+Ryzen 7 6800H,5260,814,0,0,Unknown
+Ryzen 7 6800H with Radeon Graphics,4960,758,0,0,Unknown
+Ryzen 7 6800HS,5237,867,0,0,Unknown
+Ryzen 7 6800HS Creator Edition,5465,841,0,0,Unknown
+Ryzen 7 6800HS with Radeon Graphics,6240,749,0,0,Unknown
+Ryzen 7 6800U,5006,784,0,0,Unknown
+Ryzen 7 6800U with Radeon Graphics,4760,738,0,0,Unknown
+Ryzen 7 7730U with Radeon Graphics,2433,573,0,0,Unknown
+Ryzen 7 7735HS with Radeon Graphics,5175,769,0,0,Unknown
+Ryzen 7 7735U with Radeon Graphics,5081,697,0,0,Unknown
+Ryzen 7 8845HS with Radeon 780M,7766,1036,0,0,Mobile
+Ryzen 7 9700X 8-Core Processor,2251,647,0,0,Unknown
+Ryzen 7 9800X3D 8-Core Processor,1830,630,0,0,Unknown
+Ryzen 7 Extreme Edition,2075,495,0,0,Unknown
+Ryzen 7 PRO 4700G with Radeon Graphics,2880,712,0,0,Unknown
+Ryzen 7 Pro 4750G with Radeon Graphics,2682,703,0,0,Unknown
+Ryzen 7 PRO 4750GE with Radeon Graphics,2550,683,0,0,Unknown
+Ryzen 7 PRO 4750U with Radeon Graphics,2030,548,0,0,Unknown
+Ryzen 7 PRO 5750G with Radeon Graphics,2335,779,0,0,Unknown
+Ryzen 7 PRO 5750GE with Radeon Graphics,2382,751,0,0,Unknown
+Ryzen 7 PRO 5850U with Radeon Graphics,2260,607,0,0,Unknown
+Ryzen 7 PRO 5875U with Radeon Graphics,2067,650,0,0,Unknown
+Ryzen 7 PRO 6850H with Radeon Graphics,5791,902,0,0,Unknown
+Ryzen 7 PRO 6850HS with Radeon Graphics,4087,776,0,0,Unknown
+Ryzen 7 PRO 6850U,5581,741,0,0,Unknown
+Ryzen 7 PRO 6850U with Radeon Graphics,5116,788,0,0,Unknown
+Ryzen 7 PRO 6860Z,5077,837,0,0,Unknown
+Ryzen 7 PRO 6860Z with Radeon Graphics,4869,793,0,0,Unknown
+Ryzen 7 PRO 7730U with Radeon Graphics,2567,635,0,0,Unknown
+Ryzen 7 Pro 7735U with Radeon Graphics,5142,628,0,0,Unknown
+Ryzen 9 4900H with Radeon Graphics,2714,691,0,0,Unknown
+Ryzen 9 4900HS with Radeon Graphics,6791,376,0,0,Unknown
+Ryzen 9 4900HSS with Radeon Graphics,9461,417,0,0,Unknown
+Ryzen 9 5900HS with Radeon Graphics,5460,544,0,0,Unknown
+Ryzen 9 5900HX with Radeon Graphics,2941,725,0,0,Unknown
+Ryzen 9 5980HS with Radeon Graphics,2534,830,0,0,Unknown
+Ryzen 9 6900HS,8005,836,0,0,Unknown
+Ryzen 9 6900HS with Radeon Graphics,6110,739,0,0,Unknown
+Ryzen 9 6900HX with Radeon Graphics,5113,781,0,0,Unknown
+Ryzen 9 9900X 12-Core Processor,1729,599,0,0,Unknown
+Ryzen 9 9950X 16-Core Processor,1770,613,0,0,Unknown
+Ryzen 9 PRO 6950H,5759,950,0,0,Unknown
+Ryzen 9 PRO 6950H with Radeon Graphics,6176,850,0,0,Unknown
+Ryzen 9 PRO 6950HS with Radeon Graphics,4705,861,0,0,Unknown
+Ryzen3 5300U Ryzen 3 5300U,1268,445,0,0,Unknown
+S0pdragon X Elite - X1E001DE - Qualcomm Adreno GP,3246,347,0,0,Desktop
+S0pdragon X Elite - X1E78100 - Qualcomm Adreno GP,2572,459,0,0,Desktop
+S0pdragon X Elite - X1E80100 - Qualcomm Adreno GP,2603,501,0,0,Desktop
+S0pdragon X Elite - X1E84100 - Qualcomm Adreno GP,2981,518,0,0,Desktop
+S0pdragon X Plus - X1P64100 - Qualcomm Adreno GPU,2607,338,0,0,Desktop
+TENSOR 1.0 Driver Intel HD 530,958,203,0,0,Unknown
+TENSOR 1.0 Driver Intel HD 630,1300,873,0,0,Unknown
+Tesla C2050,3176,362,0,0,Unknown
+Tesla C2050 / C2070,3428,568,238,6144 MB,Workstation
+Tesla C2070,3121,462,247,6144 MB,Workstation
+Tesla C2075,3017,428,0,0,Unknown
+Tesla K20m,4432,210,0,0,Unknown
+Tesla K20Xm,4403,198,235,6144 MB,Workstation
+Tesla K40c,4495,325,0,0,Unknown
+Tesla K40m,3143,184,0,0,Unknown
+Tesla K80,5689,469,0,0,Unknown
+Tesla M10,2937,242,0,0,Unknown
+Tesla M2070-Q,1306,444,0,0,Unknown
+Tesla M40,10220,437,0,0,Unknown
+Tesla M40 24GB,10641,377,0,0,Unknown
+Tesla M6,6225,302,0,0,Unknown
+Tesla M60,7002,471,0,0,Unknown
+Tesla P100-PCIE-12GB,13310,445,0,0,Unknown
+Tesla P100-PCIE-16GB,11814,611,250,16384 MB,Workstation
+Tesla P4,9110,390,0,0,Unknown
+Tesla P40,11596,402,250,24576 MB,Workstation
+Tesla T10,11764,500,0,0,Unknown
+Tesla T4,9904,552,0,0,Unknown
+Tesla V100-PCIE-16GB,12328,484,0,0,Unknown
+Tesla V100-PCIE-32GB,8260,327,0,0,Unknown
+Tesla V100-SXM2-16GB,12746,701,0,0,Unknown
+TITAN RTX,20102,850,280,24576 MB,Workstation
+TITAN V,20107,999,250,12288 MB,Desktop
+TITAN V CEO Edition,16988,1086,250,32000 MB,Desktop
+TITAN Xp COLLECTORS EDITION,18632,911,250,12288 MB,Desktop

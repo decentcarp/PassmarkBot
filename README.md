@@ -1,11 +1,13 @@
 # Decentcarp's Passmark Discord Bot
 An implementation of my [PassmarkSearcher](https://github.com/decentcarp/PassmarkSearcher) as a Discord bot.
 
-![Alt text](https://decentcarp.co.uk/images/passmarkbot.png)
+![Alt text](https://decentcarp.co.uk/images/image.png)
 
 ## Commands
 
-!passmark - Short, compact way to get the single core performance, multi core performance and the TDP of a CPU. To compare two CPUs with passmark, seperate them with a pipe [|]. (e.g !passmark i7-7700K | i7-9700K)
+!passmark - Get the single core performance, multi core performance and the TDP of a CPU. To compare two CPUs with passmark, seperate them with a pipe [|]. (e.g !passmark i7-7700K | i7-9700K)
+
+!gpassmark - Get the 3D performance, VRAM and the TDP of a GPU. Again, to compare two GPUs with gpassmark, seperate them with a pipe. [|]. (e.g !gpassmark 7900 XT | RTX 3080)
 
 !spec - Less compact, but also provides the type of CPU (desktop/laptop/server), socket and cores.
 
