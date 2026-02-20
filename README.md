@@ -5,16 +5,16 @@ An implementation of my [PassmarkSearcher](https://github.com/decentcarp/Passmar
 
 ## Commands
 
-!passmark - Get the single core performance, multi core performance and the TDP of a CPU. To compare two CPUs with passmark, seperate them with a pipe [|]. (e.g !passmark i7-7700K | i7-9700K)
+!passmark - Get the single core performance, multi core performance and the TDP of a CPU. To compare multiple CPUs with !passmark, seperate them with a pipe [|]. (e.g !passmark i7-7700K | i7-9700K). You may compare up to five CPUs.
 
-!gpassmark - Get the 3D performance, VRAM and the TDP of a GPU. Again, to compare two GPUs with gpassmark, seperate them with a pipe. [|]. (e.g !gpassmark 7900 XT | RTX 3080)
+!gpassmark - Get the 3D performance, VRAM and the TDP of a GPU. Again, to compare multiple GPUs with !gpassmark, seperate them with a pipe. [|]. (e.g !gpassmark 7900 XT | RTX 3080). You may compare up to five GPUs.
 
-!spec - Less compact, but also provides the type of CPU (desktop/laptop/server), socket and cores.
+You may also use !pm and !gpm in place of !passmark and !gpassmark respectively.
 
 ## Usage
 1. Clone this repo.
 
-2. Build [Concord](https://github.com/Cogmasters/concord/tree/dev)'s dev branch and install Concord.
+2. Build [Concord](https://github.com/Cogmasters/concord/tree/dev)'s dev branch and install Concord (``make install`` does it.).
 
 3. Build passmarkbot.c with ``gcc passmarkbot.c -o passmarkbot -pthread -ldiscord -lcurl``. Alternatively, if your compiler is Clang, you can use ``clang passmarkbot.c -o passmarkbot -pthread -ldiscord -lcurl``.
 
