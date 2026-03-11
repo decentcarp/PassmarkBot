@@ -352,19 +352,19 @@ void passmark(struct discord *client, const struct discord_message *event)
                         char cpu2performance[256] = "";
 
                         // for percentage difference
-                        int cpusingle1b = atoi(cpuspecs[i2].single);
-                        int cpusingle2b = atoi(cpuspecs[i].single);
-                        int cpumulti1b = atoi(cpuspecs[i2].multi);
-                        int cpumulti2b = atoi(cpuspecs[i].multi);
-                        int sdiffb = (cpusingle1b - cpusingle2b) * 100 / cpusingle2b;
-                        int mdiffb = (cpumulti1b - cpumulti2b) * 100 / cpumulti2b;
+                        int cpusingle1b = atoi(cpuspecs[i].single);
+                        int cpusingle2b = atoi(cpuspecs[i2].single);
+                        int cpumulti1b = atoi(cpuspecs[i].multi);
+                        int cpumulti2b = atoi(cpuspecs[i2].multi);
+                        int sdiffb = (cpusingle2b - cpusingle1b) * 100 / cpusingle1b;
+                        int mdiffb = (cpumulti2b - cpumulti1b) * 100 / cpumulti1b;
 
                         // Check if TDP is 0, and if so, don't parse it into the performance string (for second CPU)
                         if (cpuspecs[i2].tdp[0] == '\0' || strcmp(cpuspecs[i2].tdp, "0") == 0)
                         {
-                            if (cpusingle1b > cpusingle2b)
+                            if (cpusingle2b > cpusingle1b)
                             {
-                                if (cpumulti1b > cpumulti2b)
+                                if (cpumulti2b > cpumulti1b)
                                 {
                                     sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi, mdiffb);
                                 }
@@ -375,7 +375,7 @@ void passmark(struct discord *client, const struct discord_message *event)
                             }
                             else
                             {
-                                if (cpumulti1b > cpumulti2b)
+                                if (cpumulti2b > cpumulti1b)
                                 {
                                     sprintf(cpu2performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i2].single, cpuspecs[i2].multi, mdiffb);
                                 }
@@ -387,9 +387,9 @@ void passmark(struct discord *client, const struct discord_message *event)
                         }
                         else
                         {
-                            if (cpusingle1b > cpusingle2b)
+                            if (cpusingle2b > cpusingle1b)
                             {
-                                if (cpumulti1b > cpumulti2b)
+                                if (cpumulti2b > cpumulti1b)
                                 {
                                     sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi, mdiffb, cpuspecs[i2].tdp);
                                 }
@@ -400,7 +400,7 @@ void passmark(struct discord *client, const struct discord_message *event)
                             }
                             else
                             {
-                                if (cpumulti1b > cpumulti2b)
+                                if (cpumulti2b > cpumulti1b)
                                 {
                                     sprintf(cpu2performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i2].single, cpuspecs[i2].multi, mdiffb, cpuspecs[i2].tdp);
                                 }
@@ -470,14 +470,64 @@ void passmark(struct discord *client, const struct discord_message *event)
                                 sprintf(cpu1name, "**%s**", cpuspecs[i].cpuname);
                                 char cpu1performance[256] = "";
 
+                                // For percentage difference
+                                int cpusingle1 = atoi(cpuspecs[i].single);
+                                int cpusingle2 = atoi(cpuspecs[i2].single);
+                                int cpumulti1 = atoi(cpuspecs[i].multi);
+                                int cpumulti2 = atoi(cpuspecs[i2].multi);
+                                int sdiff = (cpusingle2 - cpusingle1) * 100 / cpusingle2;
+                                int mdiff = (cpumulti2 - cpumulti1) * 100 / cpumulti2;
+
                                 // Check if TDP is 0, and if so, don't parse it into the performance string (for first CPU)
                                 if (cpuspecs[i].tdp[0] == '\0' || strcmp(cpuspecs[i].tdp, "0") == 0)
                                 {
-                                    sprintf(cpu1performance, "**Single:** %s | **Multi**: %s", cpuspecs[i].single, cpuspecs[i].multi);
+                                    if (cpusingle1 > cpusingle2)
+                                    {
+                                        if (cpumulti1 > cpumulti2)
+                                        {
+                                            sprintf(cpu1performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i].single, sdiff, cpuspecs[i].multi, mdiff);
+                                        }
+                                        else
+                                        {
+                                            sprintf(cpu1performance, "**Single:** %s *(+%d%%)* | **Multi:** %s", cpuspecs[i].single, sdiff, cpuspecs[i].multi);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        if (cpumulti1 > cpumulti2)
+                                        {
+                                            sprintf(cpu1performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i].single, cpuspecs[i].multi, mdiff);
+                                        }
+                                        else
+                                        {
+                                            sprintf(cpu1performance, "**Single:** %s | **Multi:** %s", cpuspecs[i].single, cpuspecs[i].multi);
+                                        }
+                                    }
                                 }
                                 else
                                 {
-                                    sprintf(cpu1performance, "**Single:** %s | **Multi**: %s | **TDP:** %sW", cpuspecs[i].single, cpuspecs[i].multi, cpuspecs[i].tdp);
+                                    if (cpusingle1 > cpusingle2)
+                                    {
+                                        if (cpumulti1 > cpumulti2)
+                                        {
+                                            sprintf(cpu1performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i].single, sdiff, cpuspecs[i].multi, mdiff, cpuspecs[i].tdp);
+                                        }
+                                        else
+                                        {
+                                            sprintf(cpu1performance, "**Single:** %s *(+%d%%)* | **Multi:** %s | **TDP:** %sW", cpuspecs[i].single, sdiff, cpuspecs[i].multi, cpuspecs[i].tdp);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        if (cpumulti1 > cpumulti2)
+                                        {
+                                            sprintf(cpu1performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i].single, cpuspecs[i].multi, mdiff, cpuspecs[i].tdp);
+                                        }
+                                        else
+                                        {
+                                            sprintf(cpu1performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i].single, cpuspecs[i].multi, cpuspecs[i].tdp);
+                                        }
+                                    }
                                 }
 
                                 // Same drill, save second CPU's name and performance into cpu2name and cpu2performance
@@ -485,13 +535,64 @@ void passmark(struct discord *client, const struct discord_message *event)
                                 sprintf(cpu2name, "**%s**", cpuspecs[i2].cpuname);
                                 char cpu2performance[256] = "";
 
+                                // for percentage difference
+                                int cpusingle1b = atoi(cpuspecs[i].single);
+                                int cpusingle2b = atoi(cpuspecs[i2].single);
+                                int cpumulti1b = atoi(cpuspecs[i].multi);
+                                int cpumulti2b = atoi(cpuspecs[i2].multi);
+                                int sdiffb = (cpusingle2b - cpusingle1b) * 100 / cpusingle1b;
+                                int mdiffb = (cpumulti2b - cpumulti1b) * 100 / cpumulti1b;
+
+                                // Check if TDP is 0, and if so, don't parse it into the performance string (for second CPU)
                                 if (cpuspecs[i2].tdp[0] == '\0' || strcmp(cpuspecs[i2].tdp, "0") == 0)
                                 {
-                                    sprintf(cpu2performance, "**Single:** %s | **Multi**: %s", cpuspecs[i2].single, cpuspecs[i2].multi);
+                                    if (cpusingle2b > cpusingle1b)
+                                    {
+                                        if (cpumulti2b > cpumulti1b)
+                                        {
+                                            sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi, mdiffb);
+                                        }
+                                        else
+                                        {
+                                            sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        if (cpumulti2b > cpumulti1b)
+                                        {
+                                            sprintf(cpu2performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i2].single, cpuspecs[i2].multi, mdiffb);
+                                        }
+                                        else
+                                        {
+                                            sprintf(cpu2performance, "**Single:** %s | **Multi:** %s", cpuspecs[i2].single, cpuspecs[i2].multi);
+                                        }
+                                    }
                                 }
                                 else
                                 {
-                                    sprintf(cpu2performance, "**Single:** %s | **Multi**: %s | **TDP:** %sW", cpuspecs[i2].single, cpuspecs[i2].multi, cpuspecs[i2].tdp);
+                                    if (cpusingle2b > cpusingle1b)
+                                    {
+                                        if (cpumulti2b > cpumulti1b)
+                                        {
+                                            sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi, mdiffb, cpuspecs[i2].tdp);
+                                        }
+                                        else
+                                        {
+                                            sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s | **TDP:** %sW", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi, cpuspecs[i2].tdp);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        if (cpumulti2b > cpumulti1b)
+                                        {
+                                            sprintf(cpu2performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i2].single, cpuspecs[i2].multi, mdiffb, cpuspecs[i2].tdp);
+                                        }
+                                        else
+                                        {
+                                            sprintf(cpu2performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i2].single, cpuspecs[i2].multi, cpuspecs[i2].tdp);
+                                        }
+                                    }
                                 }
 
                                 // Save third CPU's name and performance
@@ -499,14 +600,64 @@ void passmark(struct discord *client, const struct discord_message *event)
                                 sprintf(cpu3name, "**%s**", cpuspecs[i3].cpuname);
                                 char cpu3performance[256] = "";
 
-                                // Check if TDP is 0, and if so, don't parse it into the performance string (for second CPU)
+                                // for percentage difference
+                                int cpusingle1c = atoi(cpuspecs[i].single);
+                                int cpusingle3 = atoi(cpuspecs[i3].single);
+                                int cpumulti1c = atoi(cpuspecs[i].multi);
+                                int cpumulti3 = atoi(cpuspecs[i3].multi);
+                                int sdiffc = (cpusingle3 - cpusingle1c) * 100 / cpusingle1c;
+                                int mdiffc = (cpumulti3 - cpumulti1c) * 100 / cpumulti1c;
+
+                                // Check if TDP is 0, and if so, don't parse it into the performance string (for third CPU)
                                 if (cpuspecs[i3].tdp[0] == '\0' || strcmp(cpuspecs[i3].tdp, "0") == 0)
                                 {
-                                    sprintf(cpu3performance, "**Single:** %s | **Multi:** %s", cpuspecs[i3].single, cpuspecs[i3].multi);
+                                    if (cpusingle1c < cpusingle3)
+                                    {
+                                        if (cpumulti1c < cpumulti3)
+                                        {
+                                            sprintf(cpu3performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i3].single, sdiffc, cpuspecs[i3].multi, mdiffc);
+                                        }
+                                        else
+                                        {
+                                            sprintf(cpu3performance, "**Single:** %s *(+%d%%)* | **Multi:** %s", cpuspecs[i3].single, sdiffc, cpuspecs[i3].multi);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        if (cpumulti1c < cpumulti3)
+                                        {
+                                            sprintf(cpu3performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i3].single, cpuspecs[i3].multi, mdiffc);
+                                        }
+                                        else
+                                        {
+                                            sprintf(cpu3performance, "**Single:** %s | **Multi:** %s", cpuspecs[i3].single, cpuspecs[i3].multi);
+                                        }
+                                    }
                                 }
                                 else
                                 {
-                                    sprintf(cpu3performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i3].single, cpuspecs[i3].multi, cpuspecs[i3].tdp);
+                                    if (cpusingle1c < cpusingle3)
+                                    {
+                                        if (cpumulti1c < cpumulti3)
+                                        {
+                                            sprintf(cpu3performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i3].single, sdiffc, cpuspecs[i3].multi, mdiffc, cpuspecs[i3].tdp);
+                                        }
+                                        else
+                                        {
+                                            sprintf(cpu3performance, "**Single:** %s *(+%d%%)* | **Multi:** %s | **TDP:** %sW", cpuspecs[i3].single, sdiffc, cpuspecs[i3].multi, cpuspecs[i3].tdp);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        if (cpumulti1c < cpumulti3)
+                                        {
+                                            sprintf(cpu3performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i3].single, cpuspecs[i3].multi, mdiffc, cpuspecs[i3].tdp);
+                                        }
+                                        else
+                                        {
+                                            sprintf(cpu3performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i3].single, cpuspecs[i3].multi, cpuspecs[i3].tdp);
+                                        }
+                                    }
                                 }
 
                                 // Send an embed containing the three CPU's name and performance, with the first CPUs name and performance being on the first two lines, and the second CPU's name and performance being on the last two lines
@@ -531,7 +682,7 @@ void passmark(struct discord *client, const struct discord_message *event)
                                         .timestamp = discord_timestamp(client),
                                         .footer =
                                             &(struct discord_embed_footer){
-                                                .text = "Percentages are not available for comparing more than two CPUs at the moment.",
+                                                .text = "Percentages calculated using the first CPU as a baseline.",
                                             },
                                         .fields =
                                             &(struct discord_embed_fields){
@@ -585,14 +736,64 @@ void passmark(struct discord *client, const struct discord_message *event)
                                         sprintf(cpu1name, "**%s**", cpuspecs[i].cpuname);
                                         char cpu1performance[256] = "";
 
+                                        // For percentage difference
+                                        int cpusingle1 = atoi(cpuspecs[i].single);
+                                        int cpusingle2 = atoi(cpuspecs[i2].single);
+                                        int cpumulti1 = atoi(cpuspecs[i].multi);
+                                        int cpumulti2 = atoi(cpuspecs[i2].multi);
+                                        int sdiff = (cpusingle1 - cpusingle2) * 100 / cpusingle2;
+                                        int mdiff = (cpumulti1 - cpumulti2) * 100 / cpumulti2;
+
                                         // Check if TDP is 0, and if so, don't parse it into the performance string (for first CPU)
                                         if (cpuspecs[i].tdp[0] == '\0' || strcmp(cpuspecs[i].tdp, "0") == 0)
                                         {
-                                            sprintf(cpu1performance, "**Single:** %s | **Multi:** %s", cpuspecs[i].single, cpuspecs[i].multi);
+                                            if (cpusingle1 > cpusingle2)
+                                            {
+                                                if (cpumulti1 > cpumulti2)
+                                                {
+                                                    sprintf(cpu1performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i].single, sdiff, cpuspecs[i].multi, mdiff);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu1performance, "**Single:** %s *(+%d%%)* | **Multi:** %s", cpuspecs[i].single, sdiff, cpuspecs[i].multi);
+                                                }
+                                            }
+                                            else
+                                            {
+                                                if (cpumulti1 > cpumulti2)
+                                                {
+                                                    sprintf(cpu1performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i].single, cpuspecs[i].multi, mdiff);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu1performance, "**Single:** %s | **Multi:** %s", cpuspecs[i].single, cpuspecs[i].multi);
+                                                }
+                                            }
                                         }
                                         else
                                         {
-                                            sprintf(cpu1performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i].single, cpuspecs[i].multi, cpuspecs[i].tdp);
+                                            if (cpusingle1 > cpusingle2)
+                                            {
+                                                if (cpumulti1 > cpumulti2)
+                                                {
+                                                    sprintf(cpu1performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i].single, sdiff, cpuspecs[i].multi, mdiff, cpuspecs[i].tdp);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu1performance, "**Single:** %s *(+%d%%)* | **Multi:** %s | **TDP:** %sW", cpuspecs[i].single, sdiff, cpuspecs[i].multi, cpuspecs[i].tdp);
+                                                }
+                                            }
+                                            else
+                                            {
+                                                if (cpumulti1 > cpumulti2)
+                                                {
+                                                    sprintf(cpu1performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i].single, cpuspecs[i].multi, mdiff, cpuspecs[i].tdp);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu1performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i].single, cpuspecs[i].multi, cpuspecs[i].tdp);
+                                                }
+                                            }
                                         }
 
                                         // Same drill, save second CPU's name and performance into cpu2name and cpu2performance
@@ -600,44 +801,195 @@ void passmark(struct discord *client, const struct discord_message *event)
                                         sprintf(cpu2name, "**%s**", cpuspecs[i2].cpuname);
                                         char cpu2performance[256] = "";
 
+                                        // for percentage difference
+                                        int cpusingle1b = atoi(cpuspecs[i].single);
+                                        int cpusingle2b = atoi(cpuspecs[i2].single);
+                                        int cpumulti1b = atoi(cpuspecs[i].multi);
+                                        int cpumulti2b = atoi(cpuspecs[i2].multi);
+                                        int sdiffb = (cpusingle2b - cpusingle1b) * 100 / cpusingle1b;
+                                        int mdiffb = (cpumulti2b - cpumulti1b) * 100 / cpumulti1b;
+
+                                        // Check if TDP is 0, and if so, don't parse it into the performance string (for second CPU)
+                                        if (cpuspecs[i2].tdp[0] == '\0' || strcmp(cpuspecs[i2].tdp, "0") == 0)
+                                        {
+                                            if (cpusingle2b > cpusingle1b)
+                                            {
+                                                if (cpumulti2b > cpumulti1b)
+                                                {
+                                                    sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi, mdiffb);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi);
+                                                }
+                                            }
+                                            else
+                                            {
+                                                if (cpumulti2b > cpumulti1b)
+                                                {
+                                                    sprintf(cpu2performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i2].single, cpuspecs[i2].multi, mdiffb);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu2performance, "**Single:** %s | **Multi:** %s", cpuspecs[i2].single, cpuspecs[i2].multi);
+                                                }
+                                            }
+                                        }
+                                        else
+                                        {
+                                            if (cpusingle2b > cpusingle1b)
+                                            {
+                                                if (cpumulti2b > cpumulti1b)
+                                                {
+                                                    sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi, mdiffb, cpuspecs[i2].tdp);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s | **TDP:** %sW", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi, cpuspecs[i2].tdp);
+                                                }
+                                            }
+                                            else
+                                            {
+                                                if (cpumulti2b > cpumulti1b)
+                                                {
+                                                    sprintf(cpu2performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i2].single, cpuspecs[i2].multi, mdiffb, cpuspecs[i2].tdp);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu2performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i2].single, cpuspecs[i2].multi, cpuspecs[i2].tdp);
+                                                }
+                                            }
+                                        }
+
                                         // Save third CPU's name and performance
                                         char cpu3name[256] = "";
                                         sprintf(cpu3name, "**%s**", cpuspecs[i3].cpuname);
                                         char cpu3performance[256] = "";
+
+                                        // for percentage difference
+                                        int cpusingle1c = atoi(cpuspecs[i].single);
+                                        int cpusingle3 = atoi(cpuspecs[i3].single);
+                                        int cpumulti1c = atoi(cpuspecs[i].multi);
+                                        int cpumulti3 = atoi(cpuspecs[i3].multi);
+                                        int sdiffc = (cpusingle3 - cpusingle1c) * 100 / cpusingle1c;
+                                        int mdiffc = (cpumulti3 - cpumulti1c) * 100 / cpumulti1c;
+
+                                        // Check if TDP is 0, and if so, don't parse it into the performance string (for third CPU)
+                                        if (cpuspecs[i3].tdp[0] == '\0' || strcmp(cpuspecs[i3].tdp, "0") == 0)
+                                        {
+                                            if (cpusingle1c < cpusingle3)
+                                            {
+                                                if (cpumulti1c < cpumulti3)
+                                                {
+                                                    sprintf(cpu3performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i3].single, sdiffc, cpuspecs[i3].multi, mdiffc);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu3performance, "**Single:** %s *(+%d%%)* | **Multi:** %s", cpuspecs[i3].single, sdiffc, cpuspecs[i3].multi);
+                                                }
+                                            }
+                                            else
+                                            {
+                                                if (cpumulti1c < cpumulti3)
+                                                {
+                                                    sprintf(cpu3performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i3].single, cpuspecs[i3].multi, mdiffc);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu3performance, "**Single:** %s | **Multi:** %s", cpuspecs[i3].single, cpuspecs[i3].multi);
+                                                }
+                                            }
+                                        }
+                                        else
+                                        {
+                                            if (cpusingle1c < cpusingle3)
+                                            {
+                                                if (cpumulti1c < cpumulti3)
+                                                {
+                                                    sprintf(cpu3performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i3].single, sdiffc, cpuspecs[i3].multi, mdiffc, cpuspecs[i3].tdp);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu3performance, "**Single:** %s *(+%d%%)* | **Multi:** %s | **TDP:** %sW", cpuspecs[i3].single, sdiffc, cpuspecs[i3].multi, cpuspecs[i3].tdp);
+                                                }
+                                            }
+                                            else
+                                            {
+                                                if (cpumulti1c < cpumulti3)
+                                                {
+                                                    sprintf(cpu3performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i3].single, cpuspecs[i3].multi, mdiffc, cpuspecs[i3].tdp);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu3performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i3].single, cpuspecs[i3].multi, cpuspecs[i3].tdp);
+                                                }
+                                            }
+                                        }
 
                                         // Save fourth CPU's name and performance
                                         char cpu4name[256] = "";
                                         sprintf(cpu4name, "**%s**", cpuspecs[i4].cpuname);
                                         char cpu4performance[256] = "";
 
-                                        // Check if TDP is 0, and if so, don't parse it into the performance string (for second CPU)
-                                        if (cpuspecs[i2].tdp[0] == '\0' || strcmp(cpuspecs[i2].tdp, "0") == 0)
-                                        {
-                                            sprintf(cpu2performance, "**Single:** %s | **Multi:** %s", cpuspecs[i2].single, cpuspecs[i2].multi);
-                                        }
-                                        else
-                                        {
-                                            sprintf(cpu2performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i2].single, cpuspecs[i2].multi, cpuspecs[i2].tdp);
-                                        }
+                                        // for percentage difference
+                                        int cpusingle1d = atoi(cpuspecs[i].single);
+                                        int cpusingle4 = atoi(cpuspecs[i4].single);
+                                        int cpumulti1d = atoi(cpuspecs[i].multi);
+                                        int cpumulti4 = atoi(cpuspecs[i4].multi);
+                                        int sdiffd = (cpusingle4 - cpusingle1d) * 100 / cpusingle1d;
+                                        int mdiffd = (cpumulti4 - cpumulti1d) * 100 / cpumulti1d;
 
-                                        if (cpuspecs[i3].tdp[0] == '\0' || strcmp(cpuspecs[i3].tdp, "0") == 0)
-                                        {
-                                            sprintf(cpu3performance, "**Single:** %s | **Multi:** %s", cpuspecs[i3].single, cpuspecs[i3].multi);
-                                        }
-                                        else
-                                        {
-                                            sprintf(cpu3performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i3].single, cpuspecs[i3].multi, cpuspecs[i3].tdp);
-                                        }
-
+                                        // Check if TDP is 0, and if so, don't parse it into the performance string (for third CPU)
                                         if (cpuspecs[i4].tdp[0] == '\0' || strcmp(cpuspecs[i4].tdp, "0") == 0)
                                         {
-                                            sprintf(cpu4performance, "**Single:** %s | **Multi:** %s", cpuspecs[i4].single, cpuspecs[i4].multi);
+                                            if (cpusingle1d < cpusingle4)
+                                            {
+                                                if (cpumulti1d < cpumulti4)
+                                                {
+                                                    sprintf(cpu4performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i4].single, sdiffd, cpuspecs[i4].multi, mdiffd);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu4performance, "**Single:** %s *(+%d%%)* | **Multi:** %s", cpuspecs[i4].single, sdiffd, cpuspecs[i4].multi);
+                                                }
+                                            }
+                                            else
+                                            {
+                                                if (cpumulti1d < cpumulti4)
+                                                {
+                                                    sprintf(cpu4performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i4].single, cpuspecs[i4].multi, mdiffd);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu4performance, "**Single:** %s | **Multi:** %s", cpuspecs[i4].single, cpuspecs[i4].multi);
+                                                }
+                                            }
                                         }
                                         else
                                         {
-                                            sprintf(cpu4performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i4].single, cpuspecs[i4].multi, cpuspecs[i4].tdp);
+                                            if (cpusingle1d < cpusingle4)
+                                            {
+                                                if (cpumulti1d < cpumulti4)
+                                                {
+                                                    sprintf(cpu4performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i4].single, sdiffd, cpuspecs[i4].multi, mdiffd, cpuspecs[i4].tdp);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu4performance, "**Single:** %s *(+%d%%)* | **Multi:** %s | **TDP:** %sW", cpuspecs[i4].single, sdiffd, cpuspecs[i4].multi, cpuspecs[i4].tdp);
+                                                }
+                                            }
+                                            else
+                                            {
+                                                if (cpumulti1d < cpumulti4)
+                                                {
+                                                    sprintf(cpu4performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i4].single, cpuspecs[i4].multi, mdiffd, cpuspecs[i4].tdp);
+                                                }
+                                                else
+                                                {
+                                                    sprintf(cpu4performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i4].single, cpuspecs[i4].multi, cpuspecs[i4].tdp);
+                                                }
+                                            }
                                         }
-
                                         // Send an embed containing the two CPU's name and performance, with the first CPUs name and performance being on the first two lines, and the second CPU's name and performance being on the last two lines
                                         struct discord_embed_field fields[] = {
                                             {
@@ -664,7 +1016,7 @@ void passmark(struct discord *client, const struct discord_message *event)
                                                 .timestamp = discord_timestamp(client),
                                                 .footer =
                                                     &(struct discord_embed_footer){
-                                                        .text = "Percentages are not available for comparing more than two CPUs at the moment.",
+                                                        .text = "Percentages calculated using the first CPU as a baseline.",
                                                     },
                                                 .fields =
                                                     &(struct discord_embed_fields){
@@ -724,14 +1076,65 @@ void passmark(struct discord *client, const struct discord_message *event)
                                                 char cpu1name[256] = "";
                                                 sprintf(cpu1name, "**%s**", cpuspecs[i].cpuname);
                                                 char cpu1performance[256] = "";
+
+                                                // For percentage difference
+                                                int cpusingle1 = atoi(cpuspecs[i].single);
+                                                int cpusingle2 = atoi(cpuspecs[i2].single);
+                                                int cpumulti1 = atoi(cpuspecs[i].multi);
+                                                int cpumulti2 = atoi(cpuspecs[i2].multi);
+                                                int sdiff = (cpusingle1 - cpusingle2) * 100 / cpusingle2;
+                                                int mdiff = (cpumulti1 - cpumulti2) * 100 / cpumulti2;
+
                                                 // Check if TDP is 0, and if so, don't parse it into the performance string (for first CPU)
                                                 if (cpuspecs[i].tdp[0] == '\0' || strcmp(cpuspecs[i].tdp, "0") == 0)
                                                 {
-                                                    sprintf(cpu1performance, "**Single:** %s | **Multi:** %s", cpuspecs[i].single, cpuspecs[i].multi);
+                                                    if (cpusingle1 > cpusingle2)
+                                                    {
+                                                        if (cpumulti1 > cpumulti2)
+                                                        {
+                                                            sprintf(cpu1performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i].single, sdiff, cpuspecs[i].multi, mdiff);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu1performance, "**Single:** %s *(+%d%%)* | **Multi:** %s", cpuspecs[i].single, sdiff, cpuspecs[i].multi);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        if (cpumulti1 > cpumulti2)
+                                                        {
+                                                            sprintf(cpu1performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i].single, cpuspecs[i].multi, mdiff);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu1performance, "**Single:** %s | **Multi:** %s", cpuspecs[i].single, cpuspecs[i].multi);
+                                                        }
+                                                    }
                                                 }
                                                 else
                                                 {
-                                                    sprintf(cpu1performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i].single, cpuspecs[i].multi, cpuspecs[i].tdp);
+                                                    if (cpusingle1 > cpusingle2)
+                                                    {
+                                                        if (cpumulti1 > cpumulti2)
+                                                        {
+                                                            sprintf(cpu1performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i].single, sdiff, cpuspecs[i].multi, mdiff, cpuspecs[i].tdp);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu1performance, "**Single:** %s *(+%d%%)* | **Multi:** %s | **TDP:** %sW", cpuspecs[i].single, sdiff, cpuspecs[i].multi, cpuspecs[i].tdp);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        if (cpumulti1 > cpumulti2)
+                                                        {
+                                                            sprintf(cpu1performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i].single, cpuspecs[i].multi, mdiff, cpuspecs[i].tdp);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu1performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i].single, cpuspecs[i].multi, cpuspecs[i].tdp);
+                                                        }
+                                                    }
                                                 }
 
                                                 // Same drill, save second CPU's name and performance into cpu2name and cpu2performance
@@ -739,58 +1142,260 @@ void passmark(struct discord *client, const struct discord_message *event)
                                                 sprintf(cpu2name, "**%s**", cpuspecs[i2].cpuname);
                                                 char cpu2performance[256] = "";
 
+                                                // for percentage difference
+                                                int cpusingle1b = atoi(cpuspecs[i].single);
+                                                int cpusingle2b = atoi(cpuspecs[i2].single);
+                                                int cpumulti1b = atoi(cpuspecs[i].multi);
+                                                int cpumulti2b = atoi(cpuspecs[i2].multi);
+                                                int sdiffb = (cpusingle2b - cpusingle1b) * 100 / cpusingle1b;
+                                                int mdiffb = (cpumulti2b - cpumulti1b) * 100 / cpumulti1b;
+
+                                                // Check if TDP is 0, and if so, don't parse it into the performance string (for second CPU)
+                                                if (cpuspecs[i2].tdp[0] == '\0' || strcmp(cpuspecs[i2].tdp, "0") == 0)
+                                                {
+                                                    if (cpusingle2b > cpusingle1b)
+                                                    {
+                                                        if (cpumulti2b > cpumulti1b)
+                                                        {
+                                                            sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi, mdiffb);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        if (cpumulti2b > cpumulti1b)
+                                                        {
+                                                            sprintf(cpu2performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i2].single, cpuspecs[i2].multi, mdiffb);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu2performance, "**Single:** %s | **Multi:** %s", cpuspecs[i2].single, cpuspecs[i2].multi);
+                                                        }
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    if (cpusingle2b > cpusingle1b)
+                                                    {
+                                                        if (cpumulti2b > cpumulti1b)
+                                                        {
+                                                            sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi, mdiffb, cpuspecs[i2].tdp);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu2performance, "**Single:** %s *(+%d%%)* | **Multi:** %s | **TDP:** %sW", cpuspecs[i2].single, sdiffb, cpuspecs[i2].multi, cpuspecs[i2].tdp);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        if (cpumulti2b > cpumulti1b)
+                                                        {
+                                                            sprintf(cpu2performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i2].single, cpuspecs[i2].multi, mdiffb, cpuspecs[i2].tdp);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu2performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i2].single, cpuspecs[i2].multi, cpuspecs[i2].tdp);
+                                                        }
+                                                    }
+                                                }
+
                                                 // Save third CPU's name and performance
                                                 char cpu3name[256] = "";
                                                 sprintf(cpu3name, "**%s**", cpuspecs[i3].cpuname);
                                                 char cpu3performance[256] = "";
+
+                                                // for percentage difference
+                                                int cpusingle1c = atoi(cpuspecs[i].single);
+                                                int cpusingle3 = atoi(cpuspecs[i3].single);
+                                                int cpumulti1c = atoi(cpuspecs[i].multi);
+                                                int cpumulti3 = atoi(cpuspecs[i3].multi);
+                                                int sdiffc = (cpusingle3 - cpusingle1c) * 100 / cpusingle1c;
+                                                int mdiffc = (cpumulti3 - cpumulti1c) * 100 / cpumulti1c;
+
+                                                // Check if TDP is 0, and if so, don't parse it into the performance string (for third CPU)
+                                                if (cpuspecs[i3].tdp[0] == '\0' || strcmp(cpuspecs[i3].tdp, "0") == 0)
+                                                {
+                                                    if (cpusingle1c < cpusingle3)
+                                                    {
+                                                        if (cpumulti1c < cpumulti3)
+                                                        {
+                                                            sprintf(cpu3performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i3].single, sdiffc, cpuspecs[i3].multi, mdiffc);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu3performance, "**Single:** %s *(+%d%%)* | **Multi:** %s", cpuspecs[i3].single, sdiffc, cpuspecs[i3].multi);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        if (cpumulti1c < cpumulti3)
+                                                        {
+                                                            sprintf(cpu3performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i3].single, cpuspecs[i3].multi, mdiffc);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu3performance, "**Single:** %s | **Multi:** %s", cpuspecs[i3].single, cpuspecs[i3].multi);
+                                                        }
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    if (cpusingle1c < cpusingle3)
+                                                    {
+                                                        if (cpumulti1c < cpumulti3)
+                                                        {
+                                                            sprintf(cpu3performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i3].single, sdiffc, cpuspecs[i3].multi, mdiffc, cpuspecs[i3].tdp);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu3performance, "**Single:** %s *(+%d%%)* | **Multi:** %s | **TDP:** %sW", cpuspecs[i3].single, sdiffc, cpuspecs[i3].multi, cpuspecs[i3].tdp);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        if (cpumulti1c < cpumulti3)
+                                                        {
+                                                            sprintf(cpu3performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i3].single, cpuspecs[i3].multi, mdiffc, cpuspecs[i3].tdp);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu3performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i3].single, cpuspecs[i3].multi, cpuspecs[i3].tdp);
+                                                        }
+                                                    }
+                                                }
 
                                                 // Save fourth CPU's name and performance
                                                 char cpu4name[256] = "";
                                                 sprintf(cpu4name, "**%s**", cpuspecs[i4].cpuname);
                                                 char cpu4performance[256] = "";
 
+                                                // for percentage difference
+                                                int cpusingle1d = atoi(cpuspecs[i].single);
+                                                int cpusingle4 = atoi(cpuspecs[i4].single);
+                                                int cpumulti1d = atoi(cpuspecs[i].multi);
+                                                int cpumulti4 = atoi(cpuspecs[i4].multi);
+                                                int sdiffd = (cpusingle4 - cpusingle1d) * 100 / cpusingle1d;
+                                                int mdiffd = (cpumulti4 - cpumulti1d) * 100 / cpumulti1d;
+
+                                                // Check if TDP is 0, and if so, don't parse it into the performance string (for third CPU)
+                                                if (cpuspecs[i4].tdp[0] == '\0' || strcmp(cpuspecs[i4].tdp, "0") == 0)
+                                                {
+                                                    if (cpusingle1d < cpusingle4)
+                                                    {
+                                                        if (cpumulti1d < cpumulti4)
+                                                        {
+                                                            sprintf(cpu4performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i4].single, sdiffd, cpuspecs[i4].multi, mdiffd);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu4performance, "**Single:** %s *(+%d%%)* | **Multi:** %s", cpuspecs[i4].single, sdiffd, cpuspecs[i4].multi);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        if (cpumulti1d < cpumulti4)
+                                                        {
+                                                            sprintf(cpu4performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i4].single, cpuspecs[i4].multi, mdiffd);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu4performance, "**Single:** %s | **Multi:** %s", cpuspecs[i4].single, cpuspecs[i4].multi);
+                                                        }
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    if (cpusingle1d < cpusingle4)
+                                                    {
+                                                        if (cpumulti1d < cpumulti4)
+                                                        {
+                                                            sprintf(cpu4performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i4].single, sdiffd, cpuspecs[i4].multi, mdiffd, cpuspecs[i4].tdp);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu4performance, "**Single:** %s *(+%d%%)* | **Multi:** %s | **TDP:** %sW", cpuspecs[i4].single, sdiffd, cpuspecs[i4].multi, cpuspecs[i4].tdp);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        if (cpumulti1d < cpumulti4)
+                                                        {
+                                                            sprintf(cpu4performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i4].single, cpuspecs[i4].multi, mdiffd, cpuspecs[i4].tdp);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu4performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i4].single, cpuspecs[i4].multi, cpuspecs[i4].tdp);
+                                                        }
+                                                    }
+                                                }
+
                                                 // Save fifth CPU's name and performance
                                                 char cpu5name[256] = "";
                                                 sprintf(cpu5name, "**%s**", cpuspecs[i5].cpuname);
                                                 char cpu5performance[256] = "";
 
-                                                // Check if TDP is 0, and if so, don't parse it into the performance string (for second CPU)
-                                                if (cpuspecs[i2].tdp[0] == '\0' || strcmp(cpuspecs[i2].tdp, "0") == 0)
-                                                {
-                                                    sprintf(cpu2performance, "**Single:** %s | **Multi:** %s", cpuspecs[i2].single, cpuspecs[i2].multi);
-                                                }
-                                                else
-                                                {
-                                                    sprintf(cpu2performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i2].single, cpuspecs[i2].multi, cpuspecs[i2].tdp);
-                                                }
+                                                // for percentage difference
+                                                int cpusingle1e = atoi(cpuspecs[i].single);
+                                                int cpusingle5 = atoi(cpuspecs[i5].single);
+                                                int cpumulti1e = atoi(cpuspecs[i].multi);
+                                                int cpumulti5 = atoi(cpuspecs[i5].multi);
+                                                int sdiffe = (cpusingle5 - cpusingle1e) * 100 / cpusingle1e;
+                                                int mdiffe = (cpumulti5 - cpumulti1e) * 100 / cpumulti1e;
 
-                                                if (cpuspecs[i3].tdp[0] == '\0' || strcmp(cpuspecs[i3].tdp, "0") == 0)
-                                                {
-                                                    sprintf(cpu3performance, "**Single:** %s | **Multi:** %s", cpuspecs[i3].single, cpuspecs[i3].multi);
-                                                }
-                                                else
-                                                {
-                                                    sprintf(cpu3performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i3].single, cpuspecs[i3].multi, cpuspecs[i3].tdp);
-                                                }
-
-                                                if (cpuspecs[i4].tdp[0] == '\0' || strcmp(cpuspecs[i4].tdp, "0") == 0)
-                                                {
-                                                    sprintf(cpu4performance, "**Single:** %s | **Multi:** %s", cpuspecs[i4].single, cpuspecs[i4].multi);
-                                                }
-                                                else
-                                                {
-                                                    sprintf(cpu4performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i4].single, cpuspecs[i4].multi, cpuspecs[i4].tdp);
-                                                }
-
+                                                // Check if TDP is 0, and if so, don't parse it into the performance string (for third CPU)
                                                 if (cpuspecs[i5].tdp[0] == '\0' || strcmp(cpuspecs[i5].tdp, "0") == 0)
                                                 {
-                                                    sprintf(cpu5performance, "**Single:** %s | **Multi:** %s", cpuspecs[i5].single, cpuspecs[i5].multi);
+                                                    if (cpusingle1e < cpusingle5)
+                                                    {
+                                                        if (cpumulti1e < cpumulti5)
+                                                        {
+                                                            sprintf(cpu5performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)*", cpuspecs[i5].single, sdiffe, cpuspecs[i5].multi, mdiffe);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu5performance, "**Single:** %s *(+%d%%)* | **Multi:** %s", cpuspecs[i5].single, sdiffe, cpuspecs[i5].multi);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        if (cpumulti1e < cpumulti5)
+                                                        {
+                                                            sprintf(cpu5performance, "**Single:** %s | **Multi:** %s *(+%d%%)*", cpuspecs[i5].single, cpuspecs[i5].multi, mdiffe);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu5performance, "**Single:** %s | **Multi:** %s", cpuspecs[i5].single, cpuspecs[i5].multi);
+                                                        }
+                                                    }
                                                 }
                                                 else
                                                 {
-                                                    sprintf(cpu5performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i5].single, cpuspecs[i5].multi, cpuspecs[i5].tdp);
+                                                    if (cpusingle1d < cpusingle5)
+                                                    {
+                                                        if (cpumulti1e < cpumulti5)
+                                                        {
+                                                            sprintf(cpu5performance, "**Single:** %s *(+%d%%)* | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i5].single, sdiffe, cpuspecs[i5].multi, mdiffe, cpuspecs[i5].tdp);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu5performance, "**Single:** %s *(+%d%%)* | **Multi:** %s | **TDP:** %sW", cpuspecs[i5].single, sdiffe, cpuspecs[i5].multi, cpuspecs[i5].tdp);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        if (cpumulti1e < cpumulti5)
+                                                        {
+                                                            sprintf(cpu5performance, "**Single:** %s | **Multi:** %s *(+%d%%)* | **TDP:** %sW", cpuspecs[i5].single, cpuspecs[i5].multi, mdiffe, cpuspecs[i5].tdp);
+                                                        }
+                                                        else
+                                                        {
+                                                            sprintf(cpu5performance, "**Single:** %s | **Multi:** %s | **TDP:** %sW", cpuspecs[i5].single, cpuspecs[i5].multi, cpuspecs[i5].tdp);
+                                                        }
+                                                    }
                                                 }
-
                                                 // Send an embed containing the two CPU's name and performance, with the first CPUs name and performance being on the first two lines, and the second CPU's name and performance being on the last two lines
                                                 struct discord_embed_field fields[] = {
                                                     {
@@ -821,7 +1426,7 @@ void passmark(struct discord *client, const struct discord_message *event)
                                                         .timestamp = discord_timestamp(client),
                                                         .footer =
                                                             &(struct discord_embed_footer){
-                                                                .text = "Percentages are not available for comparing more than two CPUs at the moment.",
+                                                                .text = "Percentages calculated using the first CPU as a baseline.",
                                                             },
                                                         .fields =
                                                             &(struct discord_embed_fields){
@@ -1140,14 +1745,14 @@ void gpupassmark(struct discord *client, const struct discord_message *event)
                         char gpu2performance[256] = "";
 
                         // for percentage difference
-                        int gpuperf1b = atoi(gpuspecs[i2].threedperf);
-                        int gpuperf2b = atoi(gpuspecs[i].threedperf);
-                        int diffb = (gpuperf1b - gpuperf2b) * 100 / gpuperf2b;
+                        int gpuperf1b = atoi(gpuspecs[i].threedperf);
+                        int gpuperf2b = atoi(gpuspecs[i2].threedperf);
+                        int diffb = (gpuperf2b - gpuperf1b) * 100 / gpuperf1b;
 
                         // Check if TDP is 0, and if so, don't parse it into the performance string (for second GPU)
                         if (gpuspecs[i2].tdp[0] == '\0' || strcmp(gpuspecs[i2].tdp, "0") == 0)
                         {
-                            if (gpuperf1b > gpuperf2b)
+                            if (gpuperf2b > gpuperf1b)
                             {
                                 sprintf(gpu2performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i2].threedperf, diffb, gpuspecs[i2].vram);
                             }
@@ -1158,7 +1763,7 @@ void gpupassmark(struct discord *client, const struct discord_message *event)
                         }
                         else
                         {
-                            if (gpuperf1b > gpuperf2b)
+                            if (gpuperf2b > gpuperf1b)
                             {
                                 sprintf(gpu2performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i2].threedperf, diffb, gpuspecs[i2].vram, gpuspecs[i2].tdp);
                             }
@@ -1221,19 +1826,37 @@ void gpupassmark(struct discord *client, const struct discord_message *event)
                         {
                             if (tokenise_query_and_search(gpuspecs[i3].gpuname, query[2]))
                             {
-                                // Save first GPU's name and performance into gpu1name and gpu1performance
                                 char gpu1name[256] = "";
                                 sprintf(gpu1name, "**%s**", gpuspecs[i].gpuname);
                                 char gpu1performance[256] = "";
 
+                                // For percentage difference
+                                int gpuperf1 = atoi(gpuspecs[i].threedperf);
+                                int gpuperf2 = atoi(gpuspecs[i2].threedperf);
+                                int diff = (gpuperf1 - gpuperf2) * 100 / gpuperf2;
+
                                 // Check if TDP is 0, and if so, don't parse it into the performance string (for first GPU)
                                 if (gpuspecs[i].tdp[0] == '\0' || strcmp(gpuspecs[i].tdp, "0") == 0)
                                 {
-                                    sprintf(gpu1performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i].threedperf, gpuspecs[i].vram);
+                                    if (gpuperf1 > gpuperf2)
+                                    {
+                                        sprintf(gpu1performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i].threedperf, diff, gpuspecs[i].vram);
+                                    }
+                                    else
+                                    {
+                                        sprintf(gpu1performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i].threedperf, gpuspecs[i].vram);
+                                    }
                                 }
                                 else
                                 {
-                                    sprintf(gpu1performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i].threedperf, gpuspecs[i].vram, gpuspecs[i].tdp);
+                                    if (gpuperf1 > gpuperf2)
+                                    {
+                                        sprintf(gpu1performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i].threedperf, diff, gpuspecs[i].vram, gpuspecs[i].tdp);
+                                    }
+                                    else
+                                    {
+                                        sprintf(gpu1performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i].threedperf, gpuspecs[i].vram, gpuspecs[i].tdp);
+                                    }
                                 }
 
                                 // Same drill, save second GPU's name and performance into gpu2name and gpu2performance
@@ -1241,28 +1864,67 @@ void gpupassmark(struct discord *client, const struct discord_message *event)
                                 sprintf(gpu2name, "**%s**", gpuspecs[i2].gpuname);
                                 char gpu2performance[256] = "";
 
+                                // for percentage difference
+                                int gpuperf1b = atoi(gpuspecs[i].threedperf);
+                                int gpuperf2b = atoi(gpuspecs[i2].threedperf);
+                                int diffb = (gpuperf2b - gpuperf1b) * 100 / gpuperf1b;
+
+                                // Check if TDP is 0, and if so, don't parse it into the performance string (for second GPU)
                                 if (gpuspecs[i2].tdp[0] == '\0' || strcmp(gpuspecs[i2].tdp, "0") == 0)
                                 {
-                                    sprintf(gpu2performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i2].threedperf, gpuspecs[i2].vram);
+                                    if (gpuperf2b > gpuperf1b)
+                                    {
+                                        sprintf(gpu2performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i2].threedperf, diffb, gpuspecs[i2].vram);
+                                    }
+                                    else
+                                    {
+                                        sprintf(gpu2performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i2].threedperf, gpuspecs[i2].vram);
+                                    }
                                 }
                                 else
                                 {
-                                    sprintf(gpu2performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i2].threedperf, gpuspecs[i2].vram, gpuspecs[i2].tdp);
+                                    if (gpuperf2b > gpuperf1b)
+                                    {
+                                        sprintf(gpu2performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i2].threedperf, diffb, gpuspecs[i2].vram, gpuspecs[i2].tdp);
+                                    }
+                                    else
+                                    {
+                                        sprintf(gpu2performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i2].threedperf, gpuspecs[i2].vram, gpuspecs[i2].tdp);
+                                    }
                                 }
 
-                                // Save third GPU's name and performance
+                                // Same drill, save third GPU's name and performance into gpu3name and gpu3performance
                                 char gpu3name[256] = "";
                                 sprintf(gpu3name, "**%s**", gpuspecs[i3].gpuname);
                                 char gpu3performance[256] = "";
 
+                                // for percentage difference
+                                int gpuperf1c = atoi(gpuspecs[i].threedperf);
+                                int gpuperf3 = atoi(gpuspecs[i3].threedperf);
+                                int diffc = (gpuperf3 - gpuperf1c) * 100 / gpuperf1c;
+
                                 // Check if TDP is 0, and if so, don't parse it into the performance string (for third GPU)
                                 if (gpuspecs[i3].tdp[0] == '\0' || strcmp(gpuspecs[i3].tdp, "0") == 0)
                                 {
-                                    sprintf(gpu3performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i3].threedperf, gpuspecs[i3].vram);
+                                    if (gpuperf3 > gpuperf1c)
+                                    {
+                                        sprintf(gpu3performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i3].threedperf, diffc, gpuspecs[i3].vram);
+                                    }
+                                    else
+                                    {
+                                        sprintf(gpu3performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i3].threedperf, gpuspecs[i3].vram);
+                                    }
                                 }
                                 else
                                 {
-                                    sprintf(gpu3performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i3].threedperf, gpuspecs[i3].vram, gpuspecs[i3].tdp);
+                                    if (gpuperf3 > gpuperf1c)
+                                    {
+                                        sprintf(gpu3performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i3].threedperf, diffc, gpuspecs[i3].vram, gpuspecs[i3].tdp);
+                                    }
+                                    else
+                                    {
+                                        sprintf(gpu3performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i3].threedperf, gpuspecs[i3].vram, gpuspecs[i3].tdp);
+                                    }
                                 }
 
                                 // Send an embed containing the three GPU's name and performance, with the first GPU's name and performance being on the first two lines, and the second GPU's name and performance being on the last two lines
@@ -1287,7 +1949,7 @@ void gpupassmark(struct discord *client, const struct discord_message *event)
                                         .timestamp = discord_timestamp(client),
                                         .footer =
                                             &(struct discord_embed_footer){
-                                                .text = "Percentages are not available for comparing more than two GPUs at the moment.",
+                                                .text = "Percentages calculated using the first GPU as a baseline.",
                                             },
                                         .fields =
                                             &(struct discord_embed_fields){
@@ -1336,61 +1998,139 @@ void gpupassmark(struct discord *client, const struct discord_message *event)
                                 {
                                     if (tokenise_query_and_search(gpuspecs[i4].gpuname, query[3]))
                                     {
-                                        // Save first GPU's name and performance into gpu1name and gpu1performance
                                         char gpu1name[256] = "";
                                         sprintf(gpu1name, "**%s**", gpuspecs[i].gpuname);
                                         char gpu1performance[256] = "";
+
+                                        // For percentage difference
+                                        int gpuperf1 = atoi(gpuspecs[i].threedperf);
+                                        int gpuperf2 = atoi(gpuspecs[i2].threedperf);
+                                        int diff = (gpuperf2 - gpuperf1) * 100 / gpuperf1;
+
+                                        // Check if TDP is 0, and if so, don't parse it into the performance string (for first GPU)
+                                        if (gpuspecs[i].tdp[0] == '\0' || strcmp(gpuspecs[i].tdp, "0") == 0)
+                                        {
+                                            if (gpuperf2 > gpuperf1)
+                                            {
+                                                sprintf(gpu1performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i].threedperf, diff, gpuspecs[i].vram);
+                                            }
+                                            else
+                                            {
+                                                sprintf(gpu1performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i].threedperf, gpuspecs[i].vram);
+                                            }
+                                        }
+                                        else
+                                        {
+                                            if (gpuperf2 > gpuperf1)
+                                            {
+                                                sprintf(gpu1performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i].threedperf, diff, gpuspecs[i].vram, gpuspecs[i].tdp);
+                                            }
+                                            else
+                                            {
+                                                sprintf(gpu1performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i].threedperf, gpuspecs[i].vram, gpuspecs[i].tdp);
+                                            }
+                                        }
 
                                         // Same drill, save second GPU's name and performance into gpu2name and gpu2performance
                                         char gpu2name[256] = "";
                                         sprintf(gpu2name, "**%s**", gpuspecs[i2].gpuname);
                                         char gpu2performance[256] = "";
 
-                                        // Save third GPU's name and performance
+                                        // for percentage difference
+                                        int gpuperf1b = atoi(gpuspecs[i].threedperf);
+                                        int gpuperf2b = atoi(gpuspecs[i2].threedperf);
+                                        int diffb = (gpuperf2b - gpuperf1b) * 100 / gpuperf1b;
+
+                                        // Check if TDP is 0, and if so, don't parse it into the performance string (for second GPU)
+                                        if (gpuspecs[i2].tdp[0] == '\0' || strcmp(gpuspecs[i2].tdp, "0") == 0)
+                                        {
+                                            if (gpuperf2b > gpuperf1b)
+                                            {
+                                                sprintf(gpu2performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i2].threedperf, diffb, gpuspecs[i2].vram);
+                                            }
+                                            else
+                                            {
+                                                sprintf(gpu2performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i2].threedperf, gpuspecs[i2].vram);
+                                            }
+                                        }
+                                        else
+                                        {
+                                            if (gpuperf2b > gpuperf1b)
+                                            {
+                                                sprintf(gpu2performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i2].threedperf, diffb, gpuspecs[i2].vram, gpuspecs[i2].tdp);
+                                            }
+                                            else
+                                            {
+                                                sprintf(gpu2performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i2].threedperf, gpuspecs[i2].vram, gpuspecs[i2].tdp);
+                                            }
+                                        }
+
+                                        // Same drill, save third GPU's name and performance into gpu3name and gpu3performance
                                         char gpu3name[256] = "";
                                         sprintf(gpu3name, "**%s**", gpuspecs[i3].gpuname);
                                         char gpu3performance[256] = "";
 
-                                        // Save fourth GPU's name and performance
+                                        // for percentage difference
+                                        int gpuperf1c = atoi(gpuspecs[i].threedperf);
+                                        int gpuperf3 = atoi(gpuspecs[i3].threedperf);
+                                        int diffc = (gpuperf3 - gpuperf1c) * 100 / gpuperf1c;
+
+                                        // Check if TDP is 0, and if so, don't parse it into the performance string (for third GPU)
+                                        if (gpuspecs[i3].tdp[0] == '\0' || strcmp(gpuspecs[i3].tdp, "0") == 0)
+                                        {
+                                            if (gpuperf3 > gpuperf1c)
+                                            {
+                                                sprintf(gpu3performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i3].threedperf, diffc, gpuspecs[i3].vram);
+                                            }
+                                            else
+                                            {
+                                                sprintf(gpu3performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i3].threedperf, gpuspecs[i3].vram);
+                                            }
+                                        }
+                                        else
+                                        {
+                                            if (gpuperf3 > gpuperf1c)
+                                            {
+                                                sprintf(gpu3performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i3].threedperf, diffc, gpuspecs[i3].vram, gpuspecs[i3].tdp);
+                                            }
+                                            else
+                                            {
+                                                sprintf(gpu3performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i3].threedperf, gpuspecs[i3].vram, gpuspecs[i3].tdp);
+                                            }
+                                        }
+
+                                        // Same drill, save fourth GPU's name and performance into gpu4name and gpu4performance
                                         char gpu4name[256] = "";
                                         sprintf(gpu4name, "**%s**", gpuspecs[i4].gpuname);
                                         char gpu4performance[256] = "";
 
-                                        // Check if TDP is 0, and if so, don't parse it into the performance string
+                                        // for percentage difference
+                                        int gpuperf1d = atoi(gpuspecs[i].threedperf);
+                                        int gpuperf4 = atoi(gpuspecs[i4].threedperf);
+                                        int diffd = (gpuperf4 - gpuperf1d) * 100 / gpuperf1d;
 
-                                        if (gpuspecs[i].tdp[0] == '\0' || strcmp(gpuspecs[i].tdp, "0") == 0)
-                                        {
-                                            sprintf(gpu1performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i].threedperf, gpuspecs[i].vram);
-                                        }
-                                        else
-                                        {
-                                            sprintf(gpu1performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i].threedperf, gpuspecs[i].vram, gpuspecs[i].tdp);
-                                        }
-                                        if (gpuspecs[i2].tdp[0] == '\0' || strcmp(gpuspecs[i2].tdp, "0") == 0)
-                                        {
-                                            sprintf(gpu2performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i2].threedperf, gpuspecs[i2].vram);
-                                        }
-                                        else
-                                        {
-                                            sprintf(gpu2performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i2].threedperf, gpuspecs[i2].vram, gpuspecs[i2].tdp);
-                                        }
-
-                                        if (gpuspecs[i3].tdp[0] == '\0' || strcmp(gpuspecs[i3].tdp, "0") == 0)
-                                        {
-                                            sprintf(gpu3performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i3].threedperf, gpuspecs[i3].vram);
-                                        }
-                                        else
-                                        {
-                                            sprintf(gpu3performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i3].threedperf, gpuspecs[i3].vram, gpuspecs[i3].tdp);
-                                        }
-
+                                        // Check if TDP is 0, and if so, don't parse it into the performance string (for fourth GPU)
                                         if (gpuspecs[i4].tdp[0] == '\0' || strcmp(gpuspecs[i4].tdp, "0") == 0)
                                         {
-                                            sprintf(gpu4performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i4].threedperf, gpuspecs[i4].vram);
+                                            if (gpuperf4 > gpuperf1d)
+                                            {
+                                                sprintf(gpu4performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i4].threedperf, diffd, gpuspecs[i4].vram);
+                                            }
+                                            else
+                                            {
+                                                sprintf(gpu4performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i4].threedperf, gpuspecs[i4].vram);
+                                            }
                                         }
                                         else
                                         {
-                                            sprintf(gpu4performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i4].threedperf, gpuspecs[i4].vram, gpuspecs[i4].tdp);
+                                            if (gpuperf4 > gpuperf1d)
+                                            {
+                                                sprintf(gpu4performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i4].threedperf, diffd, gpuspecs[i4].vram, gpuspecs[i4].tdp);
+                                            }
+                                            else
+                                            {
+                                                sprintf(gpu4performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i4].threedperf, gpuspecs[i4].vram, gpuspecs[i4].tdp);
+                                            }
                                         }
 
                                         // Send an embed containing the two CPU's name and performance, with the first CPUs name and performance being on the first two lines, and the second CPU's name and performance being on the last two lines
@@ -1419,7 +2159,7 @@ void gpupassmark(struct discord *client, const struct discord_message *event)
                                                 .timestamp = discord_timestamp(client),
                                                 .footer =
                                                     &(struct discord_embed_footer){
-                                                        .text = "Percentages are not available for comparing more than two GPUs at the moment.",
+                                                        .text = "Percentages calculated using the first GPU as a baseline.",
                                                     },
                                                 .fields =
                                                     &(struct discord_embed_fields){
@@ -1474,78 +2214,174 @@ void gpupassmark(struct discord *client, const struct discord_message *event)
                                         {
                                             if (tokenise_query_and_search(gpuspecs[i5].gpuname, query[4]))
                                             {
-
-                                                // Save first GPU's name and performance into gpu1name and gpu1performance
                                                 char gpu1name[256] = "";
                                                 sprintf(gpu1name, "**%s**", gpuspecs[i].gpuname);
                                                 char gpu1performance[256] = "";
+
+                                                // For percentage difference
+                                                int gpuperf1 = atoi(gpuspecs[i].threedperf);
+                                                int gpuperf2 = atoi(gpuspecs[i2].threedperf);
+                                                int diff = (gpuperf2 - gpuperf1) * 100 / gpuperf1;
+
                                                 // Check if TDP is 0, and if so, don't parse it into the performance string (for first GPU)
+                                                if (gpuspecs[i].tdp[0] == '\0' || strcmp(gpuspecs[i].tdp, "0") == 0)
+                                                {
+                                                    if (gpuperf2 > gpuperf1)
+                                                    {
+                                                        sprintf(gpu1performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i].threedperf, diff, gpuspecs[i].vram);
+                                                    }
+                                                    else
+                                                    {
+                                                        sprintf(gpu1performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i].threedperf, gpuspecs[i].vram);
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    if (gpuperf2 > gpuperf1)
+                                                    {
+                                                        sprintf(gpu1performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i].threedperf, diff, gpuspecs[i].vram, gpuspecs[i].tdp);
+                                                    }
+                                                    else
+                                                    {
+                                                        sprintf(gpu1performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i].threedperf, gpuspecs[i].vram, gpuspecs[i].tdp);
+                                                    }
+                                                }
 
                                                 // Same drill, save second GPU's name and performance into gpu2name and gpu2performance
                                                 char gpu2name[256] = "";
                                                 sprintf(gpu2name, "**%s**", gpuspecs[i2].gpuname);
                                                 char gpu2performance[256] = "";
 
-                                                // Save third GPU's name and performance
+                                                // for percentage difference
+                                                int gpuperf1b = atoi(gpuspecs[i].threedperf);
+                                                int gpuperf2b = atoi(gpuspecs[i2].threedperf);
+                                                int diffb = (gpuperf2b - gpuperf1b) * 100 / gpuperf1b;
+
+                                                // Check if TDP is 0, and if so, don't parse it into the performance string (for second GPU)
+                                                if (gpuspecs[i2].tdp[0] == '\0' || strcmp(gpuspecs[i2].tdp, "0") == 0)
+                                                {
+                                                    if (gpuperf2b > gpuperf1b)
+                                                    {
+                                                        sprintf(gpu2performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i2].threedperf, diffb, gpuspecs[i2].vram);
+                                                    }
+                                                    else
+                                                    {
+                                                        sprintf(gpu2performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i2].threedperf, gpuspecs[i2].vram);
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    if (gpuperf2b > gpuperf1b)
+                                                    {
+                                                        sprintf(gpu2performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i2].threedperf, diffb, gpuspecs[i2].vram, gpuspecs[i2].tdp);
+                                                    }
+                                                    else
+                                                    {
+                                                        sprintf(gpu2performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i2].threedperf, gpuspecs[i2].vram, gpuspecs[i2].tdp);
+                                                    }
+                                                }
+
+                                                // Same drill, save third GPU's name and performance into gpu3name and gpu3performance
                                                 char gpu3name[256] = "";
                                                 sprintf(gpu3name, "**%s**", gpuspecs[i3].gpuname);
                                                 char gpu3performance[256] = "";
 
-                                                // Save fourth GPU's name and performance
+                                                // for percentage difference
+                                                int gpuperf1c = atoi(gpuspecs[i].threedperf);
+                                                int gpuperf3 = atoi(gpuspecs[i3].threedperf);
+                                                int diffc = (gpuperf3 - gpuperf1c) * 100 / gpuperf1c;
+
+                                                // Check if TDP is 0, and if so, don't parse it into the performance string (for third GPU)
+                                                if (gpuspecs[i3].tdp[0] == '\0' || strcmp(gpuspecs[i3].tdp, "0") == 0)
+                                                {
+                                                    if (gpuperf1c < gpuperf3)
+                                                    {
+                                                        sprintf(gpu3performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i3].threedperf, diffc, gpuspecs[i3].vram);
+                                                    }
+                                                    else
+                                                    {
+                                                        sprintf(gpu3performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i3].threedperf, gpuspecs[i3].vram);
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    if (gpuperf3 > gpuperf1c)
+                                                    {
+                                                        sprintf(gpu3performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i3].threedperf, diffc, gpuspecs[i3].vram, gpuspecs[i3].tdp);
+                                                    }
+                                                    else
+                                                    {
+                                                        sprintf(gpu3performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i3].threedperf, gpuspecs[i3].vram, gpuspecs[i3].tdp);
+                                                    }
+                                                }
+
+                                                // Same drill, save fourth GPU's name and performance into gpu4name and gpu4performance
                                                 char gpu4name[256] = "";
                                                 sprintf(gpu4name, "**%s**", gpuspecs[i4].gpuname);
                                                 char gpu4performance[256] = "";
 
-                                                // Save fifth GPU's name and performance
+                                                // for percentage difference
+                                                int gpuperf1d = atoi(gpuspecs[i].threedperf);
+                                                int gpuperf4 = atoi(gpuspecs[i4].threedperf);
+                                                int diffd = (gpuperf4 - gpuperf1d) * 100 / gpuperf1d;
+
+                                                // Check if TDP is 0, and if so, don't parse it into the performance string (for fourth GPU)
+                                                if (gpuspecs[i4].tdp[0] == '\0' || strcmp(gpuspecs[i4].tdp, "0") == 0)
+                                                {
+                                                    if (gpuperf4 > gpuperf1d)
+                                                    {
+                                                        sprintf(gpu4performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i4].threedperf, diffd, gpuspecs[i4].vram);
+                                                    }
+                                                    else
+                                                    {
+                                                        sprintf(gpu4performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i4].threedperf, gpuspecs[i4].vram);
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    if (gpuperf4 > gpuperf1d)
+                                                    {
+                                                        sprintf(gpu4performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i4].threedperf, diffd, gpuspecs[i4].vram, gpuspecs[i4].tdp);
+                                                    }
+                                                    else
+                                                    {
+                                                        sprintf(gpu4performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i4].threedperf, gpuspecs[i4].vram, gpuspecs[i4].tdp);
+                                                    }
+                                                }
+
+                                                // Same drill, save fifth GPU's name and performance into gpu5name and gpu5performance
                                                 char gpu5name[256] = "";
                                                 sprintf(gpu5name, "**%s**", gpuspecs[i5].gpuname);
                                                 char gpu5performance[256] = "";
 
-                                                // Check if TDP is 0, and if so, don't parse it into the performance string (for second GPU)
-                                                if (gpuspecs[i].tdp[0] == '\0' || strcmp(gpuspecs[i].tdp, "0") == 0)
-                                                {
-                                                    sprintf(gpu1performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i].threedperf, gpuspecs[i].vram, gpuspecs[i].tdp);
-                                                }
-                                                else
-                                                {
-                                                    sprintf(gpu1performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i].threedperf, gpuspecs[i].vram, gpuspecs[i].tdp);
-                                                }
-                                                if (gpuspecs[i2].tdp[0] == '\0' || strcmp(gpuspecs[i2].tdp, "0") == 0)
-                                                {
-                                                    sprintf(gpu2performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i2].threedperf, gpuspecs[i2].vram);
-                                                }
-                                                else
-                                                {
-                                                    sprintf(gpu2performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i2].threedperf, gpuspecs[i2].vram, gpuspecs[i2].tdp);
-                                                }
+                                                // for percentage difference
+                                                int gpuperf1e = atoi(gpuspecs[i].threedperf);
+                                                int gpuperf5 = atoi(gpuspecs[i5].threedperf);
+                                                int diffe = (gpuperf5 - gpuperf1e) * 100 / gpuperf1e;
 
-                                                if (gpuspecs[i3].tdp[0] == '\0' || strcmp(gpuspecs[i3].tdp, "0") == 0)
-                                                {
-                                                    sprintf(gpu3performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i3].threedperf, gpuspecs[i3].vram);
-                                                }
-                                                else
-                                                {
-                                                    sprintf(gpu3performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i3].threedperf, gpuspecs[i3].vram, gpuspecs[i3].tdp);
-                                                }
-
-                                                if (gpuspecs[i4].tdp[0] == '\0' || strcmp(gpuspecs[i4].tdp, "0") == 0)
-                                                {
-                                                    sprintf(gpu4performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i4].threedperf, gpuspecs[i4].vram);
-                                                }
-                                                else
-                                                {
-                                                    sprintf(gpu4performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i4].threedperf, gpuspecs[i4].vram, gpuspecs[i4].tdp);
-                                                }
-
+                                                // Check if TDP is 0, and if so, don't parse it into the performance string (for fourth GPU)
                                                 if (gpuspecs[i5].tdp[0] == '\0' || strcmp(gpuspecs[i5].tdp, "0") == 0)
                                                 {
-                                                    sprintf(gpu5performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i5].threedperf, gpuspecs[i5].vram);
+                                                    if (gpuperf5 > gpuperf1e)
+                                                    {
+                                                        sprintf(gpu5performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s", gpuspecs[i5].threedperf, diffe, gpuspecs[i5].vram);
+                                                    }
+                                                    else
+                                                    {
+                                                        sprintf(gpu5performance, "**3D Perf:** %s | **VRAM:** %s", gpuspecs[i5].threedperf, gpuspecs[i5].vram);
+                                                    }
                                                 }
                                                 else
                                                 {
-                                                    sprintf(gpu5performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i5].threedperf, gpuspecs[i5].vram, gpuspecs[i5].tdp);
+                                                    if (gpuperf5 > gpuperf1e)
+                                                    {
+                                                        sprintf(gpu5performance, "**3D Perf:** %s *(+%d%%)* | **VRAM:** %s | **TDP:** %sW", gpuspecs[i5].threedperf, diffe, gpuspecs[i5].vram, gpuspecs[i5].tdp);
+                                                    }
+                                                    else
+                                                    {
+                                                        sprintf(gpu5performance, "**3D Perf:** %s | **VRAM:** %s | **TDP:** %sW", gpuspecs[i5].threedperf, gpuspecs[i5].vram, gpuspecs[i5].tdp);
+                                                    }
                                                 }
-
                                                 // Send an embed containing the two CPU's name and performance, with the first CPUs name and performance being on the first two lines, and the second CPU's name and performance being on the last two lines
                                                 struct discord_embed_field fields[] = {
                                                     {
@@ -1576,7 +2412,7 @@ void gpupassmark(struct discord *client, const struct discord_message *event)
                                                         .timestamp = discord_timestamp(client),
                                                         .footer =
                                                             &(struct discord_embed_footer){
-                                                                .text = "Percentages are not available for comparing more than two GPUs at the moment.",
+                                                                .text = "Percentages calculated using the first GPU as a baseline.",
                                                             },
                                                         .fields =
                                                             &(struct discord_embed_fields){
