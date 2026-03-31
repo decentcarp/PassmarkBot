@@ -1,5 +1,5 @@
 # Decentcarp's Passmark Discord Bot
-An implementation of my [PassmarkSearcher](https://github.com/decentcarp/PassmarkSearcher) as a Discord bot.
+An implementation of my [PassmarkSearcher](https://git.decentcarp.co.uk/decentcarp/PassmarkSearcher) as a Discord bot.
 
 ![Alt text](https://decentcarp.co.uk/images/image.png)
 
